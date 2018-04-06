@@ -1,6 +1,6 @@
 # chrisgurney.ca
 
-Source for my personal website.
+Source for [my personal website]<https://chrisgurney.ca/>.
 
 ## Installation
 
