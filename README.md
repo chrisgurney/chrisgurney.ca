@@ -1,6 +1,6 @@
 # chrisgurney.ca
 
-Source for [my personal website]<https://chrisgurney.ca/>.
+Source for [my personal website](https://chrisgurney.ca/).
 
 ## Installation
 
@@ -21,4 +21,4 @@ Deploys `/dist` to my web server (as configured in the `gulp deploy` task), via 
 
 # Credits
 
-* Design was adapted from [Start Boostrap's]<http://startbootstrap.com/> [Creative]<https://startbootstrap.com/template-overviews/creative/> and [WowTheme's]<http://www.wowthemes.net> Mediumish templates.
+* Design was adapted from [Start Boostrap's](http://startbootstrap.com/) [Creative](https://startbootstrap.com/template-overviews/creative/) and [WowTheme's](http://www.wowthemes.net) Mediumish templates.
