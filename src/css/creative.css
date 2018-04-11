@@ -169,7 +169,7 @@ img::-moz-selection {
 header.fuzzies {
 	padding-top: 8rem;
 	padding-bottom: calc(8rem - 56px);
-	background-image: url("../images/header.jpg");
+	background-image: url("../images/portfolio-fuzzies/header.jpg");
 	background-position: center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -180,7 +180,7 @@ header.fuzzies {
 header.masthead {
 	padding-top: 10rem;
 	padding-bottom: calc(10rem - 56px);
-	background-image: url("../images/header.jpg");
+	background-image: url("../images/portfolio-fuzzies/header.jpg");
 	background-position: center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
