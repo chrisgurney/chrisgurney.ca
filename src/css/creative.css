@@ -166,10 +166,9 @@ img::-moz-selection {
 	}
 }
 
-header.fuzzies {
+header.portfolio {
 	padding-top: 8rem;
 	padding-bottom: calc(8rem - 56px);
-	background-image: url("../images/portfolio-fuzzies/header.jpg");
 	background-position: center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
