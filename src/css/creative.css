@@ -238,7 +238,7 @@ header.masthead p {
 }
 
 #logos {
-	background-image: url("../images/logos.jpg");
+	/*background-image: url("../images/logos.jpg");*/
 	background-position: center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -262,6 +262,12 @@ header.masthead p {
 	position: relative;
 	display: block;
 	margin: 0 auto;
+}
+
+.logo-box .roles {
+	font-family: Montserrat,'Helvetica Neue',Arial,sans-serif;
+	font-size: 0.7rem;
+	color: #CCCCCC;
 }
 
 .service-box {
