@@ -38,15 +38,15 @@ Uses:
     $ cd /path/to/project
     $ npm install
 
-# Tasks
+## Tasks
 
 This section describes the main tasks available. See `gulpfile.js` for subtasks.
 
-## `gulp`
+### `gulp`
 
 Cleans the output folder (`/dist`), compiles all web files, and runs a local server for development, watching for changes.
 
-## `gulp deploy`
+### `gulp deploy`
 
 Deploys `/dist` to my web server (as configured in the `gulp deploy` task), via rsync.
 
