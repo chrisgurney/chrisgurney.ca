@@ -237,7 +237,8 @@ header.masthead p {
 }
 
 #logos {
-	/*background-image: url("../images/logos.jpg");*/
+	background-color: #000;
+	background-image: url("../images/logos-overlay.svg");
 	background-position: center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
