@@ -2,6 +2,8 @@
 
 Source for [my personal website](https://chrisgurney.ca/).
 
+![Screenshot of chrisgurney.ca](/src/images/screenshot.jpg)
+
 ## Installation
 
     $ cd /path/to/project
