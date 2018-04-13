@@ -522,7 +522,8 @@ blockquote {
 
 video {
 	display: block;
-	vertical-align: middle;  
+	vertical-align: middle; 
+	border-radius: 0.625rem; 
 }
 
 .video-wrapper {
