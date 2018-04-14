@@ -386,7 +386,12 @@ blockquote {
 
 .article-post a {
 	color:rgba(0,0,0,.8);
-	border-bottom: 2px solid #FE9B27;
+	border-bottom: 2px dotted #FE9B27;
+}
+
+.article-post a.external {
+	color:rgba(0,0,0,.8);
+	border-bottom: 2px solid #000000;
 }
 
 .article-post a:hover {
