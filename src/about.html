@@ -1,6 +1,6 @@
 @@include('header.html')
 
-    @@include('components/nav-main.html')
+    @@include('components/nav-main.html', {"theme": "dark"})
 
     <header class="about text-left text-black d-flex">
       <div class="container">
@@ -11,7 +11,7 @@
               <strong>Wat?</strong>
             </h1>
             <p>I'm a <strong>product designer</strong> who has toured the tech industry with a background in computer science, across a broad range of roles.</p>
-            <p>  Through my experience, I’ve discovered my underlying passion is in the design and crafting of products that make peoples' lives better.</p>
+            <p>Along the way, I’ve discovered my underlying passion is in the design and crafting of products that make peoples' lives better.</p>
             <p>My friends would say I’m fascinated with chickens. I’m an aspiring improvisor, and think work needs to be fun.</p>
           </div>
         </div>
@@ -36,38 +36,37 @@
             <div id="carouselControls" class="carousel slide" data-ride="carousel">
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <!--<img class="d-block w-100" src="..." alt="">-->
-                  <div class="container">
+                  <div class="container-fluid">
                     <div class="row">
-                      <div class="col">
-                        <img src="images/about/pm-achievers.jpg">
+                      <div class="col-md-6 col-12 text-center">
+                        <img class="img-fluid" src="images/about/pm-achievers.jpg"/>
                       </div>
-                      <div class="col">
-                        <img src="images/about/pm-ccmi.jpg">                        
+                      <div class="col-md-6 col-12 text-center">
+                        <img class="img-fluid" src="images/about/pm-ccmi.jpg"/>                        
                       </div>                      
                     </div>
                   </div>
                 </div>
                 <div class="carousel-item">
-                  <div class="container">
+                  <div class="container-fluid">
                     <div class="row">
-                      <div class="col">
-                        <img src="images/about/pm-therapia.jpg">
+                      <div class="col-md-6 col-12 text-center">
+                        <img class="img-fluid" src="images/about/pm-therapia.jpg"/>
                       </div>
-                      <div class="col">
-                        <img src="images/about/pm-paymi.jpg">                        
+                      <div class="col-md-6 col-12 text-center">
+                        <img class="img-fluid" src="images/about/pm-paymi.jpg"/>                        
                       </div>                      
                     </div>
                   </div> 
                 </div>
                 <div class="carousel-item">
-                  <div class="container">
+                  <div class="container-fluid">
                     <div class="row">
-                      <div class="col">
-                        <img src="images/about/pm-boontown.jpg">
+                      <div class="col-md-6 col-12 text-center">
+                        <img class="img-fluid" src="images/about/pm-boontown.jpg"/>
                       </div>
-                      <div class="col">
-                        <img src="images/about/pm-wayhire.jpg">                        
+                      <div class="col-md-6 col-12 text-center">
+                        <img class="img-fluid" src="images/about/pm-wayhire.jpg"/>                        
                       </div>                      
                     </div>
                   </div>
@@ -128,4 +127,4 @@
     @@include('components/contact.html')
 
 @@include('footer.html',
-  {"credit": ""})    
+  {"credit": "Massage image by Toa Heftiba via Unsplash."})    

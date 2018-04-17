@@ -135,7 +135,7 @@ img::-moz-selection {
 	}
 	#mainNav .navbar-brand {
 		color: rgba(255, 255, 255, 0.7);
-	}
+	}	
 	#mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
 		color: #fff;
 	}
@@ -168,6 +168,24 @@ img::-moz-selection {
 	#mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
 		color: #FF8800;
 	}
+
+	/**
+	 * Dark Nav
+	 */
+	#mainNav .dark {
+		color: rgba(0, 0, 0, 0.7);
+	}
+	#mainNav .dark:focus, #mainNav .dark:hover {
+		color: rgba(255, 136, 0, 0.7);
+	}	
+	#mainNav .navbar-nav > li.nav-item > a.dark,
+	#mainNav .navbar-nav > li.nav-item > a.dark:focus {
+		color: rgba(0, 0, 0, 0.7);
+	}
+	#mainNav .navbar-nav > li.nav-item > a.dark:hover,
+	#mainNav .navbar-nav > li.nav-item > a.dark:focus:hover {
+		color: rgba(255, 136, 0, 0.7);
+	}	
 }
 
 /**
@@ -187,7 +205,7 @@ header.about {
 }
 
 header.about h1 {
-	font-size: 2rem;
+	font-size: 4rem;
 }
 
 header.about p {
@@ -278,6 +296,11 @@ header.masthead p {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;  
+}
+
+.about-box h1 {
+	font-size: 2rem;
+	color: #F80;
 }
 
 .about-box .content {
