@@ -80,6 +80,10 @@ img::-moz-selection {
 	background: transparent;
 }
 
+/**
+ * Navbar
+ */
+
 #mainNav {
 	border-bottom: 1px solid rgba(33, 37, 41, 0.1);
 	background-color: #fff;
@@ -166,6 +170,42 @@ img::-moz-selection {
 	}
 }
 
+/**
+ * Header
+ */
+
+header.about {
+	margin-top: 4rem;
+	padding-top: 8rem;
+	padding-bottom: calc(8rem - 56px);
+	background-image: url("../images/about/header.jpg");	
+	background-position: left top;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+header.about h1 {
+	font-size: 2rem;
+}
+
+header.about p {
+	font-weight: 300;
+}
+
+@media (max-width: 768px) {
+	header.about {
+		padding-top: 16rem;
+		padding-bottom: 0px;
+	}	
+	header.about div.container {
+		background-color: rgba(0, 0, 0, 0.7);
+		color: #FFF;
+		max-width: 100%;
+	}
+}
+
 header.portfolio {
 	padding-top: 8rem;
 	padding-bottom: calc(8rem - 56px);
@@ -224,6 +264,10 @@ header.masthead p {
 	}
 }
 
+/**
+ * About
+ */
+
 #about {
 	background-image: linear-gradient(
 			rgba(255, 136, 0, 0.9),
@@ -235,6 +279,18 @@ header.masthead p {
 	-o-background-size: cover;
 	background-size: cover;  
 }
+
+.about-box .content {
+	padding: 0 2rem;
+}
+
+.about-box .carousel-inner img {
+	max-width: 380px;
+}
+
+/**
+ * Logos
+ */
 
 #logos {
 	background-color: #000;
@@ -273,6 +329,10 @@ header.masthead p {
 .service-box {
 	max-width: 400px;
 }
+
+/**
+ * Portfolio
+ */
 
 .portfolio-box {
 	position: relative;
@@ -326,6 +386,11 @@ header.masthead p {
 
 .portfolio-box:focus {
 	outline: none;
+}
+
+.portfolio-box:hover img.img-fluid {
+	/*transform: scale(1.1);
+	transition: transform .2s;*/	
 }
 
 @media (min-width: 768px) {
