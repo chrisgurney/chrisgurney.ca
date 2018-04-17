@@ -307,8 +307,8 @@ header.masthead p {
 	padding: 0 2rem;
 }
 
-.about-box .carousel-inner img {
-	max-width: 380px;
+.about-box .carousel-item img {
+	max-width: 40%;
 }
 
 /**
