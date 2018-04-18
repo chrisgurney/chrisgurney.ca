@@ -232,6 +232,15 @@ header.about p {
 	}
 }
 
+@media (min-width: 992px) {
+	header.about {
+		height: 100vh;
+		min-height: 650px;
+		padding-top: 8rem;
+		padding-bottom: 0;
+	}
+}
+
 header.portfolio {
 	padding-top: 8rem;
 	padding-bottom: calc(8rem - 56px);
