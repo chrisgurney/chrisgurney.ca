@@ -196,12 +196,19 @@ header.about {
 	margin-top: 4rem;
 	padding-top: 8rem;
 	padding-bottom: calc(8rem - 56px);
-	background-image: url("../images/about/header.jpg");	
+	background-image: url("../images/about/header.jpg");
 	background-position: left top;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+}
+
+@media (max-width: 768px) {
+	header.about {
+		background-image: url("../images/about/header-mobile.jpg");
+		margin-top: 6rem;		
+	}
 }
 
 header.about h1 {
@@ -309,6 +316,12 @@ header.masthead p {
 
 .about-box .carousel-item img {
 	max-width: 40%;
+}
+
+@media (max-width: 576px) {
+	.about-box .carousel-item img {
+		max-width: 100%;
+	}
 }
 
 /**
