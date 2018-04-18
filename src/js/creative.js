@@ -52,6 +52,11 @@
     $(this).find('i.toggle-ethno3').toggleClass('fa-angle-up fa-angle-down');
   })
 
+  // set equal width rows on desktop
+  if ($(window).width() >= 992) {  
+    $('.is-equal').matchHeight({ byRow: false });
+  }
+
   // Scroll reveal calls
   window.sr = ScrollReveal();
   sr.reveal('.sr-icons', {
@@ -102,6 +107,8 @@
 
     fixedContentPos: false
   });
+
+  //var is_safari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
 
   $('.video').parent().click(function () {
     if($(this).children(".video").get(0).paused){

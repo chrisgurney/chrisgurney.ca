@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="70px" height="64px" viewBox="0 0 70 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
+<svg width="70px" height="63px" viewBox="0 0 70 63" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
     <title>chicken</title>
     <desc>Created with Sketch.</desc>
     <defs>
-        <circle id="path-1" cx="39.0001203" cy="39.4700012" r="39.0001203"></circle>
+        <path d="M78.0000023,12.6738742 L78.0000023,44.260055 C71.699956,60.1657229 56.1654701,71.4164642 38.0001348,71.4164642 C21.5300499,71.4164642 7.22268755,62.1676515 -2.22044605e-15,48.5861829 L2.25651529e-06,8.34774209 C1.60277611,5.33390234 3.55442573,2.53341307 5.80116407,-5.55111512e-15 L70.1991067,1.26095574e-06 C73.4879615,3.70850089 76.1444961,7.98929506 78.0000023,12.6738742 Z" id="path-1"></path>
     </defs>
     <g id="Chicken" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Small" transform="translate(-1.000000, -12.000000)">
-            <g id="chicken" transform="translate(-2.000000, -3.000000)">
+            <g id="chicken" transform="translate(1.000000, 3.000000)">
                 <mask id="mask-2" fill="white">
                     <use xlink:href="#path-1"></use>
                 </mask>
                 <g id="Mask"></g>
                 <g id="Chicken" mask="url(#mask-2)">
-                    <g transform="translate(3.985496, 17.832832)">
+                    <g transform="translate(0.985496, 11.832832)">
                         <path d="M49.3097511,42.0632433 C48.5368059,57.9507917 68.5240202,50.5960462 72.2377113,48.0601024 C75.9514024,45.5241586 76.914689,42.0761485 77.7764107,39.6788004 C79.7247817,45.1737333 84.4005656,95.7019554 56.0626488,99.3767282 C27.724732,103.051501 26.8623402,55.5229251 28.2350184,48.0601024 C29.6076967,40.5972798 25.8660265,28.2196033 32.5972699,21.4606116" id="Oval-4" stroke="#FF8800" stroke-width="4.5" fill="#FFFFFF" fill-rule="evenodd"></path>
                         <ellipse id="Oval-5" stroke="none" fill="#FFFFFF" fill-rule="evenodd" cx="28.27959" cy="35.5200946" rx="11.4920201" ry="11.4799054"></ellipse>
                         <polygon id="Rectangle-7" stroke="none" fill="#FFFFFF" fill-rule="evenodd" points="31.4692183 24.0401892 31.4692183 36.7852526 0.370342491 36.1524983"></polygon>
