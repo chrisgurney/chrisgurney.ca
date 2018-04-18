@@ -207,7 +207,8 @@ header.about {
 @media (max-width: 768px) {
 	header.about {
 		background-image: url("../images/about/header-mobile.jpg");
-		margin-top: 6rem;		
+		background-position: center top;		
+		margin-top: 6rem;
 	}
 }
 
