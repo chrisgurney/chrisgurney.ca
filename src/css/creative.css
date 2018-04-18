@@ -214,15 +214,22 @@ header.about {
 
 header.about h1 {
 	font-size: 4rem;
+	line-height: 4rem;
+	padding-bottom: 1rem;
 }
 
 header.about p {
 	font-weight: 300;
 }
 
+header.about p > strong {
+	font-weight: 600;
+}
+
 @media (max-width: 992px) {
 	header.about h1 {
 		font-size: 3rem;
+		line-height: 3rem;		
 	}	
 }
 @media (max-width: 768px) {
