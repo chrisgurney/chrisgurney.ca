@@ -29,6 +29,10 @@ a:hover {
 	color: #FF8800;
 }
 
+a.external {
+	color: rgba(0,0,0,.44);
+}
+
 h1,
 h2,
 h3,
@@ -78,6 +82,53 @@ img::selection {
 img::-moz-selection {
 	color: #fff;
 	background: transparent;
+}
+
+/**
+ *
+ */
+
+.underline-anim {
+	position:relative;
+	padding-bottom:1px;
+}
+
+.underline-anim:hover {
+	text-decoration: none;
+}
+
+.underline-anim:before {
+	content:"";
+	display:block;
+	position:absolute;
+	left:0;
+	bottom:0;
+	height:1px;
+	width:0;
+	transition:width 0s ease,background-color .5s ease;
+}
+
+.underline-anim:after{
+	content:"";
+	position:absolute;
+	right:0;
+	bottom:0;
+	height:1px;
+	width:0;
+	background-color:#f80;
+	transition:width .3s ease;
+}
+
+.underline-anim:hover:before { 
+	width: 100%;
+	background-color: #f80;
+	transition:width .3s ease;
+}
+
+.underline-anim:hover:after { 
+	width: 100%;
+	background: transparent;
+	transition: width 0s ease;
 }
 
 /**
@@ -221,6 +272,7 @@ header.about h1 {
 
 header.about p {
 	font-weight: 300;
+	font-size: 1.1rem;
 }
 
 header.about p > strong {
@@ -333,6 +385,10 @@ header.masthead p {
 	color: #F80;
 }
 
+.about-box p {
+	font-size: 1.1rem;
+}
+
 .about-box .content {
 	padding: 0 2rem;
 }
@@ -343,7 +399,7 @@ header.masthead p {
 
 @media (max-width: 576px) {
 	.about-box .carousel-item img {
-		max-width: 100%;
+		max-width: 100%;		
 	}
 }
 
@@ -489,10 +545,18 @@ header.masthead p {
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
 	color: #fff;
 	background-color: #FE9B27 !important;
+	box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;	
 }
 
-.btn-primary:active, .btn-primary:focus {
-	box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
+.btn-light:hover, .btn-light:focus, .btn-light:active {
+	color: #F80;
+	background-color: #FAFAFA !important;
+	box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.5) !important;	
+}
+
+.icon-anim:hover, .icon-anim:focus, .icon-anim:active {
+	color: #FE9B27;
+	transition: transform .2s;
 }
 
 .article-post {
@@ -510,12 +574,12 @@ blockquote {
 
 .article-post a {
 	color:rgba(0,0,0,.8);
-	border-bottom: 2px dotted #FE9B27;
+	border-bottom: 2px solid #FE9B27;
 }
 
 .article-post a.external {
 	color:rgba(0,0,0,.8);
-	border-bottom: 2px solid #000000;
+	border-bottom: 2px solid #DDDDDD;
 }
 
 .article-post a:hover {
