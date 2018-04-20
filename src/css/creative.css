@@ -305,6 +305,11 @@ header.about p > strong {
 		padding-bottom: 0;
 	}
 }
+@media (min-width: 1281px) {
+	header.about p {
+		font-size: 1.2rem;
+	}
+}
 
 header.portfolio {
 	padding-top: 8rem;
