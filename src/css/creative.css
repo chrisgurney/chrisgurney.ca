@@ -369,8 +369,8 @@ header.masthead p {
 
 .about-component {
 	background-image: linear-gradient(
-			rgba(255, 136, 0, 0.9),
-			rgba(255, 136, 0, 0.9)
+			rgba(254, 155, 39, 0.9),
+			rgba(237, 99, 0, 0.9)
 		), url("../images/about.jpg");
 	background-position: left center;
 	-webkit-background-size: cover;
@@ -529,12 +529,8 @@ header.masthead p {
 }
 
 /**
- * Article
+ *
  */
-
-.text-primary {
-	color: #FF8800 !important;
-}
 
 .btn {
 	font-weight: 700;
@@ -568,6 +564,14 @@ header.masthead p {
 .icon-anim:hover, .icon-anim:focus, .icon-anim:active {
 	color: #FE9B27;
 	transition: transform .2s;
+}
+
+/**
+ * Article
+ */
+
+.text-primary {
+	color: #FF8800 !important;
 }
 
 .article-post {
