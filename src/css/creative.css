@@ -601,6 +601,11 @@ blockquote {
 	text-decoration: none;
 }
 
+.article-post .collapse-link:hover {
+	color: #F80;
+	padding-bottom: 4px;
+}
+
 .article-post p,.article-post blockquote {
 	margin:0 0 1.5rem 0;
 }
