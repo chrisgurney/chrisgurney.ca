@@ -1,8 +1,14 @@
 @@include('header.html')
 
-    @@include('components/nav-main.html', {"theme": "dark"})
+    @@include('components/nav-main.html', {
+      "theme": "dark", 
+      "home-link": "/",
+      "about-link": "#about"
+    })
 
-    <header class="about text-left text-black d-flex">
+    <div class="pt-md-5 pt-sm-1 pt-0" id="about"></div>
+
+    <header class="about text-left text-black d-flex" id="about">
       <div class="container">
         <div class="row">
         	<div class="col-lg-6 col-md-7 col-12"></div>
@@ -18,7 +24,7 @@
       </div>
     </header>
 
-    <section class="about-box p-0">
+    <section class="about-box p-0" id="about">
       <div class="container-fluid">
 
         <div class="row is-equal" style="background: linear-gradient(0deg, #ED6300, #FE9B27);">

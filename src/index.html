@@ -1,8 +1,12 @@
 @@include('header.html')
 
-    @@include('components/nav-main.html', {"theme": ""})
+    @@include('components/nav-main.html', {
+      "theme": "",
+      "home-link": "#work",
+      "about-link": "/about.html"       
+    })
 
-    <header class="masthead text-center text-white d-flex">
+    <header class="masthead text-center text-white d-flex" id="work">
       <div class="container my-auto">
         <div class="row">
           <div class="col-lg-10 mx-auto">

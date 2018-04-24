@@ -242,8 +242,6 @@ img::-moz-selection {
  */
 
 header.about {
-	margin-top: 4rem;
-	padding-top: 8rem;
 	padding-bottom: calc(8rem - 56px);
 	background-image: url("../images/about/header.jpg");
 	background-position: left top;
@@ -279,8 +277,10 @@ header.about p > strong {
 	header.about {
 		height: 100vh;
 		min-height: 650px;
-		padding-top: 8rem;
 		padding-bottom: 0;
+	}
+	header.about div.container {
+		padding-top: 8rem;	
 	}
 }
 
@@ -295,13 +295,13 @@ header.about p > strong {
 		background-image: url("../images/about/header-mobile.jpg");
 		background-position: center top;		
 		margin-top: 6rem;
-		padding-top: 16rem;
 		padding-bottom: 0px;
 	}	
 	header.about div.container {
 		background-color: rgba(0, 0, 0, 0.7);
 		color: #FFF;
 		max-width: 100%;
+		margin-top: 16rem;
 	}
 }
 
@@ -367,7 +367,7 @@ header.masthead p {
  * About
  */
 
-#about {
+.about-component {
 	background-image: linear-gradient(
 			rgba(255, 136, 0, 0.9),
 			rgba(255, 136, 0, 0.9)
@@ -418,7 +418,7 @@ header.masthead p {
  * Logos
  */
 
-#logos {
+.logos-component {
 	background-color: #000;
 	background-image: url("../images/logos-overlay.svg");
 	background-position: center center;
@@ -429,13 +429,13 @@ header.masthead p {
 }
 
 @media (min-width: 768px) {
-	#logos .container {
+	.logos-component .container {
 		max-width: 600px;
 	}
 }
 
 @media (min-width: 992px) {
-	#logos .container {
+	.logos-component .container {
 		max-width: 800px;
 	}
 }
