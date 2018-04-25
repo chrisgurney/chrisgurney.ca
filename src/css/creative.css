@@ -315,6 +315,21 @@ header.portfolio {
 	background-size: cover;
 }
 
+@media (min-width: 768px) {
+	header.portfolio p {
+		font-size: 1.15rem;
+	}
+}
+
+@media (min-width: 992px) {
+	header.portfolio {
+		padding-top: 0rem;		
+		height: 100vh;
+		min-height: 650px;
+		padding-bottom: 0;
+	}
+}
+
 header.masthead {
 	padding-top: 10rem;
 	padding-bottom: calc(10rem - 56px);
@@ -361,6 +376,21 @@ header.masthead p {
 	header.masthead h1 {
 		font-size: 4rem;
 	}
+}
+
+/**
+ *
+ */
+ 
+.show-more {
+  cursor: pointer;
+  position: absolute;
+  bottom: 2px;
+  width: 100%;
+  z-index: 105;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
 }
 
 /**
@@ -761,8 +791,16 @@ video {
 	transition: opacity 150ms;
 }
 
+.playpause.dark {
+	background-image: linear-gradient(transparent, #333);
+}
+
 .playpause:hover {
 		opacity: 1;
+}
+
+.playpause.dark:hover {
+		opacity: 0.6;
 }
 
 /**
