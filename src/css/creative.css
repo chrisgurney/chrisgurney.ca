@@ -379,9 +379,9 @@ header.masthead p {
 }
 
 /**
- *
+ * Show More Link
  */
- 
+
 .show-more {
   cursor: pointer;
   position: absolute;
@@ -391,6 +391,12 @@ header.masthead p {
   display: flex;
   justify-content: center;
   padding: 30px;
+}
+
+@media (max-width: 992px) {
+	.show-more {
+		display: none;
+	}
 }
 
 /**
