@@ -699,6 +699,16 @@ blockquote {
 	border-bottom: 1px solid #6c757d;
 }
 
+ol.callout {
+	font-size: 0.9rem; 
+	padding: 0; 
+	margin: 0;
+}
+
+ol.callout > li {
+	padding-bottom: 0.5rem;
+}
+
 /**
  * Article Cards
  */
