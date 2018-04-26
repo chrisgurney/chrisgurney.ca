@@ -728,6 +728,7 @@ blockquote {
 	/*margin-bottom: 2rem;*/
 	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
 	border: 0;
+	font-size: 0.9rem; 	
 }
 
 .article-post .card h6 {
