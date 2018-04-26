@@ -31,6 +31,11 @@ a:hover {
 
 a.external {
 	color: rgba(0,0,0,.44);
+	text-decoration: none;
+}
+
+a.external:hover {
+	border-bottom: 1px dotted;
 }
 
 h1,
