@@ -699,13 +699,19 @@ blockquote {
 	border-bottom: 1px solid #6c757d;
 }
 
-ol.callout {
+@media (max-width: 992px) {
+	.callout {
+		padding: 2rem;
+	}
+}
+
+.callout ol {
 	font-size: 0.9rem; 
 	padding: 0; 
 	margin: 0;
 }
 
-ol.callout > li {
+.callout ol > li {
 	padding-bottom: 0.5rem;
 }
 
@@ -715,7 +721,8 @@ ol.callout > li {
 
 .article-post .card {
 	/*margin-bottom: 2rem;*/
-	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2); 
+	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+	border: 0;
 }
 
 .article-post .card h6 {
