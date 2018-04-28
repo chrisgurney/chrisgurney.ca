@@ -90,6 +90,28 @@ img::-moz-selection {
 }
 
 /**
+ * Dark version of Bootstrap's carousel arrows
+ */
+
+.carousel-control-next-icon-dark {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: transparent no-repeat center center;
+	background-size: 100% 100%;	
+	background-image: url("../images/carousel-next-dark.svg") !important;
+}
+
+.carousel-control-prev-icon-dark {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: transparent no-repeat center center;
+	background-size: 100% 100%;		
+  background-image: url("../images/carousel-prev-dark.svg") !important;
+}
+
+/**
  *
  */
 
