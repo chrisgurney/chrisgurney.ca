@@ -246,6 +246,17 @@ img::-moz-selection {
  * Header
  */
 
+header p {
+	font-weight: 300;
+	font-size: 1.1rem;
+}
+
+@media (min-width: 1400px) {
+	header p {
+		font-size: 1.5rem;		
+	}
+}
+
 header.about {
 	padding-bottom: calc(8rem - 56px);
 	background-image: url("../images/about/header.jpg");
@@ -263,19 +274,8 @@ header.about h1 {
 	color: #F80;
 }
 
-header.about p {
-	font-weight: 300;
-	font-size: 1.1rem;
-}
-
 header.about p > strong {
 	font-weight: 600;
-}
-
-@media (min-width: 1281px) {
-	header.about p {
-		font-size: 1.2rem;
-	}
 }
 
 @media (min-width: 992px) {
@@ -320,12 +320,6 @@ header.portfolio {
 	background-size: cover;
 }
 
-@media (min-width: 768px) {
-	header.portfolio p {
-		font-size: 1.15rem;
-	}
-}
-
 @media (min-width: 992px) {
 	header.portfolio {
 		padding-top: 0rem;		
@@ -353,16 +347,6 @@ header.masthead hr {
 
 header.masthead h1 {
 	font-size: 2rem;
-}
-
-header.masthead p {
-	font-weight: 300;
-}
-
-@media (min-width: 768px) {
-	header.masthead p {
-		font-size: 1.15rem;
-	}
 }
 
 @media (min-width: 992px) {
@@ -662,7 +646,8 @@ blockquote {
 .article-post h2 {
 	font-weight:500;
 	margin-bottom:1rem;
-	margin-top:2rem;   
+	margin-top:2rem;
+	line-height: 2.8rem;
 	color:rgba(0,0,0,.8);
 	font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;    
 }
