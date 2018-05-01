@@ -111,6 +111,13 @@ img::-moz-selection {
   background-image: url("../images/carousel-prev-dark.svg") !important;
 }
 
+.carousel-indicators.dark li {
+    background-color: rgba(0,0,0,0.1);
+}
+.carousel-indicators.dark .active {
+    background-color: #f80;
+}
+
 /**
  *
  */
