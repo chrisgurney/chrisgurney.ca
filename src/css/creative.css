@@ -309,12 +309,13 @@ header.about p > strong {
 
 @media (min-width: 992px) {
 	header.about {
+		background-attachment: fixed;
+		background-position: 0rem 4rem;
+		background-repeat: no-repeat;
 		height: 100vh;
 		min-height: 650px;
 		padding-bottom: 0;
-	}
-	header.about div.container {
-		padding-top: 8rem;	
+		padding-top: 8rem;
 	}
 }
 
@@ -351,7 +352,8 @@ header.portfolio {
 
 @media (min-width: 992px) {
 	header.portfolio {
-		padding-top: 0rem;		
+		background-attachment: fixed;
+		padding-top: 0rem;	
 		height: 100vh;
 		min-height: 650px;
 		padding-bottom: 0;
@@ -380,6 +382,7 @@ header.masthead h1 {
 
 @media (min-width: 992px) {
 	header.masthead {
+		background-attachment: fixed;		
 		height: 100vh;
 		min-height: 650px;
 		padding-top: 0;
@@ -747,10 +750,6 @@ blockquote {
 .article-post .card h6 {
 	margin-top: 1rem;
 	margin-bottom: 1rem;	
-}
-
-.article-post .card-body.with-bottom-image {
-	box-shadow: inset 0 -7px 9px -7px rgba(0,0,0,0.2);
 }
 
 /**
