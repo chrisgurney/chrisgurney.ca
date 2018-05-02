@@ -720,6 +720,10 @@ blockquote {
 	border-bottom: 1px solid #6c757d;
 }
 
+.card .text-muted {
+	font-family: Montserrat,'Helvetica Neue',Arial,sans-serif;
+}
+
 @media (max-width: 992px) {
 	.callout {
 		padding: 2rem;
@@ -740,16 +744,20 @@ blockquote {
  * Article Cards
  */
 
-.article-post .card {
+.card {
 	/*margin-bottom: 2rem;*/
 	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
 	border: 0;
 	font-size: 0.9rem; 	
 }
 
-.article-post .card h6 {
+.card h6 {
 	margin-top: 1rem;
 	margin-bottom: 1rem;	
+}
+
+.card-img-bottom {
+	box-shadow: 0 -4px 24px 0 rgba(0, 0, 0, 0.1);	
 }
 
 /**
