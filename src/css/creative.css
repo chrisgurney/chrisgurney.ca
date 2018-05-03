@@ -172,7 +172,7 @@ img::-moz-selection {
 #mainNav {
 	border-bottom: 1px solid rgba(33, 37, 41, 0.1);
 	background-color: #fff;
-	font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+	font-family: 'Montserrat', 'Helvetica Neue', Arial, sans-serif;
 	-webkit-transition: all 0.2s;
 	-moz-transition: all 0.2s;
 	transition: all 0.2s;
@@ -181,7 +181,7 @@ img::-moz-selection {
 #mainNav .navbar-brand {
 	font-weight: 700;
 	color: #FF8800;
-	font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+	font-family: 'Montserrat', 'Helvetica Neue', Arial, sans-serif;
 }
 
 #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
@@ -504,7 +504,7 @@ header.masthead h1 {
 }
 
 .logo-box .roles {
-	font-family: Montserrat,'Helvetica Neue',Arial,sans-serif;
+	font-family: 'Montserrat','Helvetica Neue',Arial,sans-serif;
 	font-size: 0.7rem;
 	color: #CCCCCC;
 }
@@ -552,7 +552,7 @@ header.masthead h1 {
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
 	padding: 0 15px;
-	font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+	font-family: 'Montserrat', 'Helvetica Neue', Arial, sans-serif;
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
@@ -592,11 +592,11 @@ header.masthead h1 {
  */
 
 .btn {
-	font-weight: 700;
+	font-weight: 600;
 	text-transform: uppercase;
 	border: none;
 	border-radius: 300px;
-	font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+	font-family: 'Montserrat', 'Helvetica Neue', Arial, sans-serif;
 }
 
 .btn-xl {
@@ -720,10 +720,6 @@ blockquote {
 	border-bottom: 1px solid #6c757d;
 }
 
-.card .text-muted {
-	font-family: Montserrat,'Helvetica Neue',Arial,sans-serif;
-}
-
 @media (max-width: 992px) {
 	.callout {
 		padding: 2rem;
@@ -741,7 +737,7 @@ blockquote {
 }
 
 /**
- * Article Cards
+ * Cards
  */
 
 .card {
@@ -756,8 +752,17 @@ blockquote {
 	margin-bottom: 1rem;	
 }
 
+.card-body p,a {
+	font-size: 0.9rem;
+	line-height: 1.8;
+}
+
 .card-img-bottom {
 	box-shadow: 0 -4px 24px 0 rgba(0, 0, 0, 0.1);	
+}
+
+.card .text-muted {
+	font-family: Montserrat,'Helvetica Neue',Arial,sans-serif;
 }
 
 /**
