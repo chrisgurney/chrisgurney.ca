@@ -57,7 +57,9 @@
 
     <!-- FullStory -->
     <script>
-        if (window.location.host != "localhost:8080") {
+        var host = window.location.host;
+        if ((host.indexOf("localhost") == -1) && 
+            (host.indexOf("ngrok.io") == -1)) {
             window['_fs_debug'] = false;
             window['_fs_host'] = 'fullstory.com';
             window['_fs_org'] = 'BB5X9';
