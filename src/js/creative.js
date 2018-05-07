@@ -16,8 +16,10 @@
   });
 
   // Closes responsive menu when a scroll trigger link is clicked
-  $('.js-scroll-trigger').click(function() {
-    $('.navbar-collapse').collapse('hide');
+  $('.js-scroll-trigger').on('click', function() {
+    // $('.navbar-collapse').collapse('hide');
+    $('#navbarFull').collapse('hide');
+    return true;
   });
 
   // Activate scrollspy to add active class to navbar items on scroll
@@ -38,6 +40,11 @@
   navbarCollapse();
   // Collapse the navbar when page is scrolled
   $(window).scroll(navbarCollapse);
+
+  // Full-Screen Menu Toggle
+  $('.menu-toggle').on('click', function(){
+    $('.menu-full').toggleClass('menu-full--open');
+  })
 
   // Toggle DIVs - Flip icons
   $('a#toggle-ethno1').click(function () {

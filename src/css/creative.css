@@ -124,7 +124,7 @@ img::-moz-selection {
 
 .underline-anim {
 	position:relative;
-	padding-bottom:1px;
+	padding-bottom:0.1rem;
 }
 
 .underline-anim:hover {
@@ -137,7 +137,7 @@ img::-moz-selection {
 	position:absolute;
 	left:0;
 	bottom:0;
-	height:2px;
+	height:0.1rem;
 	width:0;
 	transition:width 0s ease,background-color .5s ease;
 }
@@ -147,7 +147,7 @@ img::-moz-selection {
 	position:absolute;
 	right:0;
 	bottom:0;
-	height:2px;
+	height:0.1rem;
 	width:0;
 	background-color:#f80;
 	transition:width .3s ease;
@@ -269,6 +269,86 @@ img::-moz-selection {
 	#mainNav .navbar-nav > li.nav-item > a.dark:focus:hover {
 		color: rgba(255, 136, 0, 0.7);
 	}	
+}
+
+.navbar-toggler {
+	border: none;
+	padding: .25rem .25rem;
+}
+
+/**
+ * Menu > Full-Screen
+ */
+
+.menu-nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+.menu-nav li {
+  margin: 0 0 30px 0;
+}
+.menu-nav li a {
+  text-decoration: none;    
+  font-size: 4rem;
+  color: #000;
+  font-weight: bold;
+  line-height: 4rem;
+  letter-spacing: 0.1rem;  
+  padding-bottom: 1rem;
+}
+.menu-nav li a:before, .menu-nav li a:after {
+	height: 0.4rem;
+}
+.menu-nav li a.active {
+	color: #F80;
+}
+
+.menu-full {
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.92);
+  -webkit-transform: scale(0.85);
+  -ms-transform: scale(0.85);
+  transform: scale(0.85);
+  -webkit-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+}
+.menu-full--open {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+.menu-full--transition {
+  -webkit-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+}
+.menu-full--middle {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.menu-toggle {
+  border: 0;
+  background-color: transparent;
+}
+.menu-toggle:before {
+  content: '\f0c9';
+  font-family: 'FontAwesome';
+  margin: 0 20px 0 0;
+}
+.menu-toggle--close {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+.menu-toggle--close:before {
+  content: '\f00d';
+  color: #000;
+  font-size: 40px;
+  margin: 0;
 }
 
 /**
@@ -408,7 +488,7 @@ header p.category {
 }
 
 /**
- * Show More Link
+ * Header > Show More Chevron
  */
 
 .show-more {
@@ -480,7 +560,7 @@ header p.category {
 }
 
 /**
- * Logos
+ * About > Logos
  */
 
 .logos-component {
