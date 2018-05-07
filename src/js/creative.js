@@ -72,6 +72,9 @@
     duration: 1000,
     delay: 200
   });
+  sr.reveal('.sr-card-media', {
+    duration: 1500
+  }, 50);  
   sr.reveal('.sr-image', {
     duration: 1000,
     delay: 200
