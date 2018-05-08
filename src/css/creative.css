@@ -853,6 +853,11 @@ blockquote {
 	font-family: Montserrat,'Helvetica Neue',Arial,sans-serif;
 }
 
+.card .card-footer {
+	background: none;
+	border-top: none;
+}
+
 /**
  * Page Footer
  */
