@@ -1,0 +1,88 @@
+@@include('header.html')
+
+    @@include('components/nav-main.html', {
+      "theme": "",
+      "home-link": "/",
+      "feature-link": "/fuzzies.html",
+      "about-link": "/about.html"
+    })
+
+    <header class="portfolio text-center text-white d-flex" style="background-image: url('images/portfolio-dailyui/header.jpg')">
+      <div class="container my-auto sr-card">
+        <div class="row">
+          <div class="col-lg-10 mx-auto mb-2">
+            <p class="category">Design Concepts</p>
+            <h1 class="text-uppercase">
+              <strong>Daily UI</strong>
+            </h1>                      
+            <hr/>  
+            <p class="text-faded mb-5">Challenging myself to designing a thing a day.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Start page content link -->
+      <a class="show-more js-scroll-trigger" href="#page-content">
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="53px" height="20px" viewBox="0 0 53 20" enable-background="new 0 0 53 20" xml:space="preserve">
+          <g>
+            <polygon points="26.5,17.688 9.114,3.779 10.303,2.312 26.5,15.269 42.697,2.313 43.886,3.779" fill="#fff"></polygon>
+          </g>
+        </svg> 
+      </a>      
+      <!-- End page content link -->       
+    </header>
+
+    <!-- Begin Post -->
+    <section id="page-content" class="pb-5 pt-md-5 pt-5" id="page-content">
+      <div class="container pb-5">
+        <div class="row">
+
+          <div class="col"></div>
+
+          <div class="col-md-8 col-xs-12"> 
+            <div class="article-post">
+
+              <h1>A 100 day project to improve my design skills.</h1>
+              <p>
+                Follow along the <a class="external" href="http://www.dailyui.co/" target="_blank" rel="noopener">Daily UI</a> challenge by viewing my design progression below.
+              </p>
+
+        <!-- Begin Full Bleed Image -->
+            </div>
+          </div>
+          <div class="col"></div>
+        </div>
+      </div>
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="popup-gallery mb-5">
+            <a href="images/portfolio-dailyui/daily-ui-001.jpg">
+              <img class="img-fluid" src="images/portfolio-dailyui/daily-ui-001.jpg" alt="Daily UI #001: A Sign Up form." />
+            </a>
+          </div>
+        </div>
+        <div class="row">                
+          <div class="col">        
+            <p class="figure-caption text-center">
+              <strong>Daily UI #001 : A Sign Up form.</strong><br/>
+              <br/>
+              This shot would be the first screen for creating a new account.<br/>
+              <br/>
+              I personally like how AirBnB separates their signup flow into multiple steps, similar to how TypeForm collects information.<br/>
+              <br/>
+              <em>Credits: Background by Quinsey Sablan via Unsplash.</em>
+            </p>
+          </div>
+        </div>         
+      </div>
+
+    </section>
+
+    @@include('components/about.html')
+
+    @@include('components/portfolio.html')
+
+    @@include('components/contact.html')
+
+@@include('footer.html', 
+  {"credit": "Credits: Masthead image from Alice Donovan Rouse via Unsplash."})
