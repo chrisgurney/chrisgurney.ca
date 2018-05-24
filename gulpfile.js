@@ -34,6 +34,7 @@ var paths = {
   	],  	
   	js: 'src/js/**/*',
   	manifest: 'src/manifest.json',
+  	resume: 'src/chrisgurney-resume.pdf',  	
   	sw: 'src/sw.js',
   	test: 'src/mdtest/**.html',
  		vendor: 'src/vendor/**/*',
@@ -211,6 +212,14 @@ gulp.task('copy-manifest', function() {
 		});
 });
 
+gulp.task('copy-resume', function() {
+	return gulp.src(paths.src.resume)
+		.pipe(gulp.dest(paths.output.base))
+		.on('finish', function() {
+			logMessage('Completed task: copy-resume');
+		});
+});
+
 gulp.task('copy-sw', function() {
 	return gulp.src(paths.src.sw)
 		.pipe(gulp.dest(paths.output.base))
@@ -268,6 +277,7 @@ gulp.task('build', function() {
 		'copy-images',
 		'minify-js',			
 		'copy-manifest',
+		'copy-resume',		
 		'copy-sw',
 		'copy-vendor'			
 	);		
