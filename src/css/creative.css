@@ -360,7 +360,7 @@ header p {
 	font-size: 1.1rem;
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1441px) {
 	header p {
 		font-size: 1.5rem;		
 	}
