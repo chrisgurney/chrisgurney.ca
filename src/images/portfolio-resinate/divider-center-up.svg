@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="133px" viewBox="0 0 1440 133" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>divider-center-up</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="divider-center-up" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M653.236915,-652 L702.763085,-652 C714.238044,-483.325448 724.238044,-363.167505 732.763085,-291.52617 C745.550646,-184.064167 784.763085,-31.0637433 784.763085,68.4738301 C784.763085,168.011404 742.456338,332.747007 732.763085,428.47383 C726.300916,492.291712 716.300916,612.133769 702.763085,788 L653.236915,788 L653.236915,-652 Z" id="Rectangle-3" fill="#FFFFFF" opacity="0.353627232" transform="translate(719.000000, 68.000000) scale(-1, -1) rotate(90.000000) translate(-719.000000, -68.000000) "></path>
+        <path d="M675.346982,-632 L711.346982,-632 C722.171505,-465.018567 730.504838,-344.685234 736.346982,-271 C745.110197,-160.472149 764.653018,2.36364873 764.653018,89 C764.653018,169.998418 746.031973,321.575022 736.346982,449 C730.435601,526.775753 722.102268,647.109086 711.346982,810 L675.346982,810 L675.346982,-632 Z" id="Rectangle-3" fill="#FFFFFF" transform="translate(720.000000, 89.000000) scale(-1, -1) rotate(90.000000) translate(-720.000000, -89.000000) "></path>
+    </g>
+</svg>
