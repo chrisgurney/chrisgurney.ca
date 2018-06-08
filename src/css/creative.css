@@ -549,6 +549,7 @@ div.banner-image {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+	line-height: 0;
 }
 
 @media (min-width: 992px) {
