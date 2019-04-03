@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="77px" height="72px" viewBox="0 0 77 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>chicken-light</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M78,12.673873 L78,44.2600538 C71.6999538,60.1657216 56.1654678,71.4164629 38.0001326,71.4164629 C21.5300477,71.4164629 7.22268529,62.1676503 -2.25651525e-06,48.5861817 L4.08562073e-14,8.34774082 C1.60277386,5.33390107 3.55442348,2.53341181 5.80116181,-1.26095575e-06 L70.1991045,-3.55271368e-15 C73.4879592,3.70849963 76.1444938,7.9892938 78,12.673873 Z" id="path-1"></path>
+    </defs>
+    <g id="Chicken" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="chicken-light" transform="translate(-1.000000, 0.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Mask"></g>
+            <g id="Chicken" mask="url(#mask-2)">
+                <g transform="translate(1.394265, 2.638688)">
+                    <path d="M54.3671615,46.3228122 C53.5149399,63.8192264 75.5521249,55.7196965 79.6467074,52.9269482 C83.7412898,50.1342 84.803375,46.3370243 85.7534784,43.6969067 C87.9016824,49.7482886 93.0570339,105.393293 61.812664,109.440194 C30.5682942,113.487096 29.617452,61.1454997 31.1309178,52.9269482" id="Oval-4" stroke="#FFFFFF" stroke-width="4.95" fill="none"></path>
+                    <ellipse id="Oval-5" stroke="none" fill="none" cx="31.1800608" cy="39.1170662" rx="12.6706888" ry="12.6424275"></ellipse>
+                    <polygon id="Rectangle-7" stroke="none" fill="none" points="34.6968305 26.4746388 34.6968305 40.5103414 0.408326336 39.8135108"></polygon>
+                    <path d="M16.4806828,33.4924901 C10.3594385,36.8509876 5.52840541,39.2542427 1.98758365,40.7022556 L1.98758417,40.7022569 C1.62066416,40.8523082 1.44485734,41.2713962 1.59490863,41.6383162 C1.70524319,41.908117 1.96778648,42.0843991 2.25927608,42.0843991 L26.9671124,42.0843991" id="Path-2" stroke="#FFFFFF" stroke-width="3.3" fill="none"></path>
+                    <path d="" id="Path-3" stroke="#979797" stroke-width="1.1" fill="none"></path>
+                    <path d="M28.2867322,17.9963878 C28.2867322,17.9963878 40.0954665,5.36198203 44.0933806,2.72580834 C49.7560515,-1.0080848 59.7983087,-0.807740543 63.3151582,2.72580834 C66.8320077,6.25935722 63.3151582,14.4130891 63.3151582,14.4130891 C70.0259172,13.9845381 73.3812967,15.4762031 73.3812967,18.8880842 C73.3812967,24.0059059 65.3913629,27.4663111 65.3913629,27.4663111 C67.2246455,29.6297756 68.3023115,31.255924 68.6243609,32.3447564 C69.1074349,33.9780049 68.8775097,36.6951025 68.4272809,37.694935 C67.977052,38.6947675 68.1308954,40.3964586 63.7841643,44.1724536 C59.4374332,47.9484486 52.8709864,46.3690171 51.8147888,46.3690171" id="Path-4" stroke="#FFFFFF" stroke-width="4.95" fill="none"></path>
+                    <ellipse id="Eye" stroke="#FFFFFF" stroke-width="3.3" fill="none" cx="39.1181832" cy="26.7555582" rx="7.47313552" ry="7.45646704"></ellipse>
+                    <ellipse id="Eye" stroke="#FFFFFF" stroke-width="3.3" fill="none" cx="22.8277329" cy="25.4397111" rx="9.23152035" ry="9.64954558"></ellipse>
+                    <ellipse id="Eyeball" stroke="#FFFFFF" stroke-width="2.2" fill="#FFFFFF" fill-rule="evenodd" cx="23.2673291" cy="25.4397111" rx="1" ry="1"></ellipse>
+                    <ellipse id="Eyeball" stroke="#FFFFFF" stroke-width="2.2" fill="#FFFFFF" fill-rule="evenodd" cx="39.5577794" cy="26.3169425" rx="1" ry="1"></ellipse>
+                    <ellipse id="Oval-6" stroke="none" fill="#FFFFFF" fill-rule="evenodd" cx="27.0521101" cy="42.0758564" rx="1.55586183" ry="1.55239155"></ellipse>
+                    <path d="M37.375732,54.9484425 C41.7403342,50.6046599 38.8969677,39.1101461 32.5406938,36.6226279 C26.1844199,34.1351097 23.4299494,36.4834763 22.0509307,37.4036042" id="Oval-3" stroke="#FFFFFF" stroke-width="3.3" fill="none" transform="translate(30.762788, 45.231533) rotate(135.000000) translate(-30.762788, -45.231533) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

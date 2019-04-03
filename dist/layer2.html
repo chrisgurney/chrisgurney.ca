@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Chris Gurney - Designer++;</title>
+
+    <!-- startup configuration per https://w3c.github.io/manifest/ -->
+    <link rel="manifest" href="manifest.json" />
+
+    <!-- Browser bar color - Chrome, Firefox OS and Opera + IE + Safari -->
+    <meta name="theme-color" content="#FE9B27">
+    <meta name="msapplication-navbutton-color" content="#FE9B27">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#FE9B27">
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <link rel="apple-touch-icon" href="images/touch/chrisgurney_120.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="images/touch/chrisgurney_152.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="images/touch/chrisgurney_180.png" />
+    <link rel="apple-touch-icon" sizes="167x167" href="images/touch/chrisgurney_167.png" />
+
+    <!-- Metadata -->
+    <link rel="icon" type="image/png" href="favicon.png">
+    <meta name="author" content="Chris Gurney" />    
+    <meta name="description" content="Chris Gurney, product designer based in Toronto, Canada." />
+
+    <meta itemprop="thumbnailUrl" content="https://www.chrisgurney.ca/images/touch/chrisgurney_512.png"/>
+    <link rel="image_src" href="https://www.chrisgurney.ca/images/chrisgurney.jpg" />
+    <meta itemprop="image" content="https://www.chrisgurney.ca/images/chrisgurney.jpg"/>
+
+    <meta property="og:title" content="Chris Gurney" />
+    <meta property="og:description" content="Chris Gurney, product designer based in Toronto, Canada." />
+    <meta property="og:image" content="https://www.chrisgurney.ca/images/share-banner.png" />
+    <meta property="og:url" content="https://www.chrisgurney.ca/" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Chris Gurney" />
+    <meta name="twitter:description" content="Chris Gurney, product designer based in Toronto, Canada." />
+    <meta name="twitter:image" content="https://www.chrisgurney.ca/images/share-banner.png" />
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/creative.min.css" rel="stylesheet">
+
+    <!-- FullStory & Google Analytics-->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-137570047-1"></script>
+    <script>
+        var host = window.location.host;
+        if ((host.indexOf("localhost") == -1) && 
+            (host.indexOf("ngrok.io") == -1)) {
+
+            // FullStory
+            window['_fs_debug'] = false;
+            window['_fs_host'] = 'fullstory.com';
+            window['_fs_org'] = 'BB5X9';
+            window['_fs_namespace'] = 'FS';
+            (function(m,n,e,t,l,o,g,y){
+                if (e in m) {if(m.console && m.console.log) { m.console.log('FullStory namespace conflict. Please set window["_fs_namespace"].');} return;}
+                g=m[e]=function(a,b){g.q?g.q.push([a,b]):g._api(a,b);};g.q=[];
+                o=n.createElement(t);o.async=1;o.src='https://'+_fs_host+'/s/fs.js';
+                y=n.getElementsByTagName(t)[0];y.parentNode.insertBefore(o,y);
+                g.identify=function(i,v){g(l,{uid:i});if(v)g(l,v)};g.setUserVars=function(v){g(l,v)};
+                y="rec";g.shutdown=function(i,v){g(y,!1)};g.restart=function(i,v){g(y,!0)};
+                g.identifyAccount=function(i,v){o='account';v=v||{};v.acctId=i;g(o,v)};
+                g.clearUserCookie=function(){};
+            })(window,document,window['_fs_namespace'],'script','user');
+
+            // Google Analytics
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-137570047-1');
+        }
+    </script>
+
+  </head>
+
+  <body id="page-top">
+
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand  js-scroll-trigger" href="index.html"><img src="images/cg-logo.svg" style="height: 1.8rem" alt="Chris Gurney logo"/></a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarFull" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="container-fluid collapse" id="navbarFull">
+          <div class="menu-full">
+            <ul class="menu-nav">
+              <li>
+                <a class="nav-link js-scroll-trigger" href="/">work</a>
+              </li>
+              <li>
+                <a class="nav-link js-scroll-trigger" href="/fuzzies.html">fuzzies</a>
+              </li>
+              <li>
+                <a class="nav-link js-scroll-trigger" href="/about.html" href="#">about</a>
+              </li>
+              <li>
+                <a class="nav-link js-scroll-trigger" href="#contact">contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>    
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link underline-anim  js-scroll-trigger" href="/">work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link underline-anim  js-scroll-trigger" href="/fuzzies.html">fuzzies</a>
+            </li>            
+            <li class="nav-item">
+              <a class="nav-link underline-anim  js-scroll-trigger" href="/about.html">about</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link underline-anim  js-scroll-trigger" href="#contact">contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="portfolio text-center text-white d-flex" style="background-image: url('images/portfolio-layer2/header.jpg')">
+      <div class="container my-auto sr-card">
+        <div class="row">
+          <div class="col-lg-10 mx-auto mb-2">
+            <p class="category">Brand Concept</p>            
+            <img style="height: 4.5rem" src="images/portfolio-layer2/logo.svg" alt="Layer 2 logo."/>
+          </div>
+          <div class="col-lg-8 mx-auto">
+            <hr>            
+            <p class="mb-5">Brand style guide for an urban outdoor wear company.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Start page content link -->
+      <a class="show-more js-scroll-trigger" href="#page-content">
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="53px" height="20px" viewBox="0 0 53 20" enable-background="new 0 0 53 20" xml:space="preserve">
+          <g>
+            <polygon points="26.5,17.688 9.114,3.779 10.303,2.312 26.5,15.269 42.697,2.313 43.886,3.779" fill="#fff"></polygon>
+          </g>
+        </svg> 
+      </a>      
+      <!-- End page content link -->       
+    </header>
+
+    <!-- Begin Post -->
+    <section id="page-content" class="pb-2 pt-md-5 pt-3">
+      <div class="container">
+        <div class="row">
+
+          <div class="col"></div>
+
+          <div class="col-md-8 col-xs-12"> 
+            <div class="article-post">
+
+              <h1>Design Challenge</h1>
+              <p>
+                Design a brand and style guide for an urban outdoor wear company.
+              </p>              
+
+              <div class="card mb-4 sr-card">
+                <div class="card-body">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-sm">
+                        <h6>My Role</h6>                          
+                        I did <strong>all the things</strong>: Research, branding, style tile, icon design, pattern design. 
+                      </div>                      
+                      <div class="col-sm">
+                        <div class="container px-0">
+                          <div class="row">
+                            <div class="col-sm">
+                              <h6>Timeline</h6>
+                              1.5 weeks
+                            </div>                      
+                          </div>
+                          <div class="row">
+                            <div class="col-sm">
+                              <h6>Deliverable</h6>
+                              Brand style guide.
+                            </div>                      
+                          </div>                          
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>              
+              </div>
+
+              <h1>Concept</h1>
+              <h2>Ready for the Urban Jungle.</h2>
+              <p>
+                <i>Layer 2</i> is an online outdoor clothing company tailored to urbanites, producing and selling slim, simply-designed outerwear in men’s styles.
+              </p>
+
+        <!-- Begin Full Bleed Image -->
+            </div>
+          </div>
+          <div class="col"></div>
+        </div>
+      </div>
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="popup-gallery mb-5">
+            <a href="images/portfolio-layer2/layer2-components.png">
+              <img class="img-fluid" src="images/portfolio-layer2/layer2-components.png" alt="Styles and UI components for the Layer 2 brand." />
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">        
+          <div class="col"></div>
+          <div class="col-md-8 col-xs-12"> 
+            <div class="article-post">
+        <!-- End Full Bleed Image -->
+
+<!--
+              Voice &amp; Tone
+
+              Practical - Clothing that makes sense, protects you from the elements, and doesn’t have any additional baggage; like a partner that has their tools with them at all times.
+
+              Confident - If you could wear one of our jackets into a board meeting, you would; like an explorer, ready for whatever the world is going to throw at you.
+
+              Optimistic - Brand imagery is aspirational; someone who sees the bright side of everything.
+
+              Eccentric - Brand has a humorous personality, not your average clothing company; someone who’s a bit of an oddball.
+
+              Playing off of the “urban jungle” theme, messaging can take on a humorous tone:
+
+
+              General Error
+              Woah there, something’s not quite right. Must be monkeys in the server again.
+              Form Error
+              Whoops. Looks like you missed this field.
+              Instagram
+              Nick here is protected by our Venture Vest, available in Palm Green.
+              Success
+              Well done old sport!
+              Welcome
+              Let’s suit up!
+
+              Logo Use
+              Variations
+
+
+              Horizontal Brandmark with Wordmark
+              Primary way to show the logo on web and other branded materials, and on large clothing labels.
+
+              Blue Brandmark
+              Use where space is constrained, and wordmark use is not possible.
+
+              Dark Brandmark
+              For light backgrounds where color and space is constrained, and wordmark use is not possible. Small clothing labels.
+
+              Light Brandmark
+              On dark backgrounds (which should be the primary color), as in the app icon, app splash screen, and website header/footer.
+
+              App Icon
+              Light brandmark on a subtle gradient blue, from the logo blue to light blue. For use on app and profile photo on social media (Instagram, Twitter, Facebook).
+
+
+              Clear Space
+              The brandmark needs to breathe. Leave 2 logo strokes around the logo available.
+
+              Misuse Examples
+
+              <i>Do not</i> enclose the logo in a shape. It needs to be free! App icons are the exception.
+              <i>Do not</i> skew, bevel, fold, dimensionalize, stretch, add a drop shadow or otherwise alter the shape of the logo. There’s lots of other ways to use the logo; these aren’t the ways.
+              <i>Do not</i> attempt to use the brandmark as the letter L. Just don’t even. We tried it and it doesn’t look good.
+              <i>Do not</i> put the brandmark and wordmark in a vertical orientation, unless requested by your UX/UI design instructor.
+
+
+              Colour Palette
+
+              Layer 2’s bold blue is meant to inspire confidence, mixed with concrete greys to represent the urban environment that our customers live within.
+
+              Primary Colors
+
+              "Blue is commonly associated with trust, confidence, and sincerity; it is also used to represent calmness and responsibility." White, grey, and black shades are provided primarily for type. 
+
+              Secondary Color
+
+              Green was selected as a secondary to speak to our commitment to the environment, and to bring out the jungle theme.  
+
+              This color should be used to highlight important features on a page, such as buttons, or for visual style elements, such as illustrations. They should be used sparingly and never draw the eye to more than one piece of information at a time.
+
+              Typography
+
+              Typefaces
+
+              Source Sans Pro
+
+              “Source® Sans Pro, Adobe's first open source typeface family, was designed by Paul D. Hunt. It is a sans serif typeface intended to work well in user interfaces.”
+
+              Aa 
+              A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+              a b c d e f g h i j k l m n o p q r s t u v w x y z
+              0 1 2 3 4 5 6 7 8 9
+
+              Source Serif Pro
+
+              “Source® Serif Pro is a set of OpenType fonts to complement the Source Sans Pro family.”
+
+              Aa 
+              A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+              a b c d e f g h i j k l m n o p q r s t u v w x y z
+              0 1 2 3 4 5 6 7 8 9
+
+              Styles
+
+              (Different sizes)
+
+              Pattern
+
+              The Layer 2 icon pattern background reinforces the logo and provides a textured background to use in apps and web properties. The pattern should not deviate from the one pictured here, and should be used in conjunction with the primary brand color.
+
+              Components
+
+              Icons
+
+              Icons are 24x24 and generally lean towards a thick style. Icons are available in dark and light versions, depending on the background being used.
+
+              UI Components
+
+              Product Photo Card
+              Form Field
+              Form Field Error
+              Modal
+              Button
+
+              https://invis.io/5PFLHMPDC3K#/277250185_Home
+-->
+
+            </div>
+          </div>
+          <div class="col"></div>          
+        </div>
+      </div>
+    </section>
+
+    <section class="pt-0 pb-0">
+      <div class="container text-center d-block">
+        <div class="row">
+          <div class="col">
+            <a class="btn btn-primary btn-xl sr-button mb-5" href="images/portfolio-layer2/layer2-brand-guidelines.pdf" target="_blank" rel="noopener">Download The Style Guide</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+        <section class="about-component bg-primary">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <h2 class="section-heading text-white">Chris Gurney</h2>
+            <hr class="light my-4">
+            <p class="text-faded mb-4">I'm a Toronto-based product designer and former product manager who has toured the tech industry with a background in computer science, across a broad range of roles.</p>
+            <a class="btn btn-light btn-xl js-scroll-trigger" href="about.html">About Me</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+        <section class="p-0" id="work">
+      <div class="container-fluid p-0">
+        <div class="row no-gutters">
+<!--           <div class="col-md-3 col-sm-6 col-12" style="background-image: url('images/portfolio/thumbnails/1.jpg'); background-size: 100% auto;"> -->
+          <div class="col-lg-4 col-sm-6 col-12" style="background-image: url('images/portfolio/thumbnails/1.jpg'); background-size: 100% auto;">         
+            <a class="portfolio-box" href="fuzzies.html">
+              <img class="img-fluid" src="images/portfolio/thumbnails/1.jpg" alt="Fuzzies logo and app screenshot.">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Case Study
+                  </div>
+                  <div class="project-name">
+                    Concept for a gratitude journal&nbsp;app.&nbsp;&rarr;
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6 col-12">
+            <a class="portfolio-box" href="switch-connect.html">
+              <img class="img-fluid" src="images/portfolio/thumbnails/2.jpg" alt="Switch Connect logo and app screenshot.">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Prototype
+                  </div>
+                  <div class="project-name">
+                    Concept for a community for Nintendo Switch&trade; owners. &rarr;
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6 col-12">
+            <a class="portfolio-box" href="layer2.html">
+              <img class="img-fluid" src="images/portfolio/thumbnails/3.jpg" alt="Layer 2 logo and branding screenshot.">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Brand Concept
+                  </div>
+                  <div class="project-name">
+                    Branding concept for an urban outdoor clothing company. &rarr;
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6 col-12">
+            <a class="portfolio-box" href="https://github.com/chrisgurney/profile-collage" target="_blank" rel="noopener">
+              <img class="img-fluid" src="images/portfolio/thumbnails/5.jpg" alt="Screenshot of Profile Collage prototype.">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Prototype
+                  </div>
+                  <div class="project-name">
+                    Employee profile carousel. <i class="fa fa-external-link"></i>
+                  </div>
+                </div>
+              </div>              
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6 col-12">
+            <a class="portfolio-box" href="dailyui.html">
+              <img class="img-fluid" src="images/portfolio/thumbnails/dailyui-001.jpg" alt="Screenshot of Profile Collage prototype.">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Daily UI
+                  </div>
+                  <div class="project-name">
+                    Sign Up form. &rarr;</i>
+                  </div>
+                </div>
+              </div>              
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6 col-12">
+            <a class="portfolio-box" href="dailyui.html">
+              <img class="img-fluid" src="images/portfolio/thumbnails/dailyui-002.jpg" alt="Screenshot of Profile Collage prototype.">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Daily UI
+                  </div>
+                  <div class="project-name">
+                    Credit Card Checkout Form &rarr;</i>
+                  </div>
+                </div>
+              </div>              
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+        <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <h2 class="section-heading">Get in touch!</h2>
+            <p class="my-4"><a href="mailto:chris@chrisgurney.ca"><span class="underline-anim" style="display: inline-block;">chris@chrisgurney.ca</span></a></p>
+          </div>          
+        </div>
+        <div class="row pt-5">
+          <div class="col d-md-block d-none"></div>
+          <div class="col-md-2 col-4 text-center">
+            <a href="https://www.linkedin.com/in/chrisgurney/" target="_blank" rel="noopener">
+              <span class="underline-anim" style="display: inline-block;">
+                <i class="fa fa-linkedin fa-3x mb-3 sr-contact"></i><br/>LinkedIn
+              </span>
+            </a>
+          </div>
+          <div class="col-md-2 col-4 text-center">
+            <a href="https://dribbble.com/chrisgurney" target="_blank" rel="noopener">
+              <span class="underline-anim" style="display: inline-block;">
+                <i class="fa fa-dribbble fa-3x mb-3 sr-contact"></i><br/>Dribbble
+              </span>
+            </a>
+           </div>          
+          <div class="col-md-2 col-4 text-center">
+            <a href="https://github.com/chrisgurney" target="_blank" rel="noopener">
+              <span class="underline-anim" style="display: inline-block;">
+                <i class="fa fa-github fa-3x mb-3 sr-contact"></i><br/>GitHub
+              </span>
+            </a>
+           </div>
+          <div class="col d-md-block d-none"></div>
+        </div>
+      </div>
+    </section>
+
+    <div class="container">
+      <div class="footer">
+        <p class="float-left">
+           Credits: Image from Alice Donovan Rouse via Unsplash. &nbsp;
+        </p>
+        <p class="float-lg-right float-left pb-2">
+           <a class="external" style="border-bottom: 1px dotted" href="https://github.com/chrisgurney/chrisgurney.ca" target="_blank" rel="noopener">Coded by me.</a> Adapted from <a class="external" href="https://startbootstrap.com" target="_blank" rel="noopener">Start Bootstrap</a>.
+        </p>
+        <div class="clearfix">
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="vendor/jquery-match-height/jquery.matchHeight-min.js"></script>    
+    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/creative.min.js"></script>
+
+  </body>
+
+</html>
