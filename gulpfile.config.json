@@ -1,0 +1,31 @@
+{
+  "src": {
+  	"base": "src/",
+  	"css": "src/css/**/*",
+  	"html": "src/**.html",
+		"includes": "src/includes",
+  	"images": [
+  		"src/images/**/*"
+  	],    
+  	"js": "src/js/**/*",
+    "metaFiles": [
+      "src/.htaccess",
+      "src/chrisgurney-resume.pdf",
+      "src/favicon.png",
+      "src/manifest.json",
+      "src/pinterest-7fcd1.html",
+      "src/sw.js"
+    ],    
+  	"test": "src/mdtest/**.html",
+ 		"vendor": "src/vendor/**/*"
+  },
+  "output": {
+   	"base": "dist/",
+   	"css": "dist/css",
+  	"html": "dist/",
+  	"images": "dist/images/",
+  	"js": "dist/js/",  	
+  	"test": "dist/mdtest",
+  	"vendor": "dist/vendor"
+  }
+}

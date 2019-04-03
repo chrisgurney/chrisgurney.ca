@@ -7,39 +7,11 @@ var Uglify = require('gulp-uglify');
 var Rename = require('gulp-rename');
 var Rsync = require('gulp-rsync');
 
-/* ***** */
-/* Paths */
-/* ***** */
+/* ************* */
+/* Configuration */
+/* ************* */
 
-var paths = {
-  src: {
-  	base: 'src/',
-  	css: 'src/css/**/*',
-  	html: 'src/index.html',
-  	favicon: 'src/favicon.png',
-  	htaccess: 'src/.htaccess',  	
-  	html: 'src/**.html',
-		includes: 'src/includes',  	
-  	images: [
-  		'src/images/**/*'
-  	],  	
-  	js: 'src/js/**/*',
-  	manifest: 'src/manifest.json',
-  	resume: 'src/chrisgurney-resume.pdf',  	
-  	sw: 'src/sw.js',
-  	test: 'src/mdtest/**.html',
- 		vendor: 'src/vendor/**/*',
-  },
-  output: {
-   	base: 'dist/',
-   	css: 'dist/css',
-  	html: 'dist/',
-  	images: 'dist/images/',
-  	js: 'dist/js/',  	
-  	test: 'dist/mdtest',
-  	vendor: 'dist/vendor',	
-  }
-}
+var paths = require('./gulpfile.config.json');
 
 /* ***** */
 /* Tasks */
@@ -105,16 +77,9 @@ Gulp.task('copy-css', function(done) {
 
 });
 
-Gulp.task('copy-favicon', function(done) {
+Gulp.task('copy-meta', function(done) {
 
-	return Gulp.src(paths.src.favicon)
-		.pipe(Gulp.dest(paths.output.base));
-
-});
-
-Gulp.task('copy-htaccess', function(done) {
-
-	return Gulp.src(paths.src.htaccess)
+	return Gulp.src(paths.src.metaFiles, {dot: true})
 		.pipe(Gulp.dest(paths.output.base));
 
 });
@@ -137,27 +102,6 @@ Gulp.task('copy-js', function(done) {
 
 	return Gulp.src(paths.src.js)
 		.pipe(Gulp.dest(paths.output.js));
-
-});
-
-Gulp.task('copy-manifest', function(done) {
-
-	return Gulp.src(paths.src.manifest)
-		.pipe(Gulp.dest(paths.output.base));
-
-});
-
-Gulp.task('copy-resume', function(done) {
-
-	return Gulp.src(paths.src.resume)
-		.pipe(Gulp.dest(paths.output.base));
-
-});
-
-Gulp.task('copy-sw', function(done) {
-
-	return Gulp.src(paths.src.sw)
-		.pipe(Gulp.dest(paths.output.base));
 
 });
 
@@ -200,15 +144,11 @@ Gulp.task('clean', function(done) {
 
 Gulp.task('build',
 	Gulp.series(
-		'minify-css',		
-		'copy-favicon',
+		'minify-css',
 		'include-html',
-		'copy-htaccess',		
+		'copy-meta',
 		'copy-images',
-		'minify-js',			
-		'copy-manifest',
-		'copy-resume',		
-		'copy-sw',
+		'minify-js',
 		'copy-vendor'			
 	),
 	function(done) {
