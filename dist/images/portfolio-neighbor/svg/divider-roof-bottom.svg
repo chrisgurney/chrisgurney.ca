@@ -1,0 +1,20 @@
+<svg preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 1440 131" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<defs>
+    <pattern id="circles-1" patternUnits="userSpaceOnUse" width="5" height="5">
+      <image xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxMCcgaGVpZ2h0PScxMCc+CiAgPHJlY3Qgd2lkdGg9JzEwJyBoZWlnaHQ9JzEwJyBmaWxsPScjZmZmJyAvPgogIDxjaXJjbGUgY3g9IjEiIGN5PSIxIiByPSIxIiBmaWxsPSIjMDAwIi8+Cjwvc3ZnPg=="
+        x="0" y="0" width="5" height="5">
+      </image>
+    </pattern>
+  </defs>	
+	<linearGradient id="a" x1="50%" x2="50%" y1="100%" y2="5.724364%">
+		<stop offset="0" stop-color="#fff"/>
+		<stop offset="1" stop-color="#fff" stop-opacity="0"/>
+	</linearGradient>
+	<mask id="b" fill="#fff">
+		<path d="m0 132v-21.479361c377.2742-60.1176491 589.234849-93.9578622 635.881944-101.520639 69.970644-11.34416521 89.969566-11.34416521 165.709508 0 50.493295 7.5627768 263.962808 41.4029899 640.408548 101.520639v21.479361z" fill="url(#circles-1)" fill-rule="evenodd"/>
+	</mask>
+	<g fill="none" fill-rule="evenodd">
+		<path d="m0-5h1442v137h-1442z" fill="url(#a)" mask="url(#b)" transform="translate(-1)"/>
+		<path d="m-1 171.998124v-21.479361c377.2742-60.1176491 589.234849-93.9578623 635.881944-101.5206391 69.970644-11.3441652 89.969566-11.3441652 165.709508 0 50.493295 7.5627768 263.962808 41.40299 640.408548 101.5206391v21.479361z" fill="#fff" fill-opacity=".6"/>
+	</g>
+</svg>
