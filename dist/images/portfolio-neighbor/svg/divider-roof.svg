@@ -1,0 +1,14 @@
+<svg preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 1600 175" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<linearGradient id="a" x1="50%" x2="50%" y1="96.025422%" y2="0%">
+		<stop offset="0" stop-color="#fff"/>
+		<stop offset="1" stop-color="#fff" stop-opacity=".504371"/>
+	</linearGradient>
+	<linearGradient id="b" x1="50%" x2="50%" y1="0%" y2="96.969834%">
+		<stop offset="0" stop-color="#fff"/>
+		<stop offset="1" stop-color="#fff"/>
+	</linearGradient>
+	<g fill="none" fill-rule="nonzero">
+		<path d="m1215.68627 83.8799478 385.31373 77.4385682v14.681484h-1602v-14.681484l799.321955-161.318516 260.501575 52.3543998v-52.3543998h156.86274z" fill="url(#a)"/>
+		<path d="m1215.68627 115.879948 385.31373 77.438568v14.681484h-1602v-14.681484l799.321955-161.318516 260.501575 52.3543998v-52.3543998h156.86274z" fill="url(#b)"/>
+	</g>
+</svg>
