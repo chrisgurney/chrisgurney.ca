@@ -55,8 +55,36 @@
     <!-- Custom styles for this template -->
     <link href="css/creative.min.css" rel="stylesheet">
 
-    <!-- FullStory & Google Analytics-->
+    <!-- Drift Async Code -->
+    <script>
+    "use strict";
+
+    !function() {
+      var t = window.driftt = window.drift = window.driftt || [];
+      if (!t.init) {
+        if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+        t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+        t.factory = function(e) {
+          return function() {
+            var n = Array.prototype.slice.call(arguments);
+            return n.unshift(e), t.push(n), t;
+          };
+        }, t.methods.forEach(function(e) {
+          t[e] = t.factory(e);
+        }), t.load = function(t) {
+          var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+          o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+          var i = document.getElementsByTagName("script")[0];
+          i.parentNode.insertBefore(o, i);
+        };
+      }
+    }();
+    </script>
+
+    <!-- Google Analytics-->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-137570047-1"></script>
+
+    <!-- Load scripts if not on localhost -->
     <script>
         var host = window.location.host;
         if ((host.indexOf("localhost") == -1) && 
@@ -84,6 +112,11 @@
             gtag('js', new Date());
 
             gtag('config', 'UA-137570047-1');
+
+            // Drift
+            drift.SNIPPET_VERSION = '0.3.1';
+            drift.load('nte2xame32yz');
+
         }
     </script>
 
@@ -176,16 +209,14 @@
           </div>
           <div class="row text-center">
             <p class="figure-caption mx-auto">
-              Old and new Neighbor logos.
-            </p>
-            <p class="figure-caption mx-auto">
+              Old and new Neighbor logos.<br/>
               Goals: Make the brand and colors more lively, increase contrast.
             </p>            
           </div>
         </div>
       </div>
 
-      <div class="row">
+      <div class="row article-post">
         <div class="col-md-8 col-sm-10 col-12 mx-auto">
           <div class="card mt-5 mb-4 sr-card">
             <div class="card-body">
@@ -353,12 +384,15 @@
   </section>
 
   <section class="py-0">      
-    <div class="container-fluid px-0">
+    <div class="container-fluid px-0 text-center">
       <picture>
         <source class="img-fluid" media="(min-width:576px)" srcset="images/portfolio-neighbor/sales-deck-3d.webp" alt="Neighbor sales deck in an isometric layout" type="image/webp"/>
         <source class="img-fluid" media="(max-width:575px)" srcset="images/portfolio-neighbor/sales-deck-sm.jpg" alt="Neighbor sales deck in an isometric layout" type="image/jpeg"/>
-        <img class="img-fluid" media="(min-width:576px)" src="images/portfolio-neighbor/sales-deck-3d.jpg" alt="Neighbor sales deck in an isometric layout" type="image/jpeg"/>
+        <img class="img-fluid" media="(min-width:576px)" src="images/portfolio-neighbor/sales-deck-3d-bg.jpg" alt="Neighbor sales deck in an isometric layout" type="image/jpeg"/>
       </picture>
+      <p class="figure-caption pt-5">
+        Sales deck.
+      </p>       
     </div>    
   </section>
 
