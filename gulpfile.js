@@ -147,7 +147,10 @@ Gulp.task('watch:css', function(done) {
 
 Gulp.task('watch:html', function(done) {
 
-	return Gulp.watch(paths.src.html, 
+	return Gulp.watch([
+			paths.src.html, 
+			paths.src.includes + "/**/*.html"
+		], 
 		Gulp.series('build:html'));
 
 });
