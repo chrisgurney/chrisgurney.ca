@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Chris Gurney - Designer++;</title>
+
+    <!-- startup configuration per https://w3c.github.io/manifest/ -->
+    <link rel="manifest" href="manifest.json" />
+
+    <!-- Browser bar color - Chrome, Firefox OS and Opera + IE + Safari -->
+    <meta name="theme-color" content="#FE9B27">
+    <meta name="msapplication-navbutton-color" content="#FE9B27">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#FE9B27">
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <link rel="apple-touch-icon" href="images/touch/chrisgurney_120.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="images/touch/chrisgurney_152.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="images/touch/chrisgurney_180.png" />
+    <link rel="apple-touch-icon" sizes="167x167" href="images/touch/chrisgurney_167.png" />
+
+    <!-- Metadata -->
+    <link rel="icon" type="image/png" href="favicon.png">
+    <meta name="author" content="Chris Gurney" />    
+    <meta name="description" content="Chris Gurney, product designer based in Toronto, Canada." />
+
+    <meta itemprop="thumbnailUrl" content="https://www.chrisgurney.ca/images/touch/chrisgurney_512.png"/>
+    <link rel="image_src" href="https://www.chrisgurney.ca/images/chrisgurney.jpg" />
+    <meta itemprop="image" content="https://www.chrisgurney.ca/images/chrisgurney.jpg"/>
+
+    <meta property="og:title" content="Chris Gurney" />
+    <meta property="og:description" content="Chris Gurney, product designer based in Toronto, Canada." />
+    <meta property="og:image" content="https://www.chrisgurney.ca/images/share-banner.png" />
+    <meta property="og:url" content="https://www.chrisgurney.ca/" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Chris Gurney" />
+    <meta name="twitter:description" content="Chris Gurney, product designer based in Toronto, Canada." />
+    <meta name="twitter:image" content="https://www.chrisgurney.ca/images/share-banner.png" />
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/creative.min.css" rel="stylesheet">
+
+    <!-- Drift Async Code -->
+    <script>
+    "use strict";
+
+    !function() {
+      var t = window.driftt = window.drift = window.driftt || [];
+      if (!t.init) {
+        if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+        t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+        t.factory = function(e) {
+          return function() {
+            var n = Array.prototype.slice.call(arguments);
+            return n.unshift(e), t.push(n), t;
+          };
+        }, t.methods.forEach(function(e) {
+          t[e] = t.factory(e);
+        }), t.load = function(t) {
+          var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+          o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+          var i = document.getElementsByTagName("script")[0];
+          i.parentNode.insertBefore(o, i);
+        };
+      }
+    }();
+    </script>
+
+    <!-- Google Analytics-->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-137570047-1"></script>
+
+    <!-- Load scripts if not on localhost -->
+    <script>
+        var host = window.location.host;
+        if ((host.indexOf("localhost") == -1) && 
+            (host.indexOf("ngrok.io") == -1)) {
+
+            // FullStory
+            window['_fs_debug'] = false;
+            window['_fs_host'] = 'fullstory.com';
+            window['_fs_org'] = 'BB5X9';
+            window['_fs_namespace'] = 'FS';
+            (function(m,n,e,t,l,o,g,y){
+                if (e in m) {if(m.console && m.console.log) { m.console.log('FullStory namespace conflict. Please set window["_fs_namespace"].');} return;}
+                g=m[e]=function(a,b){g.q?g.q.push([a,b]):g._api(a,b);};g.q=[];
+                o=n.createElement(t);o.async=1;o.src='https://'+_fs_host+'/s/fs.js';
+                y=n.getElementsByTagName(t)[0];y.parentNode.insertBefore(o,y);
+                g.identify=function(i,v){g(l,{uid:i});if(v)g(l,v)};g.setUserVars=function(v){g(l,v)};
+                y="rec";g.shutdown=function(i,v){g(y,!1)};g.restart=function(i,v){g(y,!0)};
+                g.identifyAccount=function(i,v){o='account';v=v||{};v.acctId=i;g(o,v)};
+                g.clearUserCookie=function(){};
+            })(window,document,window['_fs_namespace'],'script','user');
+
+            // Google Analytics
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-137570047-1');
+
+            // Drift
+            drift.SNIPPET_VERSION = '0.3.1';
+            drift.load('nte2xame32yz');
+
+        }
+    </script>
+
+  </head>
+
+  <body id="page-top">
+
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand  js-scroll-trigger" href="index.html"><img src="images/cg-logo.svg" style="height: 1.8rem" alt="Chris Gurney logo"/></a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarFull" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="container-fluid collapse" id="navbarFull">
+          <div class="menu-full">
+            <ul class="menu-nav">
+              <li>
+                <a class="nav-link js-scroll-trigger" href="/">work</a>
+              </li>
+              <li>
+                <a class="nav-link js-scroll-trigger" href="/about.html" href="#">about</a>
+              </li>
+              <li>
+                <a class="nav-link js-scroll-trigger" href="#contact">contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>    
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link underline-anim  js-scroll-trigger" href="/">work</a>
+            </li>           
+            <li class="nav-item">
+              <a class="nav-link underline-anim  js-scroll-trigger" href="/about.html">about</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link underline-anim  js-scroll-trigger" href="#contact">contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+<header class="portfolio neighbor text-center text-white d-flex">
+  <div class="container my-auto sr-card">
+    <div class="row">
+      <div class="col-lg-10 mx-auto mb-2">
+        <p class="category">Brand + UX/UI Design</p>            
+        <img style="height: 3.5rem" src="images/portfolio-neighbor/svg/neighbor-logo-light.svg" alt="Neighbor logo."/>
+      </div>
+      <div class="col-lg-8 mx-auto">     
+        <p class="mb-5">Consumer-First Billing</p>
+      </div>
+    </div>
+  </div>
+  <!-- Start page content link -->
+  <a class="show-more js-scroll-trigger" href="#page-content">
+    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="53px" height="20px" viewBox="0 0 53 20" enable-background="new 0 0 53 20" xml:space="preserve">
+      <g>
+        <polygon points="26.5,17.688 9.114,3.779 10.303,2.312 26.5,15.269 42.697,2.313 43.886,3.779" fill="#fff"></polygon>
+      </g>
+    </svg> 
+  </a>      
+  <!-- End page content link -->       
+</header>
+
+<main role="main">
+
+  <section id="page-content" class="pt-md-5 pt-0 pb-0">
+    <div class="container">
+
+      <div class="row article-post mb-5">
+        <div class="my-auto col-lg-6 col-12 order-lg-1 order-2">
+          <h1 class="mt-0">Background</h1>
+          <p>
+            Neighbor is a consumer billing platform that our team launched in three months, from concept to production. As head of design, I was responsible for the UX and UI for the entire platform, our bills, and email designs.
+          </p>
+          <p>
+            Once the first release was out the door, we then re-launched our website to sell what we had built, and to attract employees to the company. In so doing, I identified the need to refresh the brand, but only had a week to develop our new look.
+          </p>
+          <p>
+            This is the story of Neighbor.
+          </p>                      
+        </div>
+
+        <div class="col-lg-6 col-12 pt-lg-0 pt-5 text-center order-lg-2 order-1">
+          <div class="row mx-auto">
+            <img class="img-fluid" src="images/portfolio-neighbor/svg/brand-logo-old-v-new.svg" alt="Old and new Neighbor logos." />
+          </div>
+          <div class="row text-center">
+            <p class="figure-caption mx-auto">
+              Old and new Neighbor logos.<br/>
+              Goals: Make the brand and colors more lively, increase contrast.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row article-post">
+        <div class="col-md-8 col-sm-10 col-12 mx-auto">
+          <div class="card mt-5 mb-4 sr-card">
+            <div class="card-body">
+              <div class="container py-0 my-0">
+                <div class="row">
+                  <div class="col-sm">
+                    <h6>My Role</h6>                          
+                    UX/UI Design.<br/>Brand development and implementation.
+                  </div>                      
+                  <div class="col-sm">
+                    <div class="container px-0">
+                      <div class="row">
+                        <div class="col-sm">
+                          <h6>Deliverables</h6>
+                          UI designs. For brand: Logo, colors, sales deck, business cards, web site, and brand guidelines.
+                        </div> 
+                      </div>                          
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>              
+          </div>
+        </div>
+      </div>
+
+    </div>           
+  </section>
+
+  <section class="py-0">
+    <div class="text-center d-flex">
+      <!-- skyline divider -->
+      <svg class="banner-divider-bottom" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 1154 194" xmlns="http://www.w3.org/2000/svg">
+        <path d="m1166.89008 2107.41497h14.10992v72.58503h-1181v-117.45578c49.8409809-45.05957 76.3326646-69.29504 79.4750509-72.70642 4.7135796-5.11707 11.9121252-5.11707 17.2486693 0 3.5576958 3.41138 30.1077738 27.64685 79.6502348 72.70642v-27.71429h211.648745v72.58504h46.562724c13.955475-12.43023 21.373146-19.11588 22.253014-20.05695 1.319803-1.4116 3.335395-1.4116 4.829628 0 .996155.94107 8.430177 7.62672 22.302065 20.05695h45.151733v-25.07483c39.872785-38.06757 61.066131-58.54237 63.580041-61.42439 3.770863-4.32304 9.5297-4.32304 13.798935 0 2.846157 2.88202 24.086219 23.35682 63.720187 61.42439 39.872785-38.06757 61.066132-58.54237 63.580041-61.42439 3.770864-4.32304 9.5297-4.32304 13.798936 0 2.846157 2.88202 24.086219 23.35682 63.720187 61.42439v-47.51021h114.290323v27.71429c49.840981-45.05957 76.332666-69.29504 79.475046-72.70642 4.71358-5.11707 11.91213-5.11707 17.24867 0 3.5577 3.41138 30.10778 27.64685 79.65024 72.70642v44.87075h15.52091c13.95547-12.43023 21.37314-19.11588 22.25301-20.05695 1.3198-1.4116 3.3354-1.4116 4.82963 0 .99615.94107 8.43017 7.62672 22.30206 20.05695z" fill="#F3FFF4" fill-rule="evenodd" transform="translate(-10 -1986)"/>
+      </svg>
+   </div>
+  </section>
+
+  <section class="py-md-5 py-4" style="background-color: #F3FFF4">
+    <div class="container">
+      <div class="row article-post">
+        <div class="col-md-4 col-12 mx-auto my-auto">
+          <p>
+            Our new colors were inspired by the colors of the neighborhood: grass, sky, brick, and concrete.
+          </p>          
+        </div>          
+        <div class="col-md-8 col-12 text-center mx-auto"> 
+          <picture>
+            <source class="img-fluid" media="(min-width:576px)" srcset="images/portfolio-neighbor/colors-new-3d.webp"  alt="The colors of Neighbor" type="image/webp"/>                
+            <img class="img-fluid mb-5" src="images/portfolio-neighbor/colors-new-3d.png" alt="The colors of Neighbor" type="image/png"/>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-0">
+    <div class="banner-image banner-fixed text-center d-flex" style="background-image: url('images/portfolio-neighbor/logo-sketches.jpg'); background-position: center top;">
+      <!-- wave divider -->
+      <svg class="banner-divider-top d-sm-block d-none" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 1440 107" xmlns="http://www.w3.org/2000/svg" role="presentation">
+        <g fill="#F3FFF4" fill-rule="evenodd">
+          <path d="m-1-4h1442v70.1151853c-243.09888 42.5130867-483.432209 42.5130867-721 0-237.567791-42.5130862-477.901124-42.5130862-721 0z" fill-opacity=".5"/>
+          <path d="m-1-1h1442v45.1151853c-243.09888 42.5130863-483.432209 42.5130863-721 0-237.567791-42.51308621-477.901124-42.51308621-721 0z"/>
+        </g>
+      </svg>      
+      <img class="banner-divider-bottom" src="images/portfolio-neighbor/svg/divider-roof.svg" role="presentation"/>
+    </div>
+  </section> 
+
+  <section class="py-0">
+    <div class="container pt-0 pb-sm-5 pb-0">
+      <div class="row">
+        <div class="col-md-8 col-12 article-post text-center mx-auto">
+          <h1>Logo</h1>              
+          <img class="img-fluid pt-5 pb-5 d-sm-block d-none" src="images/portfolio-neighbor/svg/logo-variations.svg" alt="Variations of the logo." />
+          <img class="img-fluid pt-5 pb-5 d-sm-none d-block" src="images/portfolio-neighbor/svg/logo-variations-mobile.svg" alt="Variations of the logo." /> 
+          <p class="figure-caption">
+            Initial concepts resulted in these six variations: Some followed a house theme, others played off of the N shape (or both), to the abstract.
+          </p>                        
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="pt-md-5 pt-0">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-12 mx-auto text-center pt-md-0 pt-5 mt-md-0 mt-5">
+          <img class="img-fluid" src="images/portfolio-neighbor/gif/roof-angle.gif" alt="Animation showing the logo as if the roof angle was 26 degrees versus 45 degrees."/>
+          <p class="figure-caption">
+            The average roof pitch in our target geography is apparently 26 degrees. Increasing this to 45 degrees makes for a more apparent N shape and more compact logo.
+          </p>          
+        </div>
+        <div class="col-lg-6 col-12 mx-auto pt-md-0 pt-5 mt-md-0 mt-5">
+          <img class="img-fluid" src="images/portfolio-neighbor/svg/logo-details.svg" alt="Large version of Neighbor logo with captions pointing out its house shape, shadow, how it forms the letter N, and how its color strips could represent a neighborhood."/>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-0">
+    <div class="container-fluid text-center">
+      <picture>
+        <source class="img-fluid" media="(min-width:576px)" srcset="images/portfolio-neighbor/svg/divider-type.svg" alt="Typography" type="image/svg+xml"/>
+        <img class="img-fluid" media="(max-width:575px)" src="images/portfolio-neighbor/svg/divider-type-sm.svg" alt="Typography" type="image/svg+xml"/>        
+      </picture>
+   </div>
+  </section> 
+
+  <section class="py-md-5 py-4" style="background-color: #EEE">
+    <div class="container my-md-5 my-0">
+      <div class="row">
+        <div class="text-center mx-auto">
+          <picture>
+            <source class="img-fluid" media="(min-width:576px)" srcset="images/portfolio-neighbor/svg/logo-type-variations.svg" alt="Variations on typeography for the logo: Lowercase, script, and uppercase treatments of Neighbor." type="image/svg+xml"/>
+            <img class="img-fluid" media="(max-width:575px)" src="images/portfolio-neighbor/svg/logo-type-variations-sm.svg" alt="Variations on typeography for the logo: Lowercase, script, and uppercase treatments of Neighbor." type="image/svg+xml"/>            
+          </picture>
+          <p class="figure-caption">
+            Variations on typography. The old logo used Comfortaa. After trying various options, the friendly tone of Comfortaa continued to fit the brand.
+          </p>
+        </div>
+      </div>     
+    </div>
+  </section>
+
+  <section class="py-md-5 py-4">
+    <div class="container-fluid py-5">
+      <div class="row">
+        <div class="col-md-10 col-12 mx-auto"> 
+          <div class="text-center">             
+            <img class="img-fluid d-sm-block d-none pb-5" src="images/portfolio-neighbor/svg/brand-logo-final.svg" alt="Final versions of the logo." />
+            <img class="img-fluid d-sm-none d-block pb-5" src="images/portfolio-neighbor/svg/brand-logo-final-mobile.svg" alt="Final versions of the logo." />
+            <p class="figure-caption">
+              The final logo.
+            </p>                       
+          </div>
+        </div>
+      </div>      
+    </div>
+  </section>
+
+  <section class="pt-0">
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-lg-4 col-12 mx-auto">
+          <img class="img-fluid" src="images/portfolio-neighbor/gif/logo-move.gif" alt="Animation showing the Neighbor symbol and wordmark coming together as neighbors. The symbol transforms from a letter N to its final logo shape."/>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-md-5 py-4" style="background-image: linear-gradient(135deg, rgba(27, 150, 83, 1), rgba(20, 143, 133, 1))">
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-10 mx-auto text-center">
+          <picture>
+            <source class="img-fluid" media="(min-width:576px)" srcset="images/portfolio-neighbor/svg/business-cards.svg" alt="Front and back of Neighbor's business cards, showing a contact on one side and the Neighbor logo and tagline on the other." type="image/svg+xml"/>
+            <img class="img-fluid" media="(max-width:575px)" srcset="images/portfolio-neighbor/svg/business-cards-sm.svg" alt="Front and back of Neighbor's business cards, showing a contact on one side and the Neighbor logo and tagline on the other." type="image/svg+xml"/>
+          </picture>
+          <p class="figure-caption text-white">
+            Business cards.
+          </p>           
+        </div>
+      </div>   
+    </div>
+  </section>
+
+  <section class="py-0">      
+    <div class="container-fluid px-0 text-center">
+      <picture>
+        <source class="img-fluid" media="(min-width:576px)" srcset="images/portfolio-neighbor/sales-deck-3d.webp" alt="Neighbor sales deck in an isometric layout" type="image/webp"/>
+        <source class="img-fluid" media="(max-width:575px)" srcset="images/portfolio-neighbor/sales-deck-sm.jpg" alt="Neighbor sales deck in an isometric layout" type="image/jpeg"/>
+        <img class="img-fluid" media="(min-width:576px)" src="images/portfolio-neighbor/sales-deck-3d-bg.jpg" alt="Neighbor sales deck in an isometric layout" type="image/jpeg"/>
+      </picture>
+      <p class="figure-caption pt-5">
+        Sales deck.
+      </p>       
+    </div>    
+  </section>
+
+  <section class="pb-0 pt-md-5 pt-4">
+    <div class="container-fluid py-5 px-0">
+      <picture>
+        <source class="img-fluid" media="(min-width:576px)" srcset="images/portfolio-neighbor/screen-desk-lg.webp" alt="Screenshot of Neighbor on a desk with a keyboard, cup of coffee, and a small plant" type="image/webp"/>
+        <source class="img-fluid" media="(max-width:575px)" srcset="images/portfolio-neighbor/screen-desk-sm.jpg" alt="Screenshot of Neighbor on a desk with a keyboard, cup of coffee, and a small plant" type="image/jpeg"/>                 
+        <img class="img-fluid" media="(min-width:576px)" src="images/portfolio-neighbor/screen-desk-lg.jpg" alt="Screenshot of Neighbor on a desk with a keyboard, cup of coffee, and a small plant" type="image/jpeg"/>
+      </picture>
+    </div>
+  </section>
+
+  <section class="pb-0 pt-md-5 pt-4">
+    <div class="container">
+      <div class="row article-post">
+        <div class="col-sm-4 col-6 mx-auto text-center order-lg-1 order-2 my-sm-0 my-5"> 
+          <img class="img-fluid" src="images/portfolio-neighbor/svg/bill-vector.svg" alt="Simplified version of the Neighbor bills." role="presentation"> 
+        </div>
+        <div class="col-sm-8 col-12 mx-auto order-lg-2 order-1"> 
+          <h1 class="mt-sm-0 mt-5">Bill Design</h1> 
+          <p>
+            The goals of the bills generated by the system were to convey multiple types of services, be easy to understand, be brandable, and minimize calls to support.
+          </p>           
+        </div>        
+      </div>
+    </div>
+    <div class="container-fluid">
+      <picture>
+        <source class="img-fluid" media="(min-width:576px)" srcset="images/portfolio-neighbor/bills.webp" alt="Various branded bills generated by Neighbor" type="image/webp"/>         
+        <img class="img-fluid" media="(min-width:576px)" src="images/portfolio-neighbor/bills.jpg" alt="Various branded bills generated by Neighbor" type="image/jpeg"/>
+      </picture>
+    </div>
+  </section>
+
+  <section class="neighbor-footer">
+    <div class="banner-image banner-fixed text-center d-flex">
+      <div class="row my-auto mx-auto mb-5">
+        <div class="col-md-6 col-10 mx-auto mb-5">
+          <img class="img-fluid" src="images/portfolio-neighbor/svg/neighbor-logo-light.svg" alt="Neighbor logo."/>
+          <img class="img-fluid" src="images/portfolio-neighbor/svg/logo-tagline-light.svg" alt="Tagline: Consumer-first billing."/>              
+        </div>
+      </div>          
+      <img class="banner-divider-bottom" src="images/portfolio-neighbor/svg/divider-skyline.svg" role="presentation"/>
+    </div>
+  </section>      
+
+      <section class="about-component bg-primary">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <h2 class="section-heading text-white">Chris Gurney</h2>
+            <hr class="light my-4">
+            <p class="text-faded mb-4">I'm a Toronto-based product designer and former product manager who has toured the tech industry with a background in computer science, across a broad range of roles.</p>
+            <a class="btn btn-light btn-xl js-scroll-trigger" href="about.html">About Me</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+      <section class="p-0" id="work">
+      <div class="container-fluid p-0">
+        <div class="row no-gutters">
+<!--           <div class="col-md-3 col-sm-6 col-12" style="background-image: url('images/portfolio/thumbnails/1.jpg'); background-size: 100% auto;"> -->
+          <div class="col-lg-4 col-sm-6 col-12" style="background-image: url('images/portfolio/thumbnails/neighbor.jpg'); background-size: 100% auto;">         
+            <a class="portfolio-box" href="neighbor-brand.html">
+              <img class="img-fluid" src="images/portfolio/thumbnails/neighbor.jpg" alt="Neighbor: Consumer-First Billing">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Brand + UX/UI Design
+                  </div>
+                  <div class="project-name">
+                    Designing a brand and UX for a billing platform that was conceived and launched within three months.&nbsp;&rarr;
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>  
+          <div class="col-lg-4 col-sm-6 col-12" style="background-image: url('images/portfolio/thumbnails/1.jpg'); background-size: 100% auto;">         
+            <a class="portfolio-box" href="fuzzies.html">
+              <img class="img-fluid" src="images/portfolio/thumbnails/1.jpg" alt="Fuzzies logo and app screenshot.">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Case Study
+                  </div>
+                  <div class="project-name">
+                    Concept for a gratitude journal&nbsp;app.&nbsp;&rarr;
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6 col-12">
+            <a class="portfolio-box" href="switch-connect.html">
+              <img class="img-fluid" src="images/portfolio/thumbnails/2.jpg" alt="Switch Connect logo and app screenshot.">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Prototype
+                  </div>
+                  <div class="project-name">
+                    Concept for a community for Nintendo Switch&trade; owners. &rarr;
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6 col-12">
+            <a class="portfolio-box" href="layer2.html">
+              <img class="img-fluid" src="images/portfolio/thumbnails/3.jpg" alt="Layer 2 logo and branding screenshot.">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Brand Concept
+                  </div>
+                  <div class="project-name">
+                    Branding concept for an urban outdoor clothing company. &rarr;
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6 col-12">
+            <a class="portfolio-box" href="https://github.com/chrisgurney/profile-collage" target="_blank" rel="noopener">
+              <img class="img-fluid" src="images/portfolio/thumbnails/5.jpg" alt="Screenshot of Profile Collage prototype.">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Prototype
+                  </div>
+                  <div class="project-name">
+                    Employee profile carousel. <i class="fa fa-external-link"></i>
+                  </div>
+                </div>
+              </div>              
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6 col-12">
+            <a class="portfolio-box" href="dailyui.html">
+              <img class="img-fluid" src="images/portfolio/thumbnails/dailyui-001.jpg" alt="Screenshot of Profile Collage prototype.">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Daily UI
+                  </div>
+                  <div class="project-name">
+                    Sign Up form. &rarr;</i>
+                  </div>
+                </div>
+              </div>              
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+      <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <h2 class="section-heading">Get in touch!</h2>
+            <p class="my-4"><a href="mailto:chris@chrisgurney.ca"><span class="underline-anim" style="display: inline-block;">chris@chrisgurney.ca</span></a></p>
+          </div>          
+        </div>
+        <div class="row pt-5">
+          <div class="col d-md-block d-none"></div>
+          <div class="col-md-2 col-4 text-center">
+            <a href="https://www.linkedin.com/in/chrisgurney/" target="_blank" rel="noopener">
+              <span class="underline-anim" style="display: inline-block;">
+                <i class="fa fa-linkedin fa-3x mb-3 sr-contact"></i><br/>LinkedIn
+              </span>
+            </a>
+          </div>
+          <div class="col-md-2 col-4 text-center">
+            <a href="https://dribbble.com/chrisgurney" target="_blank" rel="noopener">
+              <span class="underline-anim" style="display: inline-block;">
+                <i class="fa fa-dribbble fa-3x mb-3 sr-contact"></i><br/>Dribbble
+              </span>
+            </a>
+           </div>          
+          <div class="col-md-2 col-4 text-center">
+            <a href="https://github.com/chrisgurney" target="_blank" rel="noopener">
+              <span class="underline-anim" style="display: inline-block;">
+                <i class="fa fa-github fa-3x mb-3 sr-contact"></i><br/>GitHub
+              </span>
+            </a>
+           </div>
+          <div class="col d-md-block d-none"></div>
+        </div>
+      </div>
+    </section>
+
+</main>
+
+    <div class="container">
+      <div class="footer">
+        <p class="float-left">
+           Credits: Image from Alice Donovan Rouse via Unsplash. &nbsp;
+        </p>
+        <p class="float-lg-right float-left pb-2">
+           <a class="external" style="border-bottom: 1px dotted" href="https://github.com/chrisgurney/chrisgurney.ca" target="_blank" rel="noopener">Coded by me.</a> Adapted from <a class="external" href="https://startbootstrap.com" target="_blank" rel="noopener">Start Bootstrap</a>.
+        </p>
+        <div class="clearfix">
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="vendor/jquery-match-height/jquery.matchHeight-min.js"></script>    
+    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/creative.min.js"></script>
+
+  </body>
+
+</html>

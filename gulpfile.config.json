@@ -4,9 +4,8 @@
   	"css": "src/css/**/*",
   	"html": "src/**.html",
 		"includes": "src/includes",
-  	"images": [
-  		"src/images/**/*"
-  	],    
+  	"images": "src/images/**/*",
+    "jpgs": "src/images/**/*.jpg",
   	"js": "src/js/**/*",
     "metaFiles": [
       "src/.htaccess",

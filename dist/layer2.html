@@ -55,8 +55,36 @@
     <!-- Custom styles for this template -->
     <link href="css/creative.min.css" rel="stylesheet">
 
-    <!-- FullStory & Google Analytics-->
+    <!-- Drift Async Code -->
+    <script>
+    "use strict";
+
+    !function() {
+      var t = window.driftt = window.drift = window.driftt || [];
+      if (!t.init) {
+        if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+        t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+        t.factory = function(e) {
+          return function() {
+            var n = Array.prototype.slice.call(arguments);
+            return n.unshift(e), t.push(n), t;
+          };
+        }, t.methods.forEach(function(e) {
+          t[e] = t.factory(e);
+        }), t.load = function(t) {
+          var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+          o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+          var i = document.getElementsByTagName("script")[0];
+          i.parentNode.insertBefore(o, i);
+        };
+      }
+    }();
+    </script>
+
+    <!-- Google Analytics-->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-137570047-1"></script>
+
+    <!-- Load scripts if not on localhost -->
     <script>
         var host = window.location.host;
         if ((host.indexOf("localhost") == -1) && 
@@ -84,6 +112,11 @@
             gtag('js', new Date());
 
             gtag('config', 'UA-137570047-1');
+
+            // Drift
+            drift.SNIPPET_VERSION = '0.3.1';
+            drift.load('nte2xame32yz');
+
         }
     </script>
 
@@ -104,9 +137,6 @@
                 <a class="nav-link js-scroll-trigger" href="/">work</a>
               </li>
               <li>
-                <a class="nav-link js-scroll-trigger" href="/fuzzies.html">fuzzies</a>
-              </li>
-              <li>
                 <a class="nav-link js-scroll-trigger" href="/about.html" href="#">about</a>
               </li>
               <li>
@@ -119,10 +149,7 @@
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
               <a class="nav-link underline-anim  js-scroll-trigger" href="/">work</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link underline-anim  js-scroll-trigger" href="/fuzzies.html">fuzzies</a>
-            </li>            
+            </li>           
             <li class="nav-item">
               <a class="nav-link underline-anim  js-scroll-trigger" href="/about.html">about</a>
             </li>
@@ -383,6 +410,21 @@
       <div class="container-fluid p-0">
         <div class="row no-gutters">
 <!--           <div class="col-md-3 col-sm-6 col-12" style="background-image: url('images/portfolio/thumbnails/1.jpg'); background-size: 100% auto;"> -->
+          <div class="col-lg-4 col-sm-6 col-12" style="background-image: url('images/portfolio/thumbnails/neighbor.jpg'); background-size: 100% auto;">         
+            <a class="portfolio-box" href="neighbor-brand.html">
+              <img class="img-fluid" src="images/portfolio/thumbnails/neighbor.jpg" alt="Neighbor: Consumer-First Billing">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Brand + UX/UI Design
+                  </div>
+                  <div class="project-name">
+                    Designing a brand and UX for a billing platform that was conceived and launched within three months.&nbsp;&rarr;
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>  
           <div class="col-lg-4 col-sm-6 col-12" style="background-image: url('images/portfolio/thumbnails/1.jpg'); background-size: 100% auto;">         
             <a class="portfolio-box" href="fuzzies.html">
               <img class="img-fluid" src="images/portfolio/thumbnails/1.jpg" alt="Fuzzies logo and app screenshot.">
@@ -453,21 +495,6 @@
                   </div>
                   <div class="project-name">
                     Sign Up form. &rarr;</i>
-                  </div>
-                </div>
-              </div>              
-            </a>
-          </div>
-          <div class="col-lg-4 col-sm-6 col-12">
-            <a class="portfolio-box" href="dailyui.html">
-              <img class="img-fluid" src="images/portfolio/thumbnails/dailyui-002.jpg" alt="Screenshot of Profile Collage prototype.">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Daily UI
-                  </div>
-                  <div class="project-name">
-                    Credit Card Checkout Form &rarr;</i>
                   </div>
                 </div>
               </div>              
