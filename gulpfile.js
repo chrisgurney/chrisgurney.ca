@@ -1,9 +1,10 @@
 var Changed = require('gulp-changed');
+var CleanCss = require('gulp-clean-css');
 var Connect = require('gulp-connect');
 var Del = require('del');
 var Gulp = require('gulp');
 var Include = require('gulp-file-include');
-var CleanCss = require('gulp-clean-css');
+var Markdown = require('markdown');
 var Uglify = require('gulp-uglify');
 var Rename = require('gulp-rename');
 var Rsync = require('gulp-rsync');
@@ -26,7 +27,8 @@ Gulp.task('build:css', function(done) {
     .pipe(Rename({
       suffix: '.min'
     }))
-    .pipe(Gulp.dest(paths.output.css));
+    .pipe(Gulp.dest(paths.output.css))
+    .pipe(Connect.reload());
 
 });
 
@@ -35,17 +37,40 @@ Gulp.task('build:html', function(done) {
   return Gulp.src(paths.src.html)
 	  .pipe(Include({
 		  prefix: '@@',
-		  basepath: paths.src.includes
+		  basepath: paths.src.includes,
+		  filters: {
+        markdown: Markdown.parse
+      }
 		}))
-		.pipe(Gulp.dest(paths.output.base));		 
+		.pipe(Gulp.dest(paths.output.base))
+		.pipe(Connect.reload());	 
 
 });
+
+// Gulp.task('build:html:md', function() {
+
+//   return Gulp.src(paths.src.test)
+// 	  .pipe(Include({
+// 		  prefix: '@@',
+// 		  basepath: paths.src.includes,
+// 		  context: {
+// 		  	mdfile: '\'../md/test.md\'',
+// 		  	title: 'This is my title'
+// 		  },
+// 		  filters: {
+//         markdown: Markdown.parse
+//       }
+// 		}))
+// 		.pipe(Gulp.dest(paths.output.test));
+		    
+// });
 
 Gulp.task('build:images', function(done) {
 
 	return Gulp.src(paths.src.images)
 		.pipe(Changed(paths.output.images))	
-		.pipe(Gulp.dest(paths.output.images));
+		.pipe(Gulp.dest(paths.output.images))
+		.pipe(Connect.reload());
 
 });
 
@@ -55,7 +80,8 @@ Gulp.task('build:images:webp', function(done) {
 	//   .pipe(Changed(paths.output.images))
 	return Gulp.src(paths.src.jpgs)
 		.pipe(WebP())
-		.pipe(Gulp.dest(paths.output.images));
+		.pipe(Gulp.dest(paths.output.images))
+		.pipe(Connect.reload());		
 
 });
 
@@ -66,7 +92,8 @@ Gulp.task('build:js', function(done) {
     .pipe(Rename({
       suffix: '.min'
     }))
-		.pipe(Gulp.dest(paths.output.js));
+		.pipe(Gulp.dest(paths.output.js))
+		.pipe(Connect.reload());
 
 });
 
@@ -74,7 +101,8 @@ Gulp.task('build:meta', function(done) {
 
 	return Gulp.src(paths.src.metaFiles, {dot: true})
 		.pipe(Changed(paths.output.base))	
-		.pipe(Gulp.dest(paths.output.base));
+		.pipe(Gulp.dest(paths.output.base))
+		.pipe(Connect.reload());
 
 });
 
@@ -82,7 +110,8 @@ Gulp.task('build:vendor', function(done) {
 
 	return Gulp.src(paths.src.vendor)
 		.pipe(Changed(paths.output.vendor))
-		.pipe(Gulp.dest(paths.output.vendor));
+		.pipe(Gulp.dest(paths.output.vendor))
+		.pipe(Connect.reload());
 
 });
 
@@ -118,22 +147,6 @@ Gulp.task('build:vendor', function(done) {
 // 		.pipe(Gulp.dest(paths.output.js));
 // });
 
-// Gulp.task('test', function() {
-//   /* return gulp.src([paths.src.test, '!' + paths.src.includes + '/**']) */	
-//   return Gulp.src(paths.src.test)
-// 	  .pipe(Include({
-// 		  prefix: '@@',
-// 		  basepath: paths.src.base,
-// 		  context: {
-// 		  	mdfile: '\'md/test.md\''
-// 		  },
-// 		  filters: {
-//         markdown: markdown.parse
-//       }
-// 		}))
-// 		.pipe(Gulp.dest(paths.output.test));	    
-// });
-
 /* *************************************************************************
    Watch Tasks
    ************************************************************************* */
@@ -148,12 +161,23 @@ Gulp.task('watch:css', function(done) {
 Gulp.task('watch:html', function(done) {
 
 	return Gulp.watch([
-			paths.src.html, 
-			paths.src.includes + "/**/*.html"
+			paths.src.html,
+			paths.src.includes + '/**/*.html',			
+			paths.src.markdown
 		], 
 		Gulp.series('build:html'));
 
 });
+
+// Gulp.task('watch:html:md', function(done) {
+
+// 	return Gulp.watch([
+// 			paths.src.testmd,
+// 			paths.src.test
+// 		], 
+// 		Gulp.series('build:html:md'));
+
+// });
 
 Gulp.task('watch:images', function(done) {
 
@@ -247,7 +271,7 @@ Gulp.task('server', function() {
 Gulp.task('watch', 
 	Gulp.parallel(
 		'watch:css',
-		'watch:html',
+		'watch:html',	
 		'watch:images',
 		'watch:js',
 		'watch:meta',
@@ -259,7 +283,8 @@ Gulp.task('watch',
 
 Gulp.task('default',
 	Gulp.series(
-		'clean', 'build',
+		'clean', 
+		'build',
 		Gulp.parallel(
 			'server',
 			'watch'

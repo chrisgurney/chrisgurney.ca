@@ -14,8 +14,8 @@
       "src/manifest.json",
       "src/pinterest-7fcd1.html",
       "src/sw.js"
-    ],    
-  	"test": "src/mdtest/**.html",
+    ],
+    "markdown": "src/md/**.md",    
  		"vendor": "src/vendor/**/*"
   },
   "output": {
@@ -24,7 +24,7 @@
   	"html": "dist/",
   	"images": "dist/images/",
   	"js": "dist/js/",  	
-  	"test": "dist/mdtest",
+  	"test": "dist/",
   	"vendor": "dist/vendor"
   }
 }
