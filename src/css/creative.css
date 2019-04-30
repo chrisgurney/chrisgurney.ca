@@ -12,6 +12,8 @@ hr {
 	max-width: 50px;
 	border-width: 3px;
 	border-color: #FE9B27;
+	margin-top: 2.5rem;
+	margin-bottom: 2.5rem;
 }
 
 hr.light {
@@ -451,11 +453,6 @@ header.masthead {
 	background-size: cover;
 }
 
-header.masthead hr {
-	margin-top: 30px;
-	margin-bottom: 30px;
-}
-
 header.masthead h1 {
 	font-size: 2rem;
 }
@@ -798,6 +795,16 @@ div.banner-image {
  * Article
  */
 
+header.article {
+	padding-top: 12rem;
+	padding-bottom: calc(8rem - 56px);
+	background-image: linear-gradient(
+		rgba(255, 255, 255, 1) 4rem,
+		rgba(254, 155, 39, 0.9) 4rem,
+		rgba(237, 99, 0, 0.9)
+	);
+}
+
 .text-primary {
 	color: #FF8800 !important;
 }
@@ -846,10 +853,10 @@ blockquote {
 
 .article-post h2 {
 	font-weight:500;
+	color: #FE9B27;
 	margin-bottom:1rem;
 	margin-top:2rem;
 	line-height: 2.8rem;
-	color:rgba(0,0,0,.8);
 	font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;    
 }
 
