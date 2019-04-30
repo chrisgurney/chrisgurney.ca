@@ -9,10 +9,10 @@
   "author": "Chris Gurney",
   "license": "ISC",
   "devDependencies": {
-    "del": "^4.0.0",
-    "gulp": "^4.0.0",
+    "del": "^4.1.1",
+    "gulp": "^4.0.1",
     "gulp-changed": "^3.2.0",
-    "gulp-clean-css": "^3.9.3",
+    "gulp-clean-css": "^3.10.0",
     "gulp-connect": "^5.7.0",
     "gulp-file-include": "^2.0.1",
     "gulp-rename": "^1.4.0",
