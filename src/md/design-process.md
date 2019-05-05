@@ -19,14 +19,7 @@ The principles I believe in are littered throughout my process:
 Process
 -------
 
-**Project Planning**
-
-1. **Empathize**
-1. Inspiration
-1. Sketch, Mockup, and Prototype
-1. Test
-
-**Delivery**
+<https://trello.com/b/K4irJEgZ/design-process>
 
 
 ---
@@ -98,8 +91,8 @@ The workflow can be as simple as:
 
 ---
 
-Understand
-==========
+Empathize
+=========
 
 "Understand the user’s context, goals and tasks... through research"
 "Analyze the visual context, research best practices and competitive products"
@@ -124,6 +117,7 @@ Stakeholder Interviews
 
 
 User Research / Ethnographic Research
+-------------------------------------
 
 - interviews, observation 
 
@@ -161,32 +155,43 @@ Inspiration
 
 
 
-Personas / Affinity mapping
+Personas
+--------
+
+→ Affinity mapping
 
 
-Jobs to be Done (Ulwick)
+Jobs to be Done 
+---------------
 
-- Survey for existing features
+- (Ulwick)
+→ Survey for existing features
 
 
-How Might We (IDEO) 
+How Might We
+------------
+
+- (IDEO)
 
 
 Job Mapping
+-----------
 
 
- Journey Mapping
+Journey Mapping
+---------------
 
 
-OOUX + Information Architecture
+OOUX
+----
 
 [Article](http://alistapart.com/article/ooux-a-foundation-for-interaction-design)
 
-- card sorting - "SMEs are given key concepts on post-its, who then arrange them to represent how they see the struture and relationships" -- example of this?
+🛠 Card Sorting - "SMEs are given key concepts on post-its, who then arrange them to represent how they see the struture and relationships" -- example of this?
 
 
 Design Stories
-
+--------------
 
 
 ---
@@ -204,14 +209,16 @@ Design Sprint - Around a particular design problem
 
 
 Diverge and Converge
+--------------------
 
 - Crazy 8s
 - Affinity Diagramming - "Affinity diagramming helps us shift from casting a wide net in exploring many possibilities, to gaining focus on the right solutions for this audience."
 
 
 Interaction Design + Animation
+------------------------------
 
-- Principle
+🛠 **Tools**: Principle
 
 
 
@@ -260,7 +267,7 @@ Mockups
 -------
 
 
-🛠 **Tools**: Sketch, Design README
+🛠 **Tools**: Sketch, Design Workflow Documentation (Readme)
 
 
 Rapid Prototyping
@@ -301,15 +308,20 @@ Test
 ====
 
 User Testing
+------------
 
 - In person: Task-based testing
 
 Usability Test
+--------------
+
 
 Design Reviews
+--------------
 
 
 Measuring
+---------
 
 Tools used here depend on the maturity of the product or feature.
 
@@ -324,13 +336,14 @@ Tracking Plan
 e.g., Fanergy Tracking Plan
 
 
-Usability Test (Existing)
-Regular Reporting (Audit) - Accessiblity, Performance, ...
+Regular Reporting (Audit)
+-------------------------
+
+Accessiblity, Performance, ...
 Identify Improvements
 
 
-
-Feedback 
+Feedback
 --------
 
 - Issue Tracker: Spreadsheet easier to use than JIRA (and without the overhead), to capture suggestions, bugs (show that stakeholders are being listened to), do triage, and to look for patterns.
@@ -346,10 +359,10 @@ Feedback
 Deliver
 =======
 
-Requirements
+Design Requirements
+-------------------
 
 - behavior, data requirements
-
 
 
 Prepare Assets
@@ -359,8 +372,8 @@ Prepare Assets
 🛠 **Tools**: Nucleo, ImageOptim
 
 
-
 Define Guidelines / Style Guide
+-------------------------------
 
 
 Accessibility
@@ -380,5 +393,4 @@ Prioritization
 - story map with PM - across the user journey
 
 Project Documentation
-
 

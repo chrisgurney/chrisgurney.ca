@@ -2,6 +2,7 @@ var Changed = require('gulp-changed');
 var CleanCss = require('gulp-clean-css');
 var Connect = require('gulp-connect');
 var Del = require('del');
+var FS = require('fs');
 var Gulp = require('gulp');
 var Include = require('gulp-file-include');
 var Markdown = require('markdown');
@@ -9,6 +10,8 @@ var Uglify = require('gulp-uglify');
 var Rename = require('gulp-rename');
 var Rsync = require('gulp-rsync');
 var WebP = require('gulp-webp');
+
+var Trello = require('./lib/trello.js');
 
 /* ************* */
 /* Configuration */
@@ -85,6 +88,28 @@ Gulp.task('build:images:webp', function(done) {
 
 });
 
+Gulp.task('build:includeJson', function(done) {
+
+	try {
+		// check for the dist folder (throws exception if it does not exist)
+		FS.accessSync(paths.output.base);
+	}
+	// if the folder does not exist...
+	catch (err) {
+		FS.mkdirSync(paths.output.base);
+	}
+
+	var trello_json = FS.readFileSync(paths.src.includeJson, "utf8");
+
+	FS.writeFileSync(paths.output.includeJson, 
+		JSON.stringify(Trello.convertBoard(trello_json, 'object'), null, 2));
+
+	// console.log("Created: " + paths.output.includeJson);
+
+	done();
+
+});
+
 Gulp.task('build:js', function(done) {
 
   return Gulp.src(paths.src.js)
@@ -158,13 +183,18 @@ Gulp.task('watch:css', function(done) {
 
 });
 
+Gulp.task('watch:includeJson', function(done) {
+
+	return Gulp.watch(paths.src.includeJson,
+		Gulp.series(
+			'build:includeJson',
+			'build:html'));
+
+});
+
 Gulp.task('watch:html', function(done) {
 
-	return Gulp.watch([
-			paths.src.html,
-			paths.src.includes + '/**/*.html',			
-			paths.src.markdown
-		], 
+	return Gulp.watch(paths.src.htmlWatchFiles, 
 		Gulp.series('build:html'));
 
 });
@@ -247,7 +277,9 @@ Gulp.task('deploy', function(done) {
 Gulp.task('build',
 	Gulp.parallel(
 		'build:css',
-		'build:html',
+		Gulp.series(
+			'build:includeJson',			
+			'build:html'),
 		'build:meta',
 		'build:images',
 		'build:images:webp',		
@@ -271,6 +303,7 @@ Gulp.task('server', function() {
 Gulp.task('watch', 
 	Gulp.parallel(
 		'watch:css',
+		'watch:includeJson',
 		'watch:html',	
 		'watch:images',
 		'watch:js',

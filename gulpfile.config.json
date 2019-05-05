@@ -2,8 +2,14 @@
   "src": {
   	"base": "src/",
   	"css": "src/css/**/*",
-  	"html": "src/**.html",
+    "html": "src/**.html",
+  	"htmlWatchFiles": [
+      "src/**.html",
+      "src/md/**.md",
+      "src/includes/**/*.html"
+    ],
 		"includes": "src/includes",
+    "includeJson": "src/includes/json/process-trello.json",    
   	"images": "src/images/**/*",
     "jpgs": "src/images/**/*.jpg",
   	"js": "src/js/**/*",
@@ -15,7 +21,6 @@
       "src/pinterest-7fcd1.html",
       "src/sw.js"
     ],
-    "markdown": "src/md/**.md",    
  		"vendor": "src/vendor/**/*"
   },
   "output": {
@@ -24,6 +29,7 @@
   	"html": "dist/",
   	"images": "dist/images/",
   	"js": "dist/js/",  	
+    "includeJson": "dist/process.json",    
   	"test": "dist/",
   	"vendor": "dist/vendor"
   }

@@ -118,6 +118,14 @@
     fixedContentPos: false
   });
 
+  // process.html - Toggle showing process step cards
+  $("#process-btns .btn").on("click", function() {
+    var btn_list = $(this).data("list");
+    $("#process-cards .process-card").filter(function() {
+      $(this).toggle($(this).data("list").indexOf(btn_list) > -1)
+    });
+  });
+
   //var is_safari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
 
   $('.video').parent().click(function () {
