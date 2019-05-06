@@ -77,17 +77,6 @@ Gulp.task('build:images', function(done) {
 
 });
 
-Gulp.task('build:images:webp', function(done) {
-	
-	// FIXME: Understand why this doesn't cause all jpegs to be converted:
-	//   .pipe(Changed(paths.output.images))
-	return Gulp.src(paths.src.jpgs)
-		.pipe(WebP())
-		.pipe(Gulp.dest(paths.output.images))
-		.pipe(Connect.reload());		
-
-});
-
 Gulp.task('build:includeJson', function(done) {
 
 	try {
@@ -137,6 +126,17 @@ Gulp.task('build:vendor', function(done) {
 		.pipe(Changed(paths.output.vendor))
 		.pipe(Gulp.dest(paths.output.vendor))
 		.pipe(Connect.reload());
+
+});
+
+Gulp.task('build:webp', function(done) {
+	
+	// FIXME: Understand why this doesn't cause all jpegs to be converted:
+	//   .pipe(Changed(paths.output.images))
+	return Gulp.src(paths.src.jpgs)
+		.pipe(WebP())
+		.pipe(Gulp.dest(paths.output.images))
+		.pipe(Connect.reload());		
 
 });
 
@@ -214,7 +214,7 @@ Gulp.task('watch:images', function(done) {
 	return Gulp.watch(paths.src.images, 
 		Gulp.parallel(
 			'build:images',
-			'build:images:webp'
+			'build:webp'
 		));
 
 });
@@ -282,7 +282,7 @@ Gulp.task('build',
 			'build:html'),
 		'build:meta',
 		'build:images',
-		'build:images:webp',		
+		'build:webp',
 		'build:js',
 		'build:vendor'			
 	),
