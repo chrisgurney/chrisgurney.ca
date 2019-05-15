@@ -47,6 +47,7 @@ The way I like to summarize it is that it started with...
 	- Key takeaway: What's the problem? JTBD
 * Designing (Understanding)
 	- Understanding the problem. Testing testing testing.
+	- And now I'm a father: Watching my son learn, develop, and how he sees the world has given me a new perspective.
 
 # How many years of design experience do you have?
 
@@ -81,6 +82,8 @@ _TODO: Neighbor Deep-Dive_
 • Draw the early design ideas you had? (Especially the ones that turned out to need major revision. Why did they need it?)
 
 
+# What’s a product that was taken to market and then iterated upon?
+
 # Tell me about your experience designing web-based B2B apps.
 
 - web: Neighbor, Achievers (features + Program Manual), DevBBQ (Therapia), Portfolio
@@ -108,6 +111,15 @@ _TODO: Neighbor Deep-Dive_
 # Do you consider yourself technically inclined? What's the most technically-challenging project you've tackled?
 
 # If you had to pick one of the following as your greatest strength, what would it be: UX, Visual Design or Front-End Implementation?
+
+# Talk about a time when you couldn't deliver on something.
+
+Accessibility at Achievers, took longer than expected, with friction:
+
+- no knowledge internally
+- limited resources: one developer
+- solution: focussed in on core workflow (login, recognition, catalog)
+- gained buy-in from Support team, took developer to user test, developer became advocate, did TechTalk
 
 # Tell me about your current customers or clients. (How do you know they are your customers? How do you determine their needs? How you have met their needs? Who is your toughest customer and why?)
 
@@ -145,7 +157,11 @@ _TODO: Summarize [My Design Process](process.html)._
   - as a PM, conducted user interviews
   - have used data and analytics (SQL, GA, Salesforce) to derive behavior (examples?);
     - e.g., top module configuration profiles for Achievers;
+    - order details page being bookmarked (direct traffic)
+    - self-serve awards: used data to determine base options and defaults to show
+    - ME: lots of anecdotal opinions
     - e.g., via FullStory, 
+    - setup 
 - user tested designs, recordings/QuickTime + Silverback;
 - facilitated feedback process and identified patterns to address with design (examples?); 
 
@@ -154,11 +170,20 @@ _TODO: Summarize [My Design Process](process.html)._
 # Experience user testing and usability studies to direct product designs and priorities:
 
 - Did guerrilla testing, used family, friends.
+- Achievers Ops/Support:
+	- looked for patterns across requests (e.g., several stemmed from not having an adequate testing environment)
+	- involved during every sprint review
+	- checkout flow: used new employees
 - Used to having next to no budget, and limited time to get to market.
 - More important to get designs out there and then iterate, survey, record analytics.
 - Specific Examples:
-    - Neighbor Bill:
-    - Nintendo Switch Connect: 
+  - Neighbor Bill:
+  - Nintendo Switch Connect: 
+- Checkout Flow
+  - started as collection of "priorities" identified by ME: physical vs virtual, suggestion to notify users of orders
+  - challenged their assumptions
+  - came back to adding an Order button
+
 
 # Tell me about a time your user testing changed your designs.
 
@@ -187,6 +212,10 @@ _TODO: Summarize [My Design Process](process.html)._
 
 # What would be the first things you would do as Designer, if you were to join the company?
 
+- study JTBD:
+  - observe, to empathize
+  - survey desired outcomes
+  - concentrate on under-served needs
 
 
 ---
@@ -306,6 +335,12 @@ How I would manage:
 - Share with open-source comm
 - have been involved in hiring and firing decisions and interviews
 
+# Have you hired?
+
+- Front-End Engineer, developed rubric:
+  - TODO: put characteristics here
+
+
 ###### Future / Management
 
 # Future questions to consider:
@@ -316,6 +351,7 @@ How I would manage:
 - Examples of advocating for design and designers?
 - How do you notice a designer is stagnating in the process?
 - What do you look for when you're hiring a designer?
+  - self-awareness
 - Have you ever had to fire a designer? Why? Did you hire them?
 - What's the biggest mistake you've made as a manager?
 
@@ -363,6 +399,7 @@ How I would manage:
 # Example of a digital application you think has a good UX? Why?
 
 - (Said Trello but want to elaborate on this more)
+  - Trello: accessible (easy to learn), multi-use, focused, fits into my workflow
 - (Put something together for Nintendo Switch?)
 
 # What inspires your thinking about design? What gets you most excited to create?
