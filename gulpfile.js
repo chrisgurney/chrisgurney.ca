@@ -5,7 +5,7 @@ var Del = require('del');
 var FS = require('fs');
 var Gulp = require('gulp');
 var Include = require('gulp-file-include');
-var Markdown = require('markdown');
+var Markdown = require('./lib/vendor/markdown');
 var Uglify = require('gulp-uglify');
 var Rename = require('gulp-rename');
 var Rsync = require('gulp-rsync');
@@ -49,24 +49,6 @@ Gulp.task('build:html', function(done) {
 		.pipe(Connect.reload());	 
 
 });
-
-// Gulp.task('build:html:md', function() {
-
-//   return Gulp.src(paths.src.test)
-// 	  .pipe(Include({
-// 		  prefix: '@@',
-// 		  basepath: paths.src.includes,
-// 		  context: {
-// 		  	mdfile: '\'../md/test.md\'',
-// 		  	title: 'This is my title'
-// 		  },
-// 		  filters: {
-//         markdown: Markdown.parse
-//       }
-// 		}))
-// 		.pipe(Gulp.dest(paths.output.test));
-		    
-// });
 
 Gulp.task('build:images', function(done) {
 
@@ -198,16 +180,6 @@ Gulp.task('watch:html', function(done) {
 		Gulp.series('build:html'));
 
 });
-
-// Gulp.task('watch:html:md', function(done) {
-
-// 	return Gulp.watch([
-// 			paths.src.testmd,
-// 			paths.src.test
-// 		], 
-// 		Gulp.series('build:html:md'));
-
-// });
 
 Gulp.task('watch:images', function(done) {
 
