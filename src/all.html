@@ -1,0 +1,45 @@
+@@include('header.html')
+
+@@include('components/nav-main.html', {
+  "theme": "dark",
+  "home-link": "/",
+  "process-link": "/process.html",  
+  "about-link": "/about.html"
+})
+
+<header class="article text-center text-white d-flex">
+  <div class="container my-auto sr-card">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">     
+        <h1>All My Projects</h1>
+        <p>&nbsp;</p>
+      </div>
+    </div>
+  </div>      
+</header>
+
+<main role="main">
+
+  <!-- Begin Post -->
+  <section class="pb-5 pt-md-5 pt-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10 col-12 mx-auto">
+          <div class="article-post index">
+            @@include(markdown("../md/all.md"))
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>  
+
+  @@include('components/about.html')
+
+  @@include('components/portfolio.html')
+
+  @@include('components/contact.html')
+
+</main>
+
+@@include('footer.html', 
+  {"credit": "Credits: Image from Alice Donovan Rouse via Unsplash."})

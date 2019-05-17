@@ -765,6 +765,10 @@ div.banner-image {
 	font-family: 'Montserrat', 'Helvetica Neue', Arial, sans-serif;
 }
 
+p.btn > a {
+	border-bottom: none;
+}
+
 .btn-xl {
 	padding: 1rem 2rem;
 }
@@ -910,6 +914,50 @@ blockquote {
 
 .callout ol > li {
 	padding-bottom: 0.5rem;
+}
+
+/**
+ * Portfolio Index
+ */
+
+.index h1 { 
+	clear: both;
+	padding-top: 3em;
+}
+
+.index hr { 
+	clear: both;
+}
+
+.index img {
+	float: right;
+	max-width: 50%;
+	margin: 0.3em 0em 2em 2em;
+	padding: 1em;	
+	border: solid 4px #eee;
+}
+
+.index .tags {
+	padding-left: 0px;
+}
+
+.index .tags li {
+	background: #eee;
+	display: inline-block;
+	font-family: Montserrat,'Helvetica Neue',Arial,sans-serif;
+	font-size: 0.8em;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	margin: 0em 0.8em 0.5em 0em;
+	padding: 0.5em 1em 0.5em 1em;
+}
+
+@media (max-width: 992px) {
+	.index img {
+		display: block;
+		max-width: 100%;
+		margin-bottom: 1em;
+	}
 }
 
 /**
