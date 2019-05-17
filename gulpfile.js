@@ -113,9 +113,8 @@ Gulp.task('build:vendor', function(done) {
 
 Gulp.task('build:webp', function(done) {
 	
-	// FIXME: Understand why this doesn't cause all jpegs to be converted:
-	//   .pipe(Changed(paths.output.images))
 	return Gulp.src(paths.src.jpgs)
+		.pipe(Changed(paths.output.images, {extension: '.webp'}))
 		.pipe(WebP())
 		.pipe(Gulp.dest(paths.output.images))
 		.pipe(Connect.reload());		
