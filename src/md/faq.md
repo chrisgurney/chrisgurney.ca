@@ -6,7 +6,6 @@ Be prepared to answer, specific to the company/job:
 - ☑️ Why are you interested in us?
 - ☑️ What do you know about this position/role?
 
-
 ---
 
 ###### My Background
@@ -83,6 +82,7 @@ _TODO: Neighbor Deep-Dive_
 
 
 # What’s a product that was taken to market and then iterated upon?
+> Have shipped product, measured results, gained learnings, and iterated towards successful product and business outcomes
 
 # Tell me about your experience designing web-based B2B apps.
 
@@ -173,7 +173,6 @@ _TODO: Summarize [My Design Process](process.html)._
 - Achievers Ops/Support:
 	- looked for patterns across requests (e.g., several stemmed from not having an adequate testing environment)
 	- involved during every sprint review
-	- checkout flow: used new employees
 - Used to having next to no budget, and limited time to get to market.
 - More important to get designs out there and then iterate, survey, record analytics.
 - Specific Examples:
@@ -182,6 +181,7 @@ _TODO: Summarize [My Design Process](process.html)._
 - Checkout Flow
   - started as collection of "priorities" identified by ME: physical vs virtual, suggestion to notify users of orders
   - challenged their assumptions
+  - checkout flow: used new employees  
   - came back to adding an Order button
 
 
