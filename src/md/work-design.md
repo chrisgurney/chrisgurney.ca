@@ -1,4 +1,5 @@
 # Guesty
+{: .pt-0}
 
 ![Guesty screenshot showing guest list](images/portfolio/guesty.jpg)
 
@@ -12,6 +13,8 @@
 
 The challenge was to double the usage of an existing, fictional guest book mobile app, to be used at small events such as baby showers. I mapped the journey of existing users, and decided to explore an opportunity in which an event volunteer could own the signing. Designed a brand and UI, centered around taking a recorded message or photo of guests.
 
+[![Guesty screenshot showing guest list](images/portfolio/guesty.jpg)](images/portfolio/guesty.jpg)
+{: .popup-gallery}
 
 
 # Neighbor Brand
@@ -31,7 +34,7 @@ Neighbor is a consumer billing platform that our team launched in three months, 
 
 Once the first release was out the door, we then re-launched our website to sell what we had built, and to attract employees to the company. In so doing, I identified the need to refresh the brand, but only had a week to develop our new look.
 
-[Read More](neighbor-brand.html)
+[Read More →](neighbor-brand.html)
 {: .btn .btn-primary .btn-xl}
 
 
@@ -91,7 +94,7 @@ The practice of gratitude journaling has been shown to have many positive benefi
 
 I wanted to design a system that encourages people to get into the habit of gratitude journaling, and to share their gratitudes with others, using the technology they have at hand.
 
-[Read More](fuzzies.html)
+[Read More →](fuzzies.html)
 {: .btn .btn-primary .btn-xl}
 
 
@@ -156,7 +159,7 @@ I worked with the founder of a cannabis grower to design a brand for his company
 
 As part of this project I developed the logo, patterns, colors, and examples of its application to an investor pitch deck and to product packaging.
 
-[Read More](resinate.html)
+[Read More →](resinate.html)
 {: .btn .btn-primary .btn-xl}
 
 

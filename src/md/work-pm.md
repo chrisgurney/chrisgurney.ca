@@ -1,10 +1,12 @@
 # Concussion Recovery App
+{: .pt-0}
 
 ![CCMI logo](images/about/pm-ccmi.jpg)
 
 - Modernization
 - Mobile
 - Web
+- 2016
 {: .tags}
 
 > - Client: Complete Concussion Management
@@ -28,7 +30,7 @@ Concussion recovery assistant: Coaches and athletes can download the app on iOS 
 	- Severely underquoted project.
 	- Not all my capacity was available.
 
-[Visit Complete Concussion Management →](https://completeconcussions.com/){: target=_blank}
+[Visit Complete Concussion Management →](https://completeconcussions.com/){: target=_blank_}
 
 
 # Sports Fundraising & CMS Platform
@@ -36,6 +38,7 @@ Concussion recovery assistant: Coaches and athletes can download the app on iOS 
 ![Boon-Town logo](images/about/pm-boontown.jpg)
 
 - Web
+- 2016
 {: .tags}
 
 > - Client: Boon-Town
@@ -86,6 +89,7 @@ Boon-Town creates content that is focused on good things in the world of sports,
 ![Therapia logo](images/about/pm-therapia.jpg)
 
 - Web
+- 2016
 {: .tags}
 
 > - Client: Therapia
@@ -111,6 +115,7 @@ Therapia provides patients with physiotherapy home visits. The app connects pati
 
 - MVP
 - Web
+- 2017
 {: .tags}
 
 > - Client: wayHire
@@ -233,6 +238,7 @@ Other?
 
 - Mobile
 - Web
+- 2015
 {: .tags}
 
 > - Employer: DevBBQ
@@ -246,7 +252,7 @@ Paymi allows consumers to automatically earn cash when they shop with their exis
 - Notable Deliverables:
 	- Requirements + delivery management
 
-Download on iOS or Android, or visit [paymi.com →](https://paymi.com/){: target=_blank}
+Download on iOS or Android, or visit [paymi.com →](https://paymi.com/){: target=_blank_}
 
 
 # Achievers Accessibility
@@ -255,6 +261,7 @@ Download on iOS or Android, or visit [paymi.com →](https://paymi.com/){: targe
 
 - Accessibility
 - Web
+- 2015
 {: .tags}
 
 > - Employer: Achievers
@@ -277,6 +284,9 @@ PM for implementing accessibility in our web platform, and to raise awareness in
 
 ![Achievers logo](images/about/pm-achievers.jpg)
 
+- 2012-2015
+{: .tags}
+
 > - Employer: Achievers
 > - My Role: Product Manager.
 
@@ -293,7 +303,8 @@ In addition to the API, I led the improvements on a number of features on the Ac
 
 ## Transactional Email Improvements
 
-> - Tags: Email
+- Email
+{: .tags}
 
 PM for improving the design of all our transactional emails.
 
@@ -341,6 +352,7 @@ Worked with HR directors and senior stakeholders to determine requirements for r
 
 - Modernization
 - Windows
+- 2008
 {: .tags}
 
 > - Employer: Blueprint
