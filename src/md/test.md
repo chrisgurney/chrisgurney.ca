@@ -34,3 +34,7 @@ hr:
 
 ---
 
+Maruku stuff:
+
+[![Guesty screenshot showing guest list](images/portfolio/guesty.jpg)](images/portfolio/guesty.jpg)
+{: .popup-gallery}
