@@ -11,7 +11,7 @@
 
 > - My Role: Designer. Did all the things.
 
-The challenge was to double the usage of an existing, fictional guest book mobile app, to be used at small events such as baby showers. I mapped the journey of existing users, and decided to explore an opportunity in which an event volunteer could own the signing. Designed a brand and UI, centered around taking a recorded message or photo of guests.
+I was given a challenge to double the usage of an existing, fictional guestbook mobile app, to be used at small events such as baby showers. I mapped the journey of existing users and decided to explore an opportunity in which an event volunteer could own the signing. I then designed a brand and UI, centered around taking a recorded message or photo of guests.
 
 
 # Neighbor UX/UI
