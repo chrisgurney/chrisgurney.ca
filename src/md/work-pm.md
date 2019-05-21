@@ -358,46 +358,11 @@ Worked with HR directors and senior stakeholders to determine requirements for r
 > - Employer: Blueprint
 > - My Role: Project Manager.
 
-Iconic Release.txt
+While providing an important, fresh set of features, it also visually marked a turning point in the design of our application. Compared to the previous version, the new release had a more modern look-and-feel to it and relied on updated technology, such as a brand new windowing framework.
 
+As a result, it became apparent that we needed somebody to direct the redesign of all of the icons and graphics, as things would have looked very much out of place on top of our shiny new toolbars. That somebody had to identify all 250 icons, work with somebody to refresh what we had, and help to come up with design ideas for the new features we were adding.
 
-# Xenos Intranet
+As it turned out, that somebody was me.
 
-![Xenos Intranet screenshot.](images/portfolio/xenos-intranet.png)
-
-- UI/UX
-- Coding
-- Web
-{: .tags}
-
-> - Employer: Xenos
-> - My Role: Designer and Developer. Did all the things.
-
-
-(Screenshots)
-
-Technology: 
-
-- PHP, MySQL, Paint Shop Pro, HTML, CSS
-
-Project Details
-
-- After joining a company, I found out that the business' existing Intranet consisted of a handful of static web pages with aging links to outdated and non-existent resources.
-- In an effort to resolve this, I took it upon myself to build a new Intranet from the ground up, with the goal of creating a tool by which employees could easily share useful information.
-- Coincidentally, in my spare time I had been developing a web content management system called "g2", to power a community weblog used by friends. I quickly realized that g2 could be applied as an Intranet, as well. After performing some research and soliciting the needs of my users — my co-workers — I started to adapt the code base to fulfill the function of an Intranet.
-- Following the release of a limited beta version in early 2005, I created a formal focus group consisting of stakeholders from several departments. Requirements gathered from that group were considered and folded into g2.
-- At the end of 2005, the company's new Intranet was finally launched, was well-received, and continued to be used after my departure.
-
-Highlights of the Intranet include: 
-
-- News posts, for daily announcements.
-- Articles, for lengthy how-to documents.
-- Links, for providing references to internal and external resources.
-- Discussion forums, where new, unread posts are highlighted.
-- Photo gallery, for sharing pictures of employees and corporate events.
-- Categorization, including support for placing items in multiple categories.
-- Full-text search over all content.
-- Navigation of items by category and by date.
-- Local and LDAP user authentication, including support for Microsoft Active Directory.
-- Search-able user directory, displaying local users and Microsoft Active Directory users.
-- User profile pages that display a given user's contact information and content posted.
+[Read More →](blueprint-iconic-release.html)
+{: .btn .btn-primary .btn-xl}

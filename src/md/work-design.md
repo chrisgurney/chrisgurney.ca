@@ -13,9 +13,6 @@
 
 The challenge was to double the usage of an existing, fictional guest book mobile app, to be used at small events such as baby showers. I mapped the journey of existing users, and decided to explore an opportunity in which an event volunteer could own the signing. Designed a brand and UI, centered around taking a recorded message or photo of guests.
 
-[![Guesty screenshot showing guest list](images/portfolio/guesty.jpg)](images/portfolio/guesty.jpg)
-{: .popup-gallery}
-
 
 # Neighbor Brand
 
@@ -180,3 +177,24 @@ As Technical Marketing Manager
 Updated the web site and did email marketing for a new release of the product.
 
 \+ Email Marketing
+
+
+# Xenos Intranet
+
+![Xenos Intranet screenshot.](images/portfolio/xenos-intranet.png)
+
+- UI/UX
+- Coding
+- Web
+- 2005
+{: .tags}
+
+> - Employer: Xenos
+> - My Role: Designer and Developer. Did all the things.
+
+After joining a company, I found out that the business' existing Intranet consisted of a handful of static web pages with aging links to outdated and non-existent resources.
+
+In an effort to resolve this, I took it upon myself to build a new Intranet from the ground up, with the goal of creating a tool by which employees could easily share useful information.
+
+[Read More →](xenos-intranet.html)
+{: .btn .btn-primary .btn-xl}

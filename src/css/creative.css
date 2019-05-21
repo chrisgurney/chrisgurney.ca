@@ -879,6 +879,17 @@ blockquote {
 	letter-spacing: 0.1rem;  
 }
 
+.article-post .popup-gallery.thumbs a {
+	margin: 1em 1em 1em 0em;
+	border-bottom: none;
+	display: inline-block;
+}
+
+.article-post .popup-gallery.thumbs img {
+	border: solid 2px #ddd;
+	padding: 0.3em;
+}
+
 .figure-caption {
 	padding-top: 0.5rem;
 	font-family: Montserrat,'Helvetica Neue',Arial,sans-serif;
