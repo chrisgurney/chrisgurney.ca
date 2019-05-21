@@ -886,8 +886,11 @@ blockquote {
 }
 
 .article-post .popup-gallery.thumbs img {
-	border: solid 2px #ddd;
+	border: solid 2px #FF8800;
+	border-radius: 10px;
 	padding: 0.3em;
+	float: none;
+	margin: 0;
 }
 
 .figure-caption {

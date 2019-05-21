@@ -11,7 +11,7 @@
 
 > - Client: Complete Concussion Management
 > - Employer: DevBBQ
-> - My Role: Product Manager.
+> - My Role: Product Manager
 
 Concussion recovery assistant: Coaches and athletes can download the app on iOS or Android. Clinicans can use a web-based dashboard to perform baseline testing, to help athletes recover.
 
@@ -43,7 +43,7 @@ Concussion recovery assistant: Coaches and athletes can download the app on iOS 
 
 > - Client: Boon-Town
 > - Employer: DevBBQ
-> - My Role: Product Manager.
+> - My Role: Product Manager
 
 Boon-Town creates content that is focused on good things in the world of sports, and partners with athletes and teams to raise funds and awareness for causes that are important to all of us. Fans are given a chance to win unforgettable experiences and rewards.
 
@@ -69,21 +69,6 @@ Boon-Town creates content that is focused on good things in the world of sports,
 
 
 
-# Sphere
-
-> - Client: Sphere
-> - Employer: DevBBQ
-> - My Role: Product Manager.
-
-- _Discovery_
-- Context:
-	- Life-coaching solution.
-	- In development at http://sphereishere.com/
-- Notable Deliverables:
-	- Discovery process, to determine MVP's scope.
-
-
-
 # Therapia
 
 ![Therapia logo](images/about/pm-therapia.jpg)
@@ -94,7 +79,7 @@ Boon-Town creates content that is focused on good things in the world of sports,
 
 > - Client: Therapia
 > - Employer: DevBBQ
-> - My Role: Product Manager.
+> - My Role: Product Manager
 
 therapia.life - At Home Physiotherapy
 Therapia provides patients with physiotherapy home visits. The app connects patients with local home care physiotherapists throughout the GTA and beyond.
@@ -136,12 +121,26 @@ wayHire provides select, passive candidates with discreet, career development op
   - Client was ultimately acquired.
 
 
-# Condo Pre-Build Reservation System
+# Other DevBBQ Client Projects
+
+## Sphere
+
+> - Client: Sphere
+> - My Role: Product Manager
+
+- _Discovery_
+- Context:
+	- Life-coaching solution.
+	- In development at http://sphereishere.com/
+- Notable Deliverables:
+	- Discovery process, to determine MVP's scope.
+
+
+## Condo Pre-Build Reservation System
 
 - Web
 {: .tags}
 
-> - Employer: DevBBQ
 > - My Role: Product Manager
 
 - _MVP_
@@ -154,13 +153,12 @@ wayHire provides select, passive candidates with discreet, career development op
 	- Requirements and delivery management.
 
 
+## Fanergy Prototype
 
-# Fanergy
-
+- Prototype
 - Mobile
 {: .tags}
 
-> - Employer: DevBBQ
 > - My Role: Product Manager
 
 - MVP
@@ -171,13 +169,11 @@ wayHire provides select, passive candidates with discreet, career development op
 	- Limited designer.
 
 
-
-# Waypoint Golf
+## Waypoint Golf Discovery
 
 - Discovery
 {: .tags}
 
-> - Employer: DevBBQ
 > - My Role: Product Manager
 
 - Discovery
@@ -211,7 +207,7 @@ Day 3:
 Day 4:
 
 - Registration Flow (Current -> Ideal)
-- Checkin Flow (Current -> Ideal)
+- Check-in Flow (Current -> Ideal)
 - Initial Data Model (e.g., Players)
  
 Day 5:
@@ -284,11 +280,13 @@ PM for implementing accessibility in our web platform, and to raise awareness in
 
 ![Achievers logo](images/about/pm-achievers.jpg)
 
+- UX
+- Email
 - 2012-2015
 {: .tags}
 
 > - Employer: Achievers
-> - My Role: Product Manager.
+> - My Role: Product Manager
 
 In addition to the API, I led the improvements on a number of features on the Achievers employee recognition and rewards platform.
 
@@ -302,9 +300,6 @@ In addition to the API, I led the improvements on a number of features on the Ac
 - Researched spam; email improvements
 
 ## Transactional Email Improvements
-
-- Email
-{: .tags}
 
 PM for improving the design of all our transactional emails.
 
@@ -335,12 +330,13 @@ PM for improving the design of all our transactional emails.
 
 # Achievers Program Launches
 
-> - Clients: Notable clients included Google, Levi’s, Cineplex
 > - Employer: Achievers
 > - My Role: Program Launch Manager
 > - Tags: Stakeholder Management
 
 Led the design and implementation of 30+ customized employee recognition programs, with annual contract values ranging from $120K to $3.5M.
+
+Notable clients included _Google_, _Levi’s_, and _Cineplex_.
 
 Worked with HR directors and senior stakeholders to determine requirements for recognition programs, including: program brand, design elements (in conjunction with graphic designer), components, budgets, and communication plan.
 
