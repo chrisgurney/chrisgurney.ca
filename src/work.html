@@ -58,18 +58,17 @@
       <div class="row">
         <div class="col-md-10 col-12 mx-auto">
           <a name="writing"></a>          
-          <span class="h1-xl text-gradient">Writing</span>         
-          <div class="article-post">
-            @@include(markdown("../md/work-writing.md"))
-          </div>
+          <span class="h1-xl text-gradient">Writing + Performance</span>
         </div>
       </div>
     </div>
-  </section>  
+  </section>
+
+  @@include('components/writing.html', {
+    "style": "background: linear-gradient(0deg, #FFB25A, #FFF);"
+  })
 
   @@include('components/about.html')
-
-  @@include('components/portfolio.html')
 
   @@include('components/contact.html')
 

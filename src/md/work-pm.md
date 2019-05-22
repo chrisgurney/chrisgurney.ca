@@ -3,6 +3,7 @@
 
 ![CCMI logo](images/about/pm-ccmi.jpg)
 
+- PM
 - Modernization
 - Mobile
 - Web
@@ -37,6 +38,7 @@ Concussion recovery assistant: Coaches and athletes can download the app on iOS 
 
 ![Boon-Town logo](images/about/pm-boontown.jpg)
 
+- PM
 - Web
 - 2016
 {: .tags}
@@ -69,10 +71,11 @@ Boon-Town creates content that is focused on good things in the world of sports,
 
 
 
-# Therapia
+# At-Home Physiotherapy App
 
 ![Therapia logo](images/about/pm-therapia.jpg)
 
+- PM
 - Web
 - 2016
 {: .tags}
@@ -94,10 +97,11 @@ Therapia provides patients with physiotherapy home visits. The app connects pati
 
 
 
-# wayHire
+# Recruitment Platform MVP
 
 ![wayHire logo](images/about/pm-wayhire.jpg)
 
+- PM
 - MVP
 - Web
 - 2017
@@ -123,7 +127,13 @@ wayHire provides select, passive candidates with discreet, career development op
 
 # Other DevBBQ Client Projects
 
-## Sphere
+## Sphere: Life Coaching Platform
+
+- PM
+- Web
+- Mobile
+- Discovery
+{: .tags}
 
 > - Client: Sphere
 > - My Role: Product Manager
@@ -138,9 +148,6 @@ wayHire provides select, passive candidates with discreet, career development op
 
 ## Condo Pre-Build Reservation System
 
-- Web
-{: .tags}
-
 > - My Role: Product Manager
 
 - _MVP_
@@ -153,11 +160,7 @@ wayHire provides select, passive candidates with discreet, career development op
 	- Requirements and delivery management.
 
 
-## Fanergy Prototype
-
-- Prototype
-- Mobile
-{: .tags}
+## Fanergy: Sports Fan Engagement App
 
 > - My Role: Product Manager
 
@@ -169,10 +172,7 @@ wayHire provides select, passive candidates with discreet, career development op
 	- Limited designer.
 
 
-## Waypoint Golf Discovery
-
-- Discovery
-{: .tags}
+## Waypoint Golf: Tournament Booking Platform
 
 > - My Role: Product Manager
 
@@ -180,8 +180,7 @@ wayHire provides select, passive candidates with discreet, career development op
 - Context:
 	- Golf tournament self-management web app.
 - Notable Deliverables:
-	- Facilitated discovery.
-
+	- Facilitated discovery session (TODO: summarize below + outcomes).
 
 Discovery Process:
 
@@ -232,6 +231,7 @@ Other?
 
 ![Paymi logo](images/about/pm-paymi.jpg)
 
+- PM
 - Mobile
 - Web
 - 2015
@@ -255,6 +255,7 @@ Download on iOS or Android, or visit [paymi.com →](https://paymi.com/){: targe
 
 ![Achievers logo](images/about/pm-achievers.jpg)
 
+- PM
 - Accessibility
 - Web
 - 2015
@@ -280,8 +281,8 @@ PM for implementing accessibility in our web platform, and to raise awareness in
 
 ![Achievers logo](images/about/pm-achievers.jpg)
 
+- PM
 - UX
-- Email
 - 2012-2015
 {: .tags}
 
@@ -330,9 +331,11 @@ PM for improving the design of all our transactional emails.
 
 # Achievers Program Launches
 
-> - Employer: Achievers
+- Professional Services
+- Stakeholder Management
+{: .tags}
+
 > - My Role: Program Launch Manager
-> - Tags: Stakeholder Management
 
 Led the design and implementation of 30+ customized employee recognition programs, with annual contract values ranging from $120K to $3.5M.
 
@@ -346,6 +349,7 @@ Worked with HR directors and senior stakeholders to determine requirements for r
 
 ![Blueprint RC2008 screenshot crop.](images/portfolio/blueprint-icons-rc2008.jpg)
 
+- PM
 - Modernization
 - Windows
 - 2008
@@ -360,5 +364,4 @@ As a result, it became apparent that we needed somebody to direct the redesign o
 
 As it turned out, that somebody was me.
 
-[Read More →](blueprint-iconic-release.html)
-{: .btn .btn-primary .btn-xl}
+[Read More →](blueprint-iconic-release.html){: .btn .btn-primary .btn-xl}
