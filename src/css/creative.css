@@ -765,7 +765,7 @@ div.banner-image {
 	font-family: 'Montserrat', 'Helvetica Neue', Arial, sans-serif;
 }
 
-p.btn > a {
+.article-post a.btn {
 	border-bottom: none;
 }
 
@@ -879,10 +879,16 @@ blockquote {
 	letter-spacing: 0.1rem;  
 }
 
+.article-post p.popup-gallery.thumbs {
+	display: flex;
+	clear: both;
+}
+
 .article-post .popup-gallery.thumbs a {
-	margin: 1em 1em 1em 0em;
+	margin: 0.5em;
 	border-bottom: none;
 	display: inline-block;
+	flex-grow: 1;
 }
 
 .article-post .popup-gallery.thumbs img {
@@ -891,6 +897,8 @@ blockquote {
 	padding: 0.3em;
 	float: none;
 	margin: 0;
+	max-width: 100%;
+	max-height: 100%;
 }
 
 .figure-caption {
