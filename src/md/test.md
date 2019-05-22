@@ -36,5 +36,9 @@ hr:
 
 Maruku stuff:
 
+|Heading 1|Heading 2|
+|----|----|
+|Column 1 Lorem ipsum.|Column 2|
+
 [![Guesty screenshot showing guest list](images/portfolio/guesty.jpg)](images/portfolio/guesty.jpg)
 {: .popup-gallery}
