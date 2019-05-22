@@ -38,6 +38,8 @@ Highlights of the Intranet include:
 [![Articles screenshot showing title, description, and content.](images/portfolio/xenos-intranet-article-sm.png)](images/portfolio/xenos-intranet-article.png){: title='Articles can contain standard formatting such as headers, and bulleted lists.'}
 [![Article form](images/portfolio/xenos-intranet-articleForm-sm.png)](images/portfolio/xenos-intranet-articleForm.png){: title='The form provided for creating or editing Articles includes formatting toolbars and a means of categorizing the Article.'}
 [![Category tree list](images/portfolio/xenos-intranet-category-sm.png)](images/portfolio/xenos-intranet-category.png){: title='Content can be navigated by drilling down through categories. This view shows the different types of items that are available in the current category.'}
+{: .popup-gallery .thumbs}
+
 [![Discussions screenshot](images/portfolio/xenos-intranet-discussionList-sm.png)](images/portfolio/xenos-intranet-discussionList.png){: title='Discussions are divided into Topics, which are further divided into threads. Note how new Discussion items since the last login are flagged.'}
 [![Photo album screenshot](images/portfolio/xenos-intranet-photos-sm.png)](images/portfolio/xenos-intranet-photos.png){: title='A photo album can be created simply by dropping images into a directory.'}
 [![Search results](images/portfolio/xenos-intranet-search-sm.png)](images/portfolio/xenos-intranet-search.png){: title='Searching queries relevant fields across all types of items on the Intranet.'}
