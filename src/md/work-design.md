@@ -87,7 +87,7 @@ I wanted to design a system that encourages people to get into the habit of grat
 
 [![Variations of the Fuzzies icon, before selecting a final.](images/portfolio-fuzzies/fuzzies-icon-variations.jpg)](images/portfolio-fuzzies/fuzzies-icon-variations.jpg){: title='Variations of the Fuzzies icon, before selecting a final.'}
 [![Evolution of the Fuzzies feed from wireframe to final.](images/portfolio-fuzzies/fuzzies-feed-evolution.jpg)](images/portfolio-fuzzies/fuzzies-feed-evolution.jpg){: title='Evolution of the Fuzzies feed from wireframe to final.'}
-[![Three screens from Fuzzies.](images/portfolio-fuzzies/fuzzies-screens-portfolio.jpg)](images/portfolio-fuzzies/fuzzies-screens-portfolio.jpg){: title='From left to right - Splash, news, and variable reward.'}
+[![Three screens from Fuzzies.](images/portfolio-fuzzies/fuzzies-screens-portfolio-sm.jpg)](images/portfolio-fuzzies/fuzzies-screens-portfolio.jpg){: title='From left to right - Splash, news, and variable reward.'}
 {: .popup-gallery .thumbs}
 
 # Banking App Modernization Wireframe
@@ -133,7 +133,7 @@ Prototypes included:
 - Chrome Extension as a vehicle for change: Ability to recognize the author of a Confluence page, or JIRA ticket; overriding product styles.
 - Outlook macro and Sharepoint widget: Recognition in the flow of work.
 
-[![Achievers Product Labs page showing collection of prototypes](images/portfolio/achievers-product-labs.jpg)](images/portfolio/achievers-product-labs.jpg){: title='Internal web page used to share the prototypes available.'}
+[![Achievers Product Labs page showing collection of prototypes](images/portfolio/achievers-product-labs-sm.jpg)](images/portfolio/achievers-product-labs.jpg){: title='Internal web page used to share the prototypes available.'}
 [![Achievers Profile Collage prototype](images/portfolio/achievers-api-profile-collage.jpg)](images/portfolio/achievers-api-profile-collage.jpg){: title='Portfolio collage prototype implemented in jQuery, using employee data from the Achievers system.'}
 [![Achievers Recognition Screen prototype](images/portfolio/achievers-api-reco-screen.jpg)](images/portfolio/achievers-api-reco-screen.jpg){: title='Recognition screen prototype implemented in jQuery, using recognition data from the Achievers system.'}
 {: .popup-gallery .thumbs}
