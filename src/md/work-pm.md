@@ -125,6 +125,31 @@ wayHire provides select, passive candidates with discreet, career development op
   - Client was ultimately acquired.
 
 
+# Paymi
+
+![Paymi logo](images/about/pm-paymi.jpg)
+
+- PM
+- Mobile
+- Web
+- 2015
+{: .tags}
+
+> - Employer: DevBBQ
+> - My Role: Product Manager
+
+Paymi - Cash Back on Everyday Purchases
+Paymi allows consumers to automatically earn cash when they shop with their existing credit or debit cards at partner stores and through affiliates. Download on iOS or Android, or visit <https://www.paymi.com/>
+
+- Context:
+	- Consumer loyalty / shopping rewards.
+- Notable Deliverables:
+	- Requirements + delivery management
+
+Download on iOS or Android, or visit [paymi.com →](https://paymi.com/){: target=_blank_}
+
+
+
 # Other DevBBQ Client Projects
 
 ## Sphere: Life Coaching Platform
@@ -224,31 +249,6 @@ Other?
 - Current Data + Facts
 - Assumptions
 - Journey
-
-
-
-# Paymi
-
-![Paymi logo](images/about/pm-paymi.jpg)
-
-- PM
-- Mobile
-- Web
-- 2015
-{: .tags}
-
-> - Employer: DevBBQ
-> - My Role: Product Manager
-
-Paymi - Cash Back on Everyday Purchases
-Paymi allows consumers to automatically earn cash when they shop with their existing credit or debit cards at partner stores and through affiliates. Download on iOS or Android, or visit <https://www.paymi.com/>
-
-- Context:
-	- Consumer loyalty / shopping rewards.
-- Notable Deliverables:
-	- Requirements + delivery management
-
-Download on iOS or Android, or visit [paymi.com →](https://paymi.com/){: target=_blank_}
 
 
 # Achievers Accessibility
