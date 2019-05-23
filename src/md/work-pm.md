@@ -4,6 +4,7 @@
 ![CCMI logo](images/about/pm-ccmi.jpg)
 
 - PM
+- B2C
 - Modernization
 - Mobile
 - Web
@@ -39,6 +40,7 @@ Concussion recovery assistant: Coaches and athletes can download the app on iOS 
 ![Boon-Town logo](images/about/pm-boontown.jpg)
 
 - PM
+- B2C
 - Web
 - 2016
 {: .tags}
@@ -76,6 +78,7 @@ Boon-Town creates content that is focused on good things in the world of sports,
 ![Therapia logo](images/about/pm-therapia.jpg)
 
 - PM
+- B2C
 - Web
 - 2016
 {: .tags}
@@ -102,6 +105,7 @@ Therapia provides patients with physiotherapy home visits. The app connects pati
 ![wayHire logo](images/about/pm-wayhire.jpg)
 
 - PM
+- B2C
 - MVP
 - Web
 - 2017
@@ -130,6 +134,7 @@ wayHire provides select, passive candidates with discreet, career development op
 ![Paymi logo](images/about/pm-paymi.jpg)
 
 - PM
+- B2C
 - Mobile
 - Web
 - 2015
@@ -152,13 +157,14 @@ Download on iOS or Android, or visit [paymi.com →](https://paymi.com/){: targe
 
 # Other DevBBQ Client Projects
 
-## Sphere: Life Coaching Platform
-
 - PM
+- B2C
 - Web
 - Mobile
 - Discovery
 {: .tags}
+
+## Sphere: Life Coaching Platform
 
 > - Client: Sphere
 > - My Role: Product Manager
@@ -282,6 +288,7 @@ PM for implementing accessibility in our web platform, and to raise awareness in
 ![Achievers logo](images/about/pm-achievers.jpg)
 
 - PM
+- B2B
 - UX
 - 2012-2015
 {: .tags}
@@ -332,6 +339,7 @@ PM for improving the design of all our transactional emails.
 # Achievers Program Launches
 
 - Professional Services
+- B2B
 - Stakeholder Management
 {: .tags}
 
@@ -350,6 +358,7 @@ Worked with HR directors and senior stakeholders to determine requirements for r
 ![Blueprint RC2008 screenshot crop.](images/portfolio/blueprint-icons-rc2008.jpg)
 
 - PM
+- B2B
 - Modernization
 - Windows
 - 2008

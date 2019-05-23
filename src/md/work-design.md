@@ -4,6 +4,7 @@
 ![Guesty screenshot showing guest list](images/portfolio-guesty/guesty-brand.jpg)
 
 - UX/UI
+- B2C
 - Mobile
 - Exercise
 - 2019
@@ -26,6 +27,7 @@ I mapped the journey of existing users and decided to explore an opportunity in 
 ![Neighbor screenshot](images/portfolio-neighbor/neighbor-desk-portfolio.jpg)
 
 - UX/UI
+- B2B
 - 2019
 {: .tags}
 
@@ -57,7 +59,9 @@ Neighbor is a consumer billing platform that our team at Globalive Technology la
 > - Employer: Neighbor Billing
 > - My Role: Designer. Did all the things.
 
-Once the first release of our Neighbor Billing platform was out the door, we then re-launched our website to sell what we had built, and to attract employees to the company. In so doing, I identified the need to refresh the brand, but gave ourselves a short timeframe to develop our new look.
+Once the first release of our Neighbor Billing platform was out the door, we then re-launched our website to sell what we had built, and to attract employees to the company. 
+
+In so doing, I identified the need to refresh the brand, but gave ourselves a short timeframe to develop our new look.
 
 [Read More →](neighbor-brand.html){: .btn .btn-primary .btn-xl .text-light}
 
@@ -66,11 +70,13 @@ Once the first release of our Neighbor Billing platform was out the door, we the
 [![Neighbor web page](images/portfolio-neighbor/goneighbor-front-portfolio.jpg)](images/portfolio-neighbor/goneighbor-front-portfolio.jpg){: title='The goneighbor.co responsive marketing site I designed and implemented.'}
 {: .popup-gallery .thumbs}
 
+
 # Fuzzies Gratitude Journal Concept
 
 ![Fuzzies logo and app screenshot.](images/portfolio-fuzzies/fuzzies-portfolio.jpg)
 
 - UX/UI
+- B2C
 - Prototype
 - Mobile
 - Exercise
@@ -89,6 +95,8 @@ I wanted to design a system that encourages people to get into the habit of grat
 [![Evolution of the Fuzzies feed from wireframe to final.](images/portfolio-fuzzies/fuzzies-feed-evolution.jpg)](images/portfolio-fuzzies/fuzzies-feed-evolution.jpg){: title='Evolution of the Fuzzies feed from wireframe to final.'}
 [![Three screens from Fuzzies.](images/portfolio-fuzzies/fuzzies-screens-portfolio-sm.jpg)](images/portfolio-fuzzies/fuzzies-screens-portfolio.jpg){: title='From left to right - Splash, news, and variable reward.'}
 {: .popup-gallery .thumbs}
+
+
 
 # Banking App Modernization Wireframe
 
@@ -116,8 +124,9 @@ I wanted to design a system that encourages people to get into the habit of grat
 
 ![Achievers Product Labs page](images/portfolio/achievers-product-labs-brand.jpg)
 
-- Coding
 - Prototype
+- B2B
+- Coding
 - 2015
 {: .tags}
 
@@ -168,8 +177,9 @@ As part of this project I developed the logo, patterns, colors, and examples of 
 
 ![Blueprint Requirements Center 2009 Web Site](images/portfolio/blueprint-logo.jpg)
 
-- Coding
 - Marketing
+- B2B
+- Coding
 - Web Site
 - 2008
 {: .tags}
@@ -186,6 +196,7 @@ Updated the web site and did email marketing for a new release of the product.
 [![Blueprint RC2009 website screenshot.](images/portfolio/blueprint-rc2009-2-sm.jpg)](images/portfolio/blueprint-rc2009-2.png){: title='Blueprint RC2009 Website'}
 [![Blueprint RC2009 website screenshot.](images/portfolio/blueprint-rc2009-3-sm.jpg)](images/portfolio/blueprint-rc2009-3.png){: title='Blueprint RC2009 Website'}
 {: .popup-gallery .thumbs}
+
 
 # Xenos Intranet
 
