@@ -892,7 +892,7 @@ blockquote {
 	border-radius: 10px;	
 }
 
-.article-post .popup-gallery.thumbs a:hover, .article-post .popup-gallery.thumbs a:focus, .article-post .popup-gallery.thumbs a:active {
+.article-post .popup-gallery.thumbs a:hover {
 	color: #fff;
 	box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
 	border-radius: 10px;
