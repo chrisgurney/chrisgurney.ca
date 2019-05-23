@@ -364,4 +364,4 @@ As a result, it became apparent that we needed somebody to direct the redesign o
 
 As it turned out, that somebody was me.
 
-[Read More →](blueprint-iconic-release.html){: .btn .btn-primary .btn-xl}
+[Read More →](blueprint-iconic-release.html){: .btn .btn-primary .btn-xl .text-light}

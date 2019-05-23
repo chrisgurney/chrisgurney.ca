@@ -68,7 +68,7 @@ Once the first release of our Neighbor Billing platform was out the door, we the
 
 # Fuzzies Gratitude Journal Concept
 
-![Fuzzies logo and app screenshot.](images/portfolio/thumbnails/1.jpg)
+![Fuzzies logo and app screenshot.](images/portfolio-fuzzies/fuzzies-portfolio.jpg)
 
 - UX/UI
 - Prototype
@@ -85,6 +85,10 @@ I wanted to design a system that encourages people to get into the habit of grat
 
 [Read More →](fuzzies.html){: .btn .btn-primary .btn-xl .text-light}
 
+[![Variations of the Fuzzies icon, before selecting a final.](images/portfolio-fuzzies/fuzzies-icon-variations.jpg)](images/portfolio-fuzzies/fuzzies-icon-variations.jpg){: title='Variations of the Fuzzies icon, before selecting a final.'}
+[![Evolution of the Fuzzies feed from wireframe to final.](images/portfolio-fuzzies/fuzzies-feed-evolution.jpg)](images/portfolio-fuzzies/fuzzies-feed-evolution.jpg){: title='Evolution of the Fuzzies feed from wireframe to final.'}
+[![Three screens from Fuzzies.](images/portfolio-fuzzies/fuzzies-screens-portfolio.jpg)](images/portfolio-fuzzies/fuzzies-screens-portfolio.jpg){: title='From left to right - Splash, news, and variable reward.'}
+{: .popup-gallery .thumbs}
 
 # Banking App Modernization Wireframe
 
@@ -110,7 +114,7 @@ I wanted to design a system that encourages people to get into the habit of grat
 
 # Achievers API Prototypes
 
-![Achievers Product Labs page](images/portfolio/achievers-product-labs.jpg)
+![Achievers Product Labs page](images/portfolio/achievers-product-labs-brand.jpg)
 
 - Coding
 - Prototype
@@ -121,15 +125,15 @@ I wanted to design a system that encourages people to get into the habit of grat
 > - My Role: Designer and Developer. Did all the things.
 > - PHP, jQuery, Chrome extensions, Confluence & JIRA APIs, Outlook VBA
 
-As Product Manager for the Achievers API, I built prototypes to demonstrate present and future use cases using the API and data. This visualized recognition in the workplace.
+As Product Manager for the Achievers API, I built prototypes to demonstrate present and future use cases using the API and our data. This helped our non-technical stakeholders visualize the potential value we could provide, and enabled new use cases for Sales.
 
-Built prototypes to visualize possibilities:
+Prototypes included:
 
-- Experiments on TVs.
-- Chrome Extension as a vehicle for change: Ability to recognize the author of a Confluence page, or JIRA ticket.
-- Outlook macro.
-- Sharepoint widget.
+- Experiments on TVs, bringing recognition and personalities into our physical spaces.
+- Chrome Extension as a vehicle for change: Ability to recognize the author of a Confluence page, or JIRA ticket; overriding product styles.
+- Outlook macro and Sharepoint widget: Recognition in the flow of work.
 
+[![Achievers Product Labs page showing collection of prototypes](images/portfolio/achievers-product-labs.jpg)](images/portfolio/achievers-product-labs.jpg){: title='Internal web page used to share the prototypes available.'}
 [![Achievers Profile Collage prototype](images/portfolio/achievers-api-profile-collage.jpg)](images/portfolio/achievers-api-profile-collage.jpg){: title='Portfolio collage prototype implemented in jQuery, using employee data from the Achievers system.'}
 [![Achievers Recognition Screen prototype](images/portfolio/achievers-api-reco-screen.jpg)](images/portfolio/achievers-api-reco-screen.jpg){: title='Recognition screen prototype implemented in jQuery, using recognition data from the Achievers system.'}
 {: .popup-gallery .thumbs}
@@ -155,6 +159,10 @@ As part of this project I developed the logo, patterns, colors, and examples of 
 
 [Read More →](resinate.html){: .btn .btn-primary .btn-xl .text-light}
 
+[![Resinate Pitch Deck](images/portfolio-resinate/resinate-deck-portfolio.jpg)](images/portfolio-resinate/resinate-deck-portfolio.jpg){: title='Branded pitch deck.'}
+[![Resinate packaging](images/portfolio-resinate/resinate-packaging-portfolio.jpg)](images/portfolio-resinate/resinate-packaging-portfolio.jpg){: title='Concept packaging.'}
+{: .popup-gallery .thumbs}
+
 
 # Blueprint Product Launch Marketing
 
@@ -174,9 +182,9 @@ Updated the web site and did email marketing for a new release of the product.
 
 \+ Email Marketing
 
-[![Blueprint RC2009 website screenshot.](images/portfolio/blueprint-rc2009-1.png)](images/portfolio/blueprint-rc2009-1.png){: title='Blueprint RC2009 Website'}
-[![Blueprint RC2009 website screenshot.](images/portfolio/blueprint-rc2009-2.png)](images/portfolio/blueprint-rc2009-2.png){: title='Blueprint RC2009 Website'}
-[![Blueprint RC2009 website screenshot.](images/portfolio/blueprint-rc2009-3.png)](images/portfolio/blueprint-rc2009-3.png){: title='Blueprint RC2009 Website'}
+[![Blueprint RC2009 website screenshot.](images/portfolio/blueprint-rc2009-1-sm.jpg)](images/portfolio/blueprint-rc2009-1.png){: title='Blueprint RC2009 Website'}
+[![Blueprint RC2009 website screenshot.](images/portfolio/blueprint-rc2009-2-sm.jpg)](images/portfolio/blueprint-rc2009-2.png){: title='Blueprint RC2009 Website'}
+[![Blueprint RC2009 website screenshot.](images/portfolio/blueprint-rc2009-3-sm.jpg)](images/portfolio/blueprint-rc2009-3.png){: title='Blueprint RC2009 Website'}
 {: .popup-gallery .thumbs}
 
 # Xenos Intranet

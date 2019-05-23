@@ -114,8 +114,9 @@ _TODO: Neighbor Deep-Dive_
 
 # Talk about a time when you couldn't deliver on something.
 
-Accessibility at Achievers, took longer than expected, with friction:
+Accessibility at Achievers: 
 
+- wasn't able to see it through before I left: took longer than expected, with friction
 - no knowledge internally
 - limited resources: one developer
 - solution: focussed in on core workflow (login, recognition, catalog)
@@ -154,14 +155,13 @@ _TODO: Summarize [My Design Process](process.html)._
 
 - conducted research, and established personas;
   - as a Designer, conducted user interviews and tests;
-  - as a PM, conducted user interviews
-  - have used data and analytics (SQL, GA, Salesforce) to derive behavior (examples?);
-    - e.g., top module configuration profiles for Achievers;
-    - order details page being bookmarked (direct traffic)
-    - self-serve awards: used data to determine base options and defaults to show
-    - ME: lots of anecdotal opinions
-    - e.g., via FullStory, 
-    - setup 
+  - as a PM, conducted user interviews, observed behavior (e.g., CSRs)
+- have used data and analytics (SQL, GA, Salesforce) to derive behavior (examples?);
+  - e.g., top module configuration profiles for Achievers;
+  - order details page being bookmarked (direct traffic)
+  - self-serve awards: used data to determine base options and defaults to show
+  - ME: lots of anecdotal opinions
+  - e.g., via FullStory, GA 
 - user tested designs, recordings/QuickTime + Silverback;
 - facilitated feedback process and identified patterns to address with design (examples?); 
 
