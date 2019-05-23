@@ -958,7 +958,7 @@ blockquote {
 
 @media (max-width: 768px) {
 	.h1-xl {
-		font-size: 2em;
+		font-size: 2.5em;
 	
 	}
 }
@@ -992,6 +992,12 @@ blockquote {
 .index h1 { 
 	clear: both;
 	padding-top: 3em;
+}
+
+@media (max-width: 768px) {
+	.index h1 {
+		padding-top: 1em;
+	}
 }
 
 .index hr { 
