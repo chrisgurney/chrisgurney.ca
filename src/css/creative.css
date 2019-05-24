@@ -880,28 +880,26 @@ blockquote {
 }
 
 .article-post p.popup-gallery.thumbs {
-	display: flex;
-	clear: both;
+	display: table;
+	border-spacing: 0.5em;	
 }
 
 .article-post .popup-gallery.thumbs a {
-	margin: 0.5em;
 	border-bottom: none;
-	display: inline-block;
-	flex-grow: 1;
+	display: table-cell;
 	border-radius: 10px;	
 }
 
 .article-post .popup-gallery.thumbs a:hover {
 	color: #fff;
 	box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
-	border-radius: 10px;
+	border-radius: 11px;
 }
 
 .article-post .popup-gallery.thumbs img {
 	border: solid 2px #FF8800;
-	border-radius: 10px;
-	padding: 0.3em;
+	border-radius: 11px;
+	padding: 0em;
 	float: none;
 	margin: 0;
 	max-width: 100%;
