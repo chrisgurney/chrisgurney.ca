@@ -88,6 +88,7 @@ Boon-Town creates content that is focused on good things in the world of sports,
 > - My Role: Product Manager
 
 therapia.life - At Home Physiotherapy
+
 Therapia provides patients with physiotherapy home visits. The app connects patients with local home care physiotherapists throughout the GTA and beyond.
 
 [Details...](#details-therapia){: data-toggle=collapse}
@@ -118,8 +119,7 @@ Therapia provides patients with physiotherapy home visits. The app connects pati
 > - Employer: DevBBQ
 > - My Role: Product Manager
 
-wayHire.io - Connecting Employers and Talented Individuals
-wayHire provides select, passive candidates with discreet, career development opportunities with desirable employers. Decide what employers or individual opportunities would interest you, sit back, and wait for your next move to come to you!
+WayHire provides select, passive candidates with discreet, career development opportunities with desirable employers. Decide what employers or individual opportunities would interest you, sit back, and wait for your next move to come to you!
 
 [Details...](#details-wayhire){: data-toggle=collapse}
 
@@ -148,7 +148,6 @@ wayHire provides select, passive candidates with discreet, career development op
 > - Employer: DevBBQ
 > - My Role: Product Manager
 
-Paymi - Cash Back on Everyday Purchases
 Paymi allows consumers to automatically earn cash when they shop with their existing credit or debit cards at partner stores and through affiliates.
 
 [Details...](#details-paymi){: data-toggle=collapse}
@@ -170,10 +169,11 @@ Paymi allows consumers to automatically earn cash when they shop with their exis
 - Discovery
 {: .tags}
 
-## Sphere: Life Coaching Platform
-
-> - Client: Sphere
 > - My Role: Product Manager
+
+## Sphere
+
+Facilitated discovery sessions for a life coaching platform.
 
 [Details...](#details-sphere){: data-toggle=collapse}
 
@@ -188,8 +188,6 @@ Paymi allows consumers to automatically earn cash when they shop with their exis
 
 ## Condo Pre-Build Reservation System
 
-> - My Role: Product Manager
-
 [Details...](#details-railway){: data-toggle=collapse}
 
 - _MVP_
@@ -203,9 +201,9 @@ Paymi allows consumers to automatically earn cash when they shop with their exis
 {: id=details-railway .collapse}
 
 
-## Fanergy: Sports Fan Engagement App
+## Fanergy
 
-> - My Role: Product Manager
+Managed development of a prototype for a sports fan engagement app.
 
 [Details...](#details-fanergy){: data-toggle=collapse}
 
@@ -218,9 +216,9 @@ Paymi allows consumers to automatically earn cash when they shop with their exis
 {: id=details-fanergy .collapse}
 
 
-## Waypoint Golf: Tournament Booking Platform
+## Waypoint Golf
 
-> - My Role: Product Manager
+Facilitated discovery sessions for a golf tournament booking platform.
 
 [Details...](#details-waypoint){: data-toggle=collapse}
 
