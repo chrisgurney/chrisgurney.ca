@@ -15,24 +15,23 @@
 > - Employer: DevBBQ
 > - My Role: Product Manager
 
-Concussion recovery assistant: Coaches and athletes can download the app on iOS or Android. Clinicans can use a web-based dashboard to perform baseline testing, to help athletes recover.
+Product Manager for the modernization of a mobile app (React Native) that coaches and athletes can use to track recovery from concussions; clinicans can use a responsive web dashboard to perform baseline testing, and provide a recovery plan.
 
-- _Modernization_
-- Context:
-	- Rebuild of legacy web app with modern tech (React web app, React Native mobile app).
-	- Responsive web app + React Native iOS and Android apps.
+[Details...](#details-ccmi){: data-toggle=collapse}
+
 - Notable Deliverables:
-	- Requirements and delivery management.
-	- Localization: Facilitated language export/import for client translation.
-	- Test Scenarios: Developed and executed test plan.
-	- Email design + development.
+  - Requirements and delivery management.
+  - Localization: Facilitated language export/import for client translation.
+  - Test Scenarios: Developed and executed test plan.
+  - Email design + development.
 - Successes:
-	- Invited client (Kyle, developer and brother of Cam) to scrums.
+  - Invited client (Kyle, developer and brother of Cam) to scrums.
 - Challenges:
-	- Severely underquoted project.
-	- Not all my capacity was available.
+  - Severely underquoted project.
+  - Not all my capacity was available.
+- [Visit Complete Concussion Management →](https://completeconcussions.com/){: target=_blank_}
+{: id=details-ccmi .collapse}
 
-[Visit Complete Concussion Management →](https://completeconcussions.com/){: target=_blank_}
 
 
 # Sports Fundraising & CMS Platform
@@ -51,12 +50,11 @@ Concussion recovery assistant: Coaches and athletes can download the app on iOS 
 
 Boon-Town creates content that is focused on good things in the world of sports, and partners with athletes and teams to raise funds and awareness for causes that are important to all of us. Fans are given a chance to win unforgettable experiences and rewards.
 
-<https://boon-town.com>
+[Details...](#details-boon){: data-toggle=collapse}
 
 - _Concept to Launch_
 - Context:
 	- Fundraising platform, driven by athlete fans.
-	- Turned into CMS as well.
 	- Plus support during first campaign.
 	- Responsive web app.
 - Notable Deliverables & Challenges:
@@ -69,7 +67,9 @@ Boon-Town creates content that is focused on good things in the world of sports,
 	- Turned into CMS as well.
 	- Client expected us to provide brand design.
 	- Main stakeholder focussed on brand.
-	- Several major brand design iterations. 
+	- Several major brand design iterations.
+- [Visit Boon-Town →](https://boon-town.com){: target=_blank_}
+{: id=details-boon .collapse}
 
 
 
@@ -89,7 +89,8 @@ Boon-Town creates content that is focused on good things in the world of sports,
 
 therapia.life - At Home Physiotherapy
 Therapia provides patients with physiotherapy home visits. The app connects patients with local home care physiotherapists throughout the GTA and beyond.
-<https://therapia.com>
+
+[Details...](#details-therapia){: data-toggle=collapse}
 
 - _Concept to Launch_
 - Context:
@@ -97,6 +98,8 @@ Therapia provides patients with physiotherapy home visits. The app connects pati
 	- Responsive web app.
 - Notable Deliverables:
 	- Requirements and delivery management.
+- [Visit Therapia →](https://therapia.com){: target=_blank_}
+{: id=details-therapia .collapse}
 
 
 
@@ -115,18 +118,20 @@ Therapia provides patients with physiotherapy home visits. The app connects pati
 > - Employer: DevBBQ
 > - My Role: Product Manager
 
-MVP
-
 wayHire.io - Connecting Employers and Talented Individuals
 wayHire provides select, passive candidates with discreet, career development opportunities with desirable employers. Decide what employers or individual opportunities would interest you, sit back, and wait for your next move to come to you!
 
-- _Concept to Launch_
+[Details...](#details-wayhire){: data-toggle=collapse}
+
+- _Concept to Launch_ for a true MVP.
 - Context:
 	- Recruitment applicant tracking system.
 	- Only client to understand/accept a "real" MVP.
 - Notable Deliverables:
 	- Requirements and delivery management.
   - Client was ultimately acquired.
+{: id=details-wayhire .collapse}
+
 
 
 # Paymi
@@ -144,15 +149,16 @@ wayHire provides select, passive candidates with discreet, career development op
 > - My Role: Product Manager
 
 Paymi - Cash Back on Everyday Purchases
-Paymi allows consumers to automatically earn cash when they shop with their existing credit or debit cards at partner stores and through affiliates. Download on iOS or Android, or visit <https://www.paymi.com/>
+Paymi allows consumers to automatically earn cash when they shop with their existing credit or debit cards at partner stores and through affiliates.
+
+[Details...](#details-paymi){: data-toggle=collapse}
 
 - Context:
 	- Consumer loyalty / shopping rewards.
 - Notable Deliverables:
 	- Requirements + delivery management
-
-Download on iOS or Android, or visit [paymi.com →](https://paymi.com/){: target=_blank_}
-
+- [Visit Paymi →](https://www.paymi.com/){: target=_blank_}
+{: id=details-paymi .collapse}
 
 
 # Other DevBBQ Client Projects
@@ -169,17 +175,22 @@ Download on iOS or Android, or visit [paymi.com →](https://paymi.com/){: targe
 > - Client: Sphere
 > - My Role: Product Manager
 
+[Details...](#details-sphere){: data-toggle=collapse}
+
 - _Discovery_
 - Context:
 	- Life-coaching solution.
 	- In development at http://sphereishere.com/
 - Notable Deliverables:
 	- Discovery process, to determine MVP's scope.
+{: id=details-sphere .collapse}
 
 
 ## Condo Pre-Build Reservation System
 
 > - My Role: Product Manager
+
+[Details...](#details-railway){: data-toggle=collapse}
 
 - _MVP_
 - Context:
@@ -189,11 +200,14 @@ Download on iOS or Android, or visit [paymi.com →](https://paymi.com/){: targe
 	- Full design provided.
 - Notable Deliverables:
 	- Requirements and delivery management.
+{: id=details-railway .collapse}
 
 
 ## Fanergy: Sports Fan Engagement App
 
 > - My Role: Product Manager
+
+[Details...](#details-fanergy){: data-toggle=collapse}
 
 - MVP
 - Context:
@@ -201,60 +215,47 @@ Download on iOS or Android, or visit [paymi.com →](https://paymi.com/){: targe
 	- Swift native iOS app.
 - Challenges:
 	- Limited designer.
+{: id=details-fanergy .collapse}
 
 
 ## Waypoint Golf: Tournament Booking Platform
 
 > - My Role: Product Manager
 
+[Details...](#details-waypoint){: data-toggle=collapse}
+
 - Discovery
 - Context:
 	- Golf tournament self-management web app.
-- Notable Deliverables:
-	- Facilitated discovery session (TODO: summarize below + outcomes).
-
-Discovery Process:
-
-Day 1:
-
-- Client Goals, Priorities, Pains, Pitch, Timing
-- Session Goals:
-	- User Roles, Wireframes/Journey, Priorities, Sprint Plan + Releases
-- Journey
-
-Day 2:
-
-- Flow / I.A.
-- Models (Player, Charity, Sponsor, Course)
-- Wires (Tourney Creation, Registration)
-- Inspiration / Competitors
- 
-Day 3: 
-
-- continued understanding of: current state (incl. paperwork)
-- future: first wires (creation flow)
- 
-Day 4:
-
-- Registration Flow (Current -> Ideal)
-- Check-in Flow (Current -> Ideal)
-- Initial Data Model (e.g., Players)
- 
-Day 5:
-
-- Dashboard
-- Financial Flow (current)
-- Inspiration
-
-- Story Map
- 
-Other?
- 
-- Risks
-- User Roles / Personas
-- Current Data + Facts
-- Assumptions
-- Journey
+- Facilitated discovery sessions:
+  - Day 1:
+    - Client Goals, Priorities, Pains, Pitch, Timing
+    - Session Goals: User Roles, Wireframes/Journey, Priorities, Sprint Plan + Releases
+    - Journey
+  - Day 2:
+    - Flow / I.A.
+    - Models (Player, Charity, Sponsor, Course)
+    - Wires (Tourney Creation, Registration)
+    - Inspiration / Competitors
+  - Day 3: 
+    - continued understanding of: current state (incl. paperwork)
+    - future: first wires (creation flow)
+  - Day 4:
+    - Registration Flow (Current -> Ideal)
+    - Check-in Flow (Current -> Ideal)
+    - Initial Data Model (e.g., Players)
+  - Day 5:
+    - Dashboard
+    - Financial Flow (current)
+    - Inspiration
+    - Story Map
+  - Other Considerations
+    - Risks
+    - User Roles / Personas
+    - Current Data + Facts
+    - Assumptions
+    - Journey
+{: id=details-waypoint .collapse}
 
 
 # Achievers Accessibility
@@ -366,6 +367,8 @@ Worked with HR directors and senior stakeholders to determine requirements for r
 
 > - Employer: Blueprint
 > - My Role: Project Manager.
+
+Our latest product release was a big one for our company.
 
 While providing an important, fresh set of features, it also visually marked a turning point in the design of our application. Compared to the previous version, the new release had a more modern look-and-feel to it and relied on updated technology, such as a brand new windowing framework.
 

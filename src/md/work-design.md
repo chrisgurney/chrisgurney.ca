@@ -12,7 +12,7 @@
 
 > - My Role: Designer. Did all the things.
 
-I was given a challenge to double the usage of an existing, fictional guestbook mobile app, to be used at small events such as baby showers. 
+I was given a design challenge to double the usage of an existing guestbook mobile app, to be used at small events such as baby showers.
 
 I mapped the journey of existing users and decided to explore an opportunity in which an event volunteer could own the signing. I then designed a brand and UI, centered around taking a recorded message or photo of guests.
 
@@ -34,11 +34,11 @@ I mapped the journey of existing users and decided to explore an opportunity in 
 > - Employer: Neighbor Billing
 > - My Role: Designer. Did all the things.
 
-Neighbor is a consumer billing platform that our team at Globalive Technology launched in three months, from concept to production. As head of design, I was responsible for the UX and UI for the entire platform, our bills, and email designs.
+Neighbor is a consumer billing platform that our team at Globalive Technology launched in three months, from concept to production. As head of design, I was responsible for the UX and UI for the entire platform, which included:
 
-- Designed and guided development of the Neighbor Hub (CSR Portal) UX/UI.
-- Bill Design - Goals included incorporating multiple types of services, making them easy to understand, brandable, and minimizing calls to support.
-- Email Templates - Designed and implementated.
+- Web Interface - Designed and guiding development of the Neighbor Hub (CSR portal) UX/UI.
+- Bill Design - Goals included incorporating multiple types of services, making them easy to understand and brandable, while minimizing calls to support.
+- Email Templates - Designed and implemented transactional emails.
 
 [![Neighbor Hub UI](images/portfolio-neighbor/neighbor-hub-navigation.jpg)](images/portfolio-neighbor/neighbor-hub-navigation.jpg){: title='Neighbor Hub for CSRs'}
 [![Mockups of printed bills for Neighbor](images/portfolio-neighbor/neighbor-bills.jpg)](images/portfolio-neighbor/neighbor-bills.jpg){: title='Mockups of printed bills for Neighbor'}
@@ -59,7 +59,7 @@ Neighbor is a consumer billing platform that our team at Globalive Technology la
 > - Employer: Neighbor Billing
 > - My Role: Designer. Did all the things.
 
-Once the first release of our Neighbor Billing platform was out the door, we then re-launched our website to sell what we had built, and to attract employees to the company. 
+Once the first release of our Neighbor Billing platform had shipped, we then re-launched our website to sell what we had built, and to attract employees to the company. 
 
 In so doing, I identified the need to refresh the brand, but gave ourselves a short timeframe to develop our new look.
 
@@ -98,28 +98,6 @@ I wanted to design a system that encourages people to get into the habit of grat
 
 
 
-# Banking App Modernization Wireframe
-
-![Bank modernization project wireframe.](images/portfolio/bank-account-connect.jpg)
-
-- Web
-- Modernization
-- 2017
-{: .tags}
-
-> - Employer: DevBBQ
-> - My Role: Designer.
-
-- _Modernization_
-- Context:
-	- Legacy Windows application, brought inline with their current web standard look and feel.
-- Deliverables: 
-	- Built wireframes and screen flow for prospect.
-- Challenges:
-	- Work was done via manager (no direct access to client).
-
-
-
 # Achievers API Prototypes
 
 ![Achievers Product Labs page](images/portfolio/achievers-product-labs-brand.jpg)
@@ -134,7 +112,7 @@ I wanted to design a system that encourages people to get into the habit of grat
 > - My Role: Designer and Developer. Did all the things.
 > - PHP, jQuery, Chrome extensions, Confluence & JIRA APIs, Outlook VBA
 
-As Product Manager for the Achievers API, I built prototypes to demonstrate present and future use cases using the API and our data. This helped our non-technical stakeholders visualize the potential value we could provide, and enabled new use cases for Sales.
+As Product Manager for the Achievers API, I built prototypes to demonstrate present and future use cases using the API and our data. This helped our non-technical stakeholders visualize the potential value we could provide, and enabled new use cases for our Sales team.
 
 Prototypes included:
 
@@ -187,10 +165,9 @@ As part of this project I developed the logo, patterns, colors, and examples of 
 > - Employer: Blueprint
 > - My Role: Designer and Developer. Did all the things.
 
-As Technical Marketing Manager
-Updated the web site and did email marketing for a new release of the product.
+For the release of Blueprint Requirements Center 2009, we needed a refreshed web presence to really show  it off.
 
-\+ Email Marketing
+I designed and implemented a new site and other marketing pieces that accompanied it, including a teaser and email campaign.
 
 [![Blueprint RC2009 website screenshot.](images/portfolio/blueprint-rc2009-1-sm.jpg)](images/portfolio/blueprint-rc2009-1.png){: title='Blueprint RC2009 Website'}
 [![Blueprint RC2009 website screenshot.](images/portfolio/blueprint-rc2009-2-sm.jpg)](images/portfolio/blueprint-rc2009-2.png){: title='Blueprint RC2009 Website'}
