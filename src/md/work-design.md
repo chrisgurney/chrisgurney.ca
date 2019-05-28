@@ -193,3 +193,26 @@ After joining a company, I found out that the business' existing Intranet consis
 In an effort to resolve this, I took it upon myself to build a new Intranet from the ground up, with the goal of creating a tool by which employees could easily share useful information.
 
 [Read More →](xenos-intranet.html){: .btn .btn-primary .btn-xl .text-light}
+
+
+# Other Case Studies
+
+- UI
+- 2018
+{: .tags}
+
+Other notable design exercises:
+
+🎨 **Daily UI**: A 100 day project to improve my design skills.
+
+🕹 **Nintendo Switch Connect**: A conceptual social app for fans of the Nintendo Switch™.
+
+👕 **Layer2**: Brand style guide for an urban outdoor wear company.
+
+[Daily UI →](dailyui.html){: .btn .btn-primary .btn-xl .mb-2 .text-light}  [Switch Connect →](switch-connect.html){: .btn .btn-primary .btn-xl .mb-2 .text-light}  [Layer2 →](layer2.html){: .btn .btn-primary .btn-xl .mb-2 .text-light}
+
+[![A sign up form for a mobile app.](images/portfolio/dailyui-001.jpg)](images/portfolio/dailyui-001.jpg){: title='Daily UI #001: A Sign Up Form'}
+[![News Feed for a social app concept for fans of the Nintendo Switch.](images/portfolio/switch-connect.jpg)](images/portfolio/switch-connect.jpg){: title='Nintendo Switch Connect: A conceptual social app for fans of the Nintendo Switch™.'}
+[![Layer2 Style Guide pieces including: logo, type, and iconography.](images/portfolio/layer2.jpg)](images/portfolio/layer2.jpg){: title='Layer2: Brand style guide for an urban outdoor wear company.'}
+
+{: .popup-gallery .thumbs}

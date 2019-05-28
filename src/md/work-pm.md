@@ -19,16 +19,11 @@ Product Manager for the modernization of a mobile app (React Native) that coache
 
 [Details...](#details-ccmi){: data-toggle=collapse}
 
-- Notable Deliverables:
-  - Requirements and delivery management.
-  - Localization: Facilitated language export/import for client translation.
-  - Test Scenarios: Developed and executed test plan.
-  - Email design + development.
-- Successes:
-  - Invited client (Kyle, developer and brother of Cam) to scrums.
-- Challenges:
-  - Severely underquoted project.
-  - Not all my capacity was available.
+- Managed requirements and bi-weekly delivery.
+- Localization: Facilitated language export/import for client translation.
+- Test Scenarios: Developed and executed test plan (no QA resource).
+- Email design + development.
+- Involved client representative in scrums.
 - [Visit Complete Concussion Management →](https://completeconcussions.com/){: target=_blank_}
 {: id=details-ccmi .collapse}
 
@@ -48,26 +43,14 @@ Product Manager for the modernization of a mobile app (React Native) that coache
 > - Employer: DevBBQ
 > - My Role: Product Manager
 
-Boon-Town creates content that is focused on good things in the world of sports, and partners with athletes and teams to raise funds and awareness for causes that are important to all of us. Fans are given a chance to win unforgettable experiences and rewards.
+Boon-Town partners with athletes and teams to raise funds and awareness for important causes.
+
+The platform was used successfully for a campaign to raise funds for cancer research at Sunnybrook Hospital, with the support of Doug Gilmour, in honour of the late Gord Downie of The Tragically Hip.
 
 [Details...](#details-boon){: data-toggle=collapse}
 
-- _Concept to Launch_
-- Context:
-	- Fundraising platform, driven by athlete fans.
-	- Plus support during first campaign.
-	- Responsive web app.
-- Notable Deliverables & Challenges:
-	- Requirements and delivery management.
-	- Responsiveness, as branding changed.
-	- [Web Services Inventory](https://trello.com/c/ck57VVWy/79-identify-web-services-setup-project-accounts-list-of-recommended-services-instructions-if-necessary)
-	- Emails.
-- Challenges:
-	- Limited designer hours.
-	- Turned into CMS as well.
-	- Client expected us to provide brand design.
-	- Main stakeholder focussed on brand.
-	- Several major brand design iterations.
+- Managed requirements and continuous client delivery, from _concept to launch_.
+- This project had challenges: Limited designer hours available; the scope evolved expanded to effectively build a CMS; and the branding and design completely changed mid-project.
 - [Visit Boon-Town →](https://boon-town.com){: target=_blank_}
 {: id=details-boon .collapse}
 
@@ -87,18 +70,12 @@ Boon-Town creates content that is focused on good things in the world of sports,
 > - Employer: DevBBQ
 > - My Role: Product Manager
 
-therapia.life - At Home Physiotherapy
-
 Therapia provides patients with physiotherapy home visits. The app connects patients with local home care physiotherapists throughout the GTA and beyond.
 
 [Details...](#details-therapia){: data-toggle=collapse}
 
-- _Concept to Launch_
-- Context:
-	- In-home physiotherapy reservation system.
-	- Responsive web app.
-- Notable Deliverables:
-	- Requirements and delivery management.
+- Managed requirements and continuous client delivery, from _concept to launch_.
+- Responsive web app.
 - [Visit Therapia →](https://therapia.com){: target=_blank_}
 {: id=details-therapia .collapse}
 
@@ -119,17 +96,15 @@ Therapia provides patients with physiotherapy home visits. The app connects pati
 > - Employer: DevBBQ
 > - My Role: Product Manager
 
-WayHire provides select, passive candidates with discreet, career development opportunities with desirable employers. Decide what employers or individual opportunities would interest you, sit back, and wait for your next move to come to you!
+WayHire provides select, passive candidates with discreet, career development opportunities with desirable employers. An applicant tracking system for recruiters.
+
+Our client was ultimately acquired.
 
 [Details...](#details-wayhire){: data-toggle=collapse}
 
-- _Concept to Launch_ for a true MVP.
-- Context:
-	- Recruitment applicant tracking system.
-	- Only client to understand/accept a "real" MVP.
-- Notable Deliverables:
-	- Requirements and delivery management.
-  - Client was ultimately acquired.
+- Developed as a true MVP, over multiple engagements, around our client's specific process. 
+- Managed requirements and continuous client delivery, from _concept to launch_.
+- Conducted discovery and managed roadmap.
 {: id=details-wayhire .collapse}
 
 
@@ -148,14 +123,11 @@ WayHire provides select, passive candidates with discreet, career development op
 > - Employer: DevBBQ
 > - My Role: Product Manager
 
-Paymi allows consumers to automatically earn cash when they shop with their existing credit or debit cards at partner stores and through affiliates.
+Paymi is a consumer loyalty app that allows consumers to automatically earn cash when they shop with their existing credit or debit cards.
 
 [Details...](#details-paymi){: data-toggle=collapse}
 
-- Context:
-	- Consumer loyalty / shopping rewards.
-- Notable Deliverables:
-	- Requirements + delivery management
+- Responsible for managing requirements and continuous delivery.
 - [Visit Paymi →](https://www.paymi.com/){: target=_blank_}
 {: id=details-paymi .collapse}
 
@@ -175,85 +147,17 @@ Paymi allows consumers to automatically earn cash when they shop with their exis
 
 Facilitated discovery sessions for a life coaching platform.
 
-[Details...](#details-sphere){: data-toggle=collapse}
-
-- _Discovery_
-- Context:
-	- Life-coaching solution.
-	- In development at http://sphereishere.com/
-- Notable Deliverables:
-	- Discovery process, to determine MVP's scope.
-{: id=details-sphere .collapse}
-
-
 ## Condo Pre-Build Reservation System
 
-[Details...](#details-railway){: data-toggle=collapse}
-
-- _MVP_
-- Context:
-	- Condo pre-build reservation system web app.
-	- Responsive web app.
-	- Launch didn't pan out due to unforeseen client situation. 
-	- Full design provided.
-- Notable Deliverables:
-	- Requirements and delivery management.
-{: id=details-railway .collapse}
-
+Managed requirements and continuous delivery of this responsive web app (Ruby).
 
 ## Fanergy
 
-Managed development of a prototype for a sports fan engagement app.
-
-[Details...](#details-fanergy){: data-toggle=collapse}
-
-- MVP
-- Context:
-	- Concept for a sports fan engagement mobile app.
-	- Swift native iOS app.
-- Challenges:
-	- Limited designer.
-{: id=details-fanergy .collapse}
-
+Managed development of a prototype for a sports fan engagement app (Swift, iOS).
 
 ## Waypoint Golf
 
 Facilitated discovery sessions for a golf tournament booking platform.
-
-[Details...](#details-waypoint){: data-toggle=collapse}
-
-- Discovery
-- Context:
-	- Golf tournament self-management web app.
-- Facilitated discovery sessions:
-  - Day 1:
-    - Client Goals, Priorities, Pains, Pitch, Timing
-    - Session Goals: User Roles, Wireframes/Journey, Priorities, Sprint Plan + Releases
-    - Journey
-  - Day 2:
-    - Flow / I.A.
-    - Models (Player, Charity, Sponsor, Course)
-    - Wires (Tourney Creation, Registration)
-    - Inspiration / Competitors
-  - Day 3: 
-    - continued understanding of: current state (incl. paperwork)
-    - future: first wires (creation flow)
-  - Day 4:
-    - Registration Flow (Current -> Ideal)
-    - Check-in Flow (Current -> Ideal)
-    - Initial Data Model (e.g., Players)
-  - Day 5:
-    - Dashboard
-    - Financial Flow (current)
-    - Inspiration
-    - Story Map
-  - Other Considerations
-    - Risks
-    - User Roles / Personas
-    - Current Data + Facts
-    - Assumptions
-    - Journey
-{: id=details-waypoint .collapse}
 
 
 # Achievers Accessibility
@@ -269,16 +173,12 @@ Facilitated discovery sessions for a golf tournament booking platform.
 > - Employer: Achievers
 > - My Role: Product Manager. Requirements analysis and user testing.
 
-PM for implementing accessibility in our web platform, and to raise awareness internally.
+Lead implementation of accessibility in our web platform, and raised awareness internally. This included:
 
-- WCAG compliance.
-- Interpreted WCAG levels as it pertained to Achievers.
-- Acquired JAWS; used tools where available for initial testing (WAVE, aChecker, Google).
-- Found advocate in development who was interested in being the expert.
-- Taking developer to watch a user test further built empathy; developer later did a Tech Talk on the subject.
-	- [SlideShare](https://www.slideshare.net/achieverstech/accessibility-a-journey-to-accessible-rich-components){: target=_blank}
-	- [YouTube](https://www.youtube.com/watch?v=xSkS9uI7Wqw){: target=_blank}
-- Support team implemented policy.
+- Interpreting WCAG levels, as it pertained to Achievers.
+- Acquiring JAWS, and using tools where available for initial testing (WAVE, aChecker, Google).
+- Finding an advocate in development who was interested in being the expert.
+- Taking this developer to watch a user test further built empathy; they later did a [tech talk](https://www.youtube.com/watch?v=xSkS9uI7Wqw){: target=_blank_} on the subject.
 
 
 
@@ -295,43 +195,40 @@ PM for implementing accessibility in our web platform, and to raise awareness in
 > - Employer: Achievers
 > - My Role: Product Manager
 
-In addition to the API, I led the improvements on a number of features on the Achievers employee recognition and rewards platform.
+In addition to the API, I led improvement initiatives on a number of features on the Achievers employee recognition and rewards platform.
 
 ## Login Flow Improvements
 
-- Input from Support team on common challenges; password recovery was top reason members called in.
-- Challenge: Also worked with Security team to ensure newer restrictions were taken into account: preventing brute-force attempts; modernizing CAPTCHA (accessible); increasing security questions; not letting the user know whether their email was on file or not;  
-- ...all in the context of a white-labelled site. (This was always a challenge: What's Achievers and what's the client; ended up pushing out brand over time.)
-- Clearer instructions for SSO (e.g., user attempts to sign in directly with network password, when SSO is enabled);
-- "Your password is weaker than 40% of users" - social proof
-- Researched spam; email improvements
+- Problem: Interviewing the customer support team revealed login challenges our members commonly had; password recovery was top reason members called in. 
+- Worked with Security team to ensure newer restrictions (partly due to ISO compliance) were taken into account: preventing brute-force attempts; modernizing CAPTCHA (making it accessible); increasing security questions; not letting the user know whether their email was on file or not... all in the context of a white-labelled platform.
+- Solutions included: Clearer UI for login, and separation with SSO; password strength indicators and social proof (e.g., "Your password is weaker than 40% of users"); email improvements to try to avoid password emails from going to spam folders.
 
 ## Transactional Email Improvements
 
 PM for improving the design of all our transactional emails.
 
 - Inventoried all emails, their triggers, and CTAs.
-- Journey map + JTBD for each email.
+- Created a journey map + performed a JTBD analysis for each email.
 - Researched and scoped requirements for CASL compliance.
+- Result included improving copy, CTAs, and implementing email subscription interface.
 
 ## Checkout Flow
 
-- started as collection of "priorities" identified by ME: physical vs virtual, suggestion to notify users of orders
-- challenged their assumptions
-- checkout flow: used new employees  
-- came down to adding an _Order_ button
+- Improvements to the rewards catalogue checkout flow started as collection of "priorities" identified by our suppport team: Differences between physical (i.e., shipped) vs virtual (i.e., gift codes); notifications on order updates. I challenged their assumptions.
+- Looked at data which revealed that users bookmarked the order status page, and didn't have a clear way back to that page otherwise.
+- Mocked up changes to the checkout flow and tested it on new employees.
 
 ## Administration System Improvements
 
-- Worked closely with Support team, watched them use internal administration system in conjunction with Salesforce (for ticket tracking) to see what common workflows looked like.
-- *Created shortcuts to speed up access and to populate key screens.*
+- Observed the support team using our internal administration system, to see what common workflows looked like.
+- Solutions included creating shortcuts to our ticket tracking system, to speed up access and to populate key screens, shortening time on calls.
 
 ## Other PM Work
 
-- Holiday Emails
-- HRIS Integration Improvements
-- Issue Intake
-- Focus Groups (PLM) and Product Advisory Council (PM)
+Other initiatives included:
+
+- Holiday Emails - Our annually scheduled emails across all approved programs that encouraged redemptions.
+- HRIS Integration Improvements - Executed requirements from our Professional Services team to improve the efficiency, integrity, and functionality behind data imports from HR systems.
 
 
 
