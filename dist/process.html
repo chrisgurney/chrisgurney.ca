@@ -1,0 +1,1266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Chris Gurney - Designer++;</title>
+
+    <!-- startup configuration per https://w3c.github.io/manifest/ -->
+    <link rel="manifest" href="manifest.json" />
+
+    <!-- Browser bar color - Chrome, Firefox OS and Opera + IE + Safari -->
+    <meta name="theme-color" content="#FE9B27">
+    <meta name="msapplication-navbutton-color" content="#FE9B27">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#FE9B27">
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <link rel="apple-touch-icon" href="images/touch/chrisgurney_120.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="images/touch/chrisgurney_152.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="images/touch/chrisgurney_180.png" />
+    <link rel="apple-touch-icon" sizes="167x167" href="images/touch/chrisgurney_167.png" />
+
+    <!-- Metadata -->
+    <link rel="icon" type="image/png" href="favicon.png">
+    <meta name="author" content="Chris Gurney" />    
+    <meta name="description" content="Chris Gurney, product designer based in Toronto, Canada." />
+
+    <meta itemprop="thumbnailUrl" content="https://www.chrisgurney.ca/images/touch/chrisgurney_512.png"/>
+    <link rel="image_src" href="https://www.chrisgurney.ca/images/chrisgurney.jpg" />
+    <meta itemprop="image" content="https://www.chrisgurney.ca/images/chrisgurney.jpg"/>
+
+    <meta property="og:title" content="Chris Gurney" />
+    <meta property="og:description" content="Chris Gurney, product designer based in Toronto, Canada." />
+    <meta property="og:image" content="https://www.chrisgurney.ca/images/share-banner.png" />
+    <meta property="og:url" content="https://www.chrisgurney.ca/" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Chris Gurney" />
+    <meta name="twitter:description" content="Chris Gurney, product designer based in Toronto, Canada." />
+    <meta name="twitter:image" content="https://www.chrisgurney.ca/images/share-banner.png" />
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/creative.min.css" rel="stylesheet">
+
+    <!-- Drift Async Code -->
+    <script>
+    "use strict";
+
+    !function() {
+      var t = window.driftt = window.drift = window.driftt || [];
+      if (!t.init) {
+        if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+        t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+        t.factory = function(e) {
+          return function() {
+            var n = Array.prototype.slice.call(arguments);
+            return n.unshift(e), t.push(n), t;
+          };
+        }, t.methods.forEach(function(e) {
+          t[e] = t.factory(e);
+        }), t.load = function(t) {
+          var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+          o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+          var i = document.getElementsByTagName("script")[0];
+          i.parentNode.insertBefore(o, i);
+        };
+      }
+    }();
+    </script>
+
+    <!-- Google Analytics-->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-137570047-1"></script>
+
+    <!-- Load scripts if not on localhost -->
+    <script>
+        var host = window.location.host;
+        if ((host.indexOf("localhost") == -1) && 
+            (host.indexOf("ngrok.io") == -1)) {
+
+            // FullStory
+            window['_fs_debug'] = false;
+            window['_fs_host'] = 'fullstory.com';
+            window['_fs_org'] = 'BB5X9';
+            window['_fs_namespace'] = 'FS';
+            (function(m,n,e,t,l,o,g,y){
+                if (e in m) {if(m.console && m.console.log) { m.console.log('FullStory namespace conflict. Please set window["_fs_namespace"].');} return;}
+                g=m[e]=function(a,b){g.q?g.q.push([a,b]):g._api(a,b);};g.q=[];
+                o=n.createElement(t);o.async=1;o.src='https://'+_fs_host+'/s/fs.js';
+                y=n.getElementsByTagName(t)[0];y.parentNode.insertBefore(o,y);
+                g.identify=function(i,v){g(l,{uid:i});if(v)g(l,v)};g.setUserVars=function(v){g(l,v)};
+                y="rec";g.shutdown=function(i,v){g(y,!1)};g.restart=function(i,v){g(y,!0)};
+                g.identifyAccount=function(i,v){o='account';v=v||{};v.acctId=i;g(o,v)};
+                g.clearUserCookie=function(){};
+            })(window,document,window['_fs_namespace'],'script','user');
+
+            // Google Analytics
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-137570047-1');
+
+            // Drift
+            drift.SNIPPET_VERSION = '0.3.1';
+            drift.load('nte2xame32yz');
+
+        }
+    </script>
+
+  </head>
+
+  <body id="page-top">
+
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand dark js-scroll-trigger" href="index.html"><img src="images/cg-logo.svg" style="height: 1.8rem" alt="Chris Gurney logo"/></a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarFull" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="container-fluid collapse" id="navbarFull">
+          <div class="menu-full">
+            <ul class="menu-nav">
+              <li>
+                <a class="nav-link js-scroll-trigger" href="/work.html">work</a>
+              </li>
+<!--               <li>
+                <a class="nav-link js-scroll-trigger" href="#process">process</a>
+              </li>  -->             
+              <li>
+                <a class="nav-link js-scroll-trigger" href="/about.html">about</a>
+              </li>
+              <li>
+                <a class="nav-link js-scroll-trigger" href="#contact">contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>    
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link underline-anim dark js-scroll-trigger" href="/work.html">work</a>
+            </li>           
+<!--             <li class="nav-item">
+              <a class="nav-link underline-anim dark js-scroll-trigger" href="#process">process</a>
+            </li> -->                          
+            <li class="nav-item">
+              <a class="nav-link underline-anim dark js-scroll-trigger" href="/about.html">about</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link underline-anim dark js-scroll-trigger" href="#contact">contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+<header id="process" class="article text-center text-white d-flex">
+  <div class="container my-auto sr-card">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">     
+        <h1>My Design Process</h1>
+        <p class="mb-5">From design to done.</p>
+      </div>
+    </div>
+  </div>      
+</header>
+
+<main role="main">
+
+  <!-- Begin Post -->
+  <section class="pb-5 pt-md-5 pt-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-12 mx-auto"> 
+          <div class="article-post">
+            <p>My approach to design is grounded in my roots as a product manager and as a software developer:</p>
+            <blockquote>
+              A design is useful to nobody if you can't get it in your customer's and your user's hands as soon as humanly possible.
+            </blockquote> 
+
+            <h2>My Design Principles</h2>
+
+            <p>The principles I believe in are littered throughout my process:</p>
+            <ul>
+              <li><strong>Test All Assumptions.</strong> I've seen enough projects completely fail, that felt like a complete waste (aside from my learnings, of course), because we didn't use true MVPs, or do the research, to test client assumptions along the way.</li>
+              <li><strong>Always Be Delivering.</strong> Whether these are photos of whiteboard sketches, or mockups. Minimum viable features don't have to be fully fleshed out (whatever that means) user experiences. Getting data and feedback is infinitely more valuable. Testing builds confidence. Visualizing gets everybody on the same page.</li>
+              <li><strong>Always Be Testing.</strong> Build confidence.</li>
+              <li><strong>Sketch Everything.</strong> An eraser is cheaper. Visualize everything. Get everyone to <em>see</em>.</li>
+              <li><strong>Daily Delivery.</strong> Show the process. Get <em>something</em> out there. It will never be "done".</li>
+              <li><strong>Build Empathy Internally.</strong> Bring back research, and let people experience it. Results in much better buy-in and solutioning. Share research and test recordings (with permission) in dedicated chat channel. Let engineers sit in interviews and tests.</li>
+              <li><strong>Involve Everyone.</strong> Everyone is a Designer - It’s not about throwing finished designs over the wall; it’s a conversation. And the more context they have, and empathy, the better.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>    
+
+  <section id="process-cards" class="pb-5 pt-3">
+    <div class="container-fluid" style="background-color: #F2F2F2;">
+      <div class="row mx-auto text-center">
+        <div class="col-12">
+          <div class="article-post">
+            <h1>The Steps</h1>
+          </div>
+        </div>
+      </div>      
+      <div class="row mx-auto text-center pb-5">
+        <div id="process-btns" class="col-12">
+          <!-- TODO: active state for button selected -->          
+          <!-- TODO: generate this from the JSON -->
+          <a class="btn btn-primary btn-xl sr-button mb-lg-0 mb-3 mx-2" data-list="Contextualize" href="#contextualize">Contextualize</a>
+          <a class="btn btn-primary btn-xl sr-button mb-lg-0 mb-3 mx-2" data-list="Empathize" href="#empathize">Empathize</a>
+          <a class="btn btn-primary btn-xl sr-button mb-lg-0 mb-3 mx-2" data-list="Create" href="#create">Create</a>
+          <a class="btn btn-primary btn-xl sr-button mb-lg-0 mb-3 mx-2" data-list="Test" href="#test">Test</a>
+          <a class="btn btn-primary btn-xl sr-button mb-lg-0 mb-3 mx-2" data-list="Deliver" href="#deliver">Deliver</a>
+        </div>
+      </div>      
+      <div class="row">
+        <div class="process-card mb-lg-5 mb-3 col-lg-3 col-sm-6 col-12" data-list="Contextualize">
+  <div class="card h-100 mb-2">
+    <div class="card-body">
+      <small class="text-muted text-uppercase">
+        Contextualize
+      </small>
+      <h3 class="card-title pt-2">Interview Stakeholders</h3>
+      <p class="card-text">
+        Who am I ultimately responsible to for this project?
+      </p>
+    </div>
+    <div class="card-footer mb-2">                
+      <a class="underline-anim" href="#5cc8e37795aa8b6d9828076d">Read More &rarr;</a>
+    </div>    
+  </div>
+</div><div class="process-card mb-lg-5 mb-3 col-lg-3 col-sm-6 col-12" data-list="Contextualize">
+  <div class="card h-100 mb-2">
+    <div class="card-body">
+      <small class="text-muted text-uppercase">
+        Contextualize
+      </small>
+      <h3 class="card-title pt-2">Understand Assumptions</h3>
+      <p class="card-text">
+        
+      </p>
+    </div>
+    <div class="card-footer mb-2">                
+      <a class="underline-anim" href="#5cc8e370080d8d0fcd81004a">Read More &rarr;</a>
+    </div>    
+  </div>
+</div><div class="process-card mb-lg-5 mb-3 col-lg-3 col-sm-6 col-12" data-list="Contextualize">
+  <div class="card h-100 mb-2">
+    <div class="card-body">
+      <small class="text-muted text-uppercase">
+        Contextualize
+      </small>
+      <h3 class="card-title pt-2">Develop Research Plan</h3>
+      <p class="card-text">
+        
+      </p>
+    </div>
+    <div class="card-footer mb-2">                
+      <a class="underline-anim" href="#5cc8e399ceaf08272aae59aa">Read More &rarr;</a>
+    </div>    
+  </div>
+</div><div class="process-card mb-lg-5 mb-3 col-lg-3 col-sm-6 col-12" data-list="Contextualize">
+  <div class="card h-100 mb-2">
+    <div class="card-body">
+      <small class="text-muted text-uppercase">
+        Contextualize
+      </small>
+      <h3 class="card-title pt-2">Audit Existing Application</h3>
+      <p class="card-text">
+        
+      </p>
+    </div>
+    <div class="card-footer mb-2">                
+      <a class="underline-anim" href="#5cc9a731c96f9839b95f7bed">Read More &rarr;</a>
+    </div>    
+  </div>
+</div><div class="process-card mb-lg-5 mb-3 col-lg-3 col-sm-6 col-12" data-list="Contextualize">
+  <div class="card h-100 mb-2">
+    <div class="card-body">
+      <small class="text-muted text-uppercase">
+        Contextualize
+      </small>
+      <h3 class="card-title pt-2">Establish Agile Design Workflow</h3>
+      <p class="card-text">
+        
+      </p>
+    </div>
+    <div class="card-footer mb-2">                
+      <a class="underline-anim" href="#5cc8e37bb08d9c439e0c3f05">Read More &rarr;</a>
+    </div>    
+  </div>
+</div><div class="process-card mb-lg-5 mb-3 col-lg-3 col-sm-6 col-12" data-list="Empathize">
+  <div class="card h-100 mb-2">
+    <div class="card-body">
+      <small class="text-muted text-uppercase">
+        Empathize
+      </small>
+      <h3 class="card-title pt-2">Interview Users</h3>
+      <p class="card-text">
+        
+      </p>
+    </div>
+    <div class="card-footer mb-2">                
+      <a class="underline-anim" href="#5cc8e3ac7b83908d1f077dcd">Read More &rarr;</a>
+    </div>    
+  </div>
+</div><div class="process-card mb-lg-5 mb-3 col-lg-3 col-sm-6 col-12" data-list="Empathize">
+  <div class="card h-100 mb-2">
+    <div class="card-body">
+      <small class="text-muted text-uppercase">
+        Empathize
+      </small>
+      <h3 class="card-title pt-2">Build Personas</h3>
+      <p class="card-text">
+        
+      </p>
+    </div>
+    <div class="card-footer mb-2">                
+      <a class="underline-anim" href="#5cc8e3ce1058774608ac4476">Read More &rarr;</a>
+    </div>    
+  </div>
+</div><div class="process-card mb-lg-5 mb-3 col-lg-3 col-sm-6 col-12" data-list="Empathize">
+  <div class="card h-100 mb-2">
+    <div class="card-body">
+      <small class="text-muted text-uppercase">
+        Empathize
+      </small>
+      <h3 class="card-title pt-2">Journey Map</h3>
+      <p class="card-text">
+        
+      </p>
+    </div>
+    <div class="card-footer mb-2">                
+      <a class="underline-anim" href="#5cc8e3dfdc9fc93048ed4bf9">Read More &rarr;</a>
+    </div>    
+  </div>
+</div><div class="process-card mb-lg-5 mb-3 col-lg-3 col-sm-6 col-12" data-list="Empathize">
+  <div class="card h-100 mb-2">
+    <div class="card-body">
+      <small class="text-muted text-uppercase">
+        Empathize
+      </small>
+      <h3 class="card-title pt-2">Jobs To Be Done</h3>
+      <p class="card-text">
+        
+      </p>
+    </div>
+    <div class="card-footer mb-2">                
+      <a class="underline-anim" href="#5cc8e3d407d42676757bf9c2">Read More &rarr;</a>
+    </div>    
+  </div>
+</div><div class="process-card mb-lg-5 mb-3 col-lg-3 col-sm-6 col-12" data-list="Empathize">
+  <div class="card h-100 mb-2">
+    <div class="card-body">
+      <small class="text-muted text-uppercase">
+        Empathize
+      </small>
+      <h3 class="card-title pt-2">Design Stories</h3>
+      <p class="card-text">
+        
+      </p>
+    </div>
+    <div class="card-footer mb-2">                
+      <a class="underline-anim" href="#5cc8e3f324fc3b0c804f67a0">Read More &rarr;</a>
+    </div>    
+  </div>
+</div><div class="process-card mb-lg-5 mb-3 col-lg-3 col-sm-6 col-12" data-list="Create">
+  <div class="card h-100 mb-2">
+    <div class="card-body">
+      <small class="text-muted text-uppercase">
+        Create
+      </small>
+      <h3 class="card-title pt-2">Visual Context</h3>
+      <p class="card-text">
+        
+      </p>
+    </div>
+    <div class="card-footer mb-2">                
+      <a class="underline-anim" href="#5cc8e3bf2da9043921c2e0d7">Read More &rarr;</a>
+    </div>    
+  </div>
+</div><div class="process-card mb-lg-5 mb-3 col-lg-3 col-sm-6 col-12" data-list="Create">
+  <div class="card h-100 mb-2">
+    <div class="card-body">
+      <small class="text-muted text-uppercase">
+        Create
+      </small>
+      <h3 class="card-title pt-2">Ideate - Diverge and Converge</h3>
+      <p class="card-text">
+        
+      </p>
+    </div>
+    <div class="card-footer mb-2">                
+      <a class="underline-anim" href="#5cc8e4bb2c5cc21601ecdd5c">Read More &rarr;</a>
+    </div>    
+  </div>
+</div><div class="process-card mb-lg-5 mb-3 col-lg-3 col-sm-6 col-12" data-list="Create">
+  <div class="card h-100 mb-2">
+    <div class="card-body">
+      <small class="text-muted text-uppercase">
+        Create
+      </small>
+      <h3 class="card-title pt-2">Draw, Mock, and Prototype</h3>
+      <p class="card-text">
+        
+      </p>
+    </div>
+    <div class="card-footer mb-2">                
+      <a class="underline-anim" href="#5cc8e424985c20080e2d977f">Read More &rarr;</a>
+    </div>    
+  </div>
+</div><div class="process-card mb-lg-5 mb-3 col-lg-3 col-sm-6 col-12" data-list="Create">
+  <div class="card h-100 mb-2">
+    <div class="card-body">
+      <small class="text-muted text-uppercase">
+        Create
+      </small>
+      <h3 class="card-title pt-2">Interaction Design + Animation</h3>
+      <p class="card-text">
+        
+      </p>
+    </div>
+    <div class="card-footer mb-2">                
+      <a class="underline-anim" href="#5cc8e4b02a561b6f3852b636">Read More &rarr;</a>
+    </div>    
+  </div>
+</div><div class="process-card mb-lg-5 mb-3 col-lg-3 col-sm-6 col-12" data-list="Create">
+  <div class="card h-100 mb-2">
+    <div class="card-body">
+      <small class="text-muted text-uppercase">
+        Create
+      </small>
+      <h3 class="card-title pt-2">Think in Components</h3>
+      <p class="card-text">
+        Atomic Design to Design Systems
+      </p>
+    </div>
+    <div class="card-footer mb-2">                
+      <a class="underline-anim" href="#5cc8e42c632620281ec853a0">Read More &rarr;</a>
+    </div>    
+  </div>
+</div><div class="process-card mb-lg-5 mb-3 col-lg-3 col-sm-6 col-12" data-list="Create">
+  <div class="card h-100 mb-2">
+    <div class="card-body">
+      <small class="text-muted text-uppercase">
+        Create
+      </small>
+      <h3 class="card-title pt-2">Information Architecture + OOUX</h3>
+      <p class="card-text">
+        
+      </p>
+    </div>
+    <div class="card-footer mb-2">                
+      <a class="underline-anim" href="#5cc8e3e6138fbd806a2933aa">Read More &rarr;</a>
+    </div>    
+  </div>
+</div><div class="process-card mb-lg-5 mb-3 col-lg-3 col-sm-6 col-12" data-list="Create">
+  <div class="card h-100 mb-2">
+    <div class="card-body">
+      <small class="text-muted text-uppercase">
+        Create
+      </small>
+      <h3 class="card-title pt-2">Establish Design Principles</h3>
+      <p class="card-text">
+        
+      </p>
+    </div>
+    <div class="card-footer mb-2">                
+      <a class="underline-anim" href="#5cc8e4059fe007286b15fe5a">Read More &rarr;</a>
+    </div>    
+  </div>
+</div><div class="process-card mb-lg-5 mb-3 col-lg-3 col-sm-6 col-12" data-list="Create">
+  <div class="card h-100 mb-2">
+    <div class="card-body">
+      <small class="text-muted text-uppercase">
+        Create
+      </small>
+      <h3 class="card-title pt-2">Establish Voice & Tone</h3>
+      <p class="card-text">
+        
+      </p>
+    </div>
+    <div class="card-footer mb-2">                
+      <a class="underline-anim" href="#5cc8e40a7146991e65b44a0d">Read More &rarr;</a>
+    </div>    
+  </div>
+</div><div class="process-card mb-lg-5 mb-3 col-lg-3 col-sm-6 col-12" data-list="Create">
+  <div class="card h-100 mb-2">
+    <div class="card-body">
+      <small class="text-muted text-uppercase">
+        Create
+      </small>
+      <h3 class="card-title pt-2">Design Workflow Documentation</h3>
+      <p class="card-text">
+        i.e., The Design README
+      </p>
+    </div>
+    <div class="card-footer mb-2">                
+      <a class="underline-anim" href="#5cc8e42d558b2867bd4b72d2">Read More &rarr;</a>
+    </div>    
+  </div>
+</div><div class="process-card mb-lg-5 mb-3 col-lg-3 col-sm-6 col-12" data-list="Create">
+  <div class="card h-100 mb-2">
+    <div class="card-body">
+      <small class="text-muted text-uppercase">
+        Create
+      </small>
+      <h3 class="card-title pt-2">Non-Functional Requirements</h3>
+      <p class="card-text">
+        
+      </p>
+    </div>
+    <div class="card-footer mb-2">                
+      <a class="underline-anim" href="#5cc99efb78446a435ac2398b">Read More &rarr;</a>
+    </div>    
+  </div>
+</div><div class="process-card mb-lg-5 mb-3 col-lg-3 col-sm-6 col-12" data-list="Test">
+  <div class="card h-100 mb-2">
+    <div class="card-body">
+      <small class="text-muted text-uppercase">
+        Test
+      </small>
+      <h3 class="card-title pt-2">User Test</h3>
+      <p class="card-text">
+        
+      </p>
+    </div>
+    <div class="card-footer mb-2">                
+      <a class="underline-anim" href="#5cc8e22b008a9266ac3ef117">Read More &rarr;</a>
+    </div>    
+  </div>
+</div><div class="process-card mb-lg-5 mb-3 col-lg-3 col-sm-6 col-12" data-list="Test">
+  <div class="card h-100 mb-2">
+    <div class="card-body">
+      <small class="text-muted text-uppercase">
+        Test
+      </small>
+      <h3 class="card-title pt-2">Measure</h3>
+      <p class="card-text">
+        
+      </p>
+    </div>
+    <div class="card-footer mb-2">                
+      <a class="underline-anim" href="#5cc8e23fbcf5713b13fa09cf">Read More &rarr;</a>
+    </div>    
+  </div>
+</div><div class="process-card mb-lg-5 mb-3 col-lg-3 col-sm-6 col-12" data-list="Test">
+  <div class="card h-100 mb-2">
+    <div class="card-body">
+      <small class="text-muted text-uppercase">
+        Test
+      </small>
+      <h3 class="card-title pt-2">Regular Design Reviews</h3>
+      <p class="card-text">
+        
+      </p>
+    </div>
+    <div class="card-footer mb-2">                
+      <a class="underline-anim" href="#5cc8e23d4fc6d03b37241388">Read More &rarr;</a>
+    </div>    
+  </div>
+</div><div class="process-card mb-lg-5 mb-3 col-lg-3 col-sm-6 col-12" data-list="Test">
+  <div class="card h-100 mb-2">
+    <div class="card-body">
+      <small class="text-muted text-uppercase">
+        Test
+      </small>
+      <h3 class="card-title pt-2">Channel Feedback</h3>
+      <p class="card-text">
+        
+      </p>
+    </div>
+    <div class="card-footer mb-2">                
+      <a class="underline-anim" href="#5cc8e2823fe89d4ff101ef57">Read More &rarr;</a>
+    </div>    
+  </div>
+</div><div class="process-card mb-lg-5 mb-3 col-lg-3 col-sm-6 col-12" data-list="Test">
+  <div class="card h-100 mb-2">
+    <div class="card-body">
+      <small class="text-muted text-uppercase">
+        Test
+      </small>
+      <h3 class="card-title pt-2">Regular Reporting + Auditing</h3>
+      <p class="card-text">
+        
+      </p>
+    </div>
+    <div class="card-footer mb-2">                
+      <a class="underline-anim" href="#5cc8e247a41fdf5d59e1e63f">Read More &rarr;</a>
+    </div>    
+  </div>
+</div><div class="process-card mb-lg-5 mb-3 col-lg-3 col-sm-6 col-12" data-list="Deliver">
+  <div class="card h-100 mb-2">
+    <div class="card-body">
+      <small class="text-muted text-uppercase">
+        Deliver
+      </small>
+      <h3 class="card-title pt-2">Design Requirements</h3>
+      <p class="card-text">
+        
+      </p>
+    </div>
+    <div class="card-footer mb-2">                
+      <a class="underline-anim" href="#5cc8e58148786a064b02978c">Read More &rarr;</a>
+    </div>    
+  </div>
+</div><div class="process-card mb-lg-5 mb-3 col-lg-3 col-sm-6 col-12" data-list="Deliver">
+  <div class="card h-100 mb-2">
+    <div class="card-body">
+      <small class="text-muted text-uppercase">
+        Deliver
+      </small>
+      <h3 class="card-title pt-2">Prepare Assets</h3>
+      <p class="card-text">
+        
+      </p>
+    </div>
+    <div class="card-footer mb-2">                
+      <a class="underline-anim" href="#5cc8e58f4eae30341498718c">Read More &rarr;</a>
+    </div>    
+  </div>
+</div><div class="process-card mb-lg-5 mb-3 col-lg-3 col-sm-6 col-12" data-list="Deliver">
+  <div class="card h-100 mb-2">
+    <div class="card-body">
+      <small class="text-muted text-uppercase">
+        Deliver
+      </small>
+      <h3 class="card-title pt-2">Define Style Guide</h3>
+      <p class="card-text">
+        
+      </p>
+    </div>
+    <div class="card-footer mb-2">                
+      <a class="underline-anim" href="#5cc8e594aae43738f7bb7dee">Read More &rarr;</a>
+    </div>    
+  </div>
+</div><div class="process-card mb-lg-5 mb-3 col-lg-3 col-sm-6 col-12" data-list="Deliver">
+  <div class="card h-100 mb-2">
+    <div class="card-body">
+      <small class="text-muted text-uppercase">
+        Deliver
+      </small>
+      <h3 class="card-title pt-2">Project Documentation</h3>
+      <p class="card-text">
+        
+      </p>
+    </div>
+    <div class="card-footer mb-2">                
+      <a class="underline-anim" href="#5cc8e5c166bbb90e2d9ff973">Read More &rarr;</a>
+    </div>    
+  </div>
+</div>
+      </div>    
+    </div>
+  </section>
+
+  <section class="pb-5 pt-md-5 pt-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-12 mx-auto"> 
+          <div class="article-post">
+	<a name="5cc8e37795aa8b6d9828076d"></a>
+	<h6>Contextualize</h6>
+	<h1>Interview Stakeholders</h1>
+	
+		<blockquote>Who am I ultimately responsible to for this project?</blockquote>
+	
+	<p>Stakeholder Interviews</p>
+
+<p><a href="https://uxdesign.cc/ux-process-starts-at-stakeholder-interviews-not-user-interviews-4b464368d7d3">Article - UX Process Starts at Stakeholder Interviews</a></p>
+
+<ul><li>What is the requested feature / product / enhancement?</li><li>What is the expected timeline in stakeholders’ minds? Are they aligned?</li><li>Who are the intended users for the feature/product?</li><li>What are the constraints/worries that exist regarding this effort?</li></ul>
+
+<p>Questions:</p>
+
+<ul><li>Who’s involved?</li><li>Who needs to stay updated and how?<ul><li>Who do I need to bring into design reviews and other activities?</li></ul></li><li>RACI: Responsible, Accountable, Consulted, Informed</li></ul>
+
+<p>Issue Tracker</p>
+
+<p>Spreadsheet easier to use than JIRA (and without the overhead), to capture suggestions, bugs (show that stakeholders are being listened to), do triage, and to look for patterns.</p>
+
+<p>🛠 <strong>Tools</strong>: Stakeholder Interviews, RACI, Issue Tracker, MoSCoW</p>
+
+<p>[Issue Tracker example + columns]</p>
+</div><div class="article-post">
+	<a name="5cc8e370080d8d0fcd81004a"></a>
+	<h6>Contextualize</h6>
+	<h1>Understand Assumptions</h1>
+	
+	<p>I think this one needs to stand on its own.</p>
+
+<p>What is the business based on? So you can test for them. 
+Seen business ideas fail because they aren’t tested.
+Determine a <em>true</em> MVP.</p>
+
+<p>Become aware of our own assumptions and biases before interviewing.</p>
+
+<p>🛠 <strong>Tools</strong>: TODO</p>
+</div><div class="article-post">
+	<a name="5cc8e399ceaf08272aae59aa"></a>
+	<h6>Contextualize</h6>
+	<h1>Develop Research Plan</h1>
+	
+	<ul><li>hypothesis questions to ask</li><li>qualitative</li><li>quantitative - is there existing data to look at?</li></ul>
+
+<p>Through User Research / Ethnographic Research - interviews, observation</p>
+
+<p>e.g., Neighbor plan?</p>
+</div><div class="article-post">
+	<a name="5cc9a731c96f9839b95f7bed"></a>
+	<h6>Contextualize</h6>
+	<h1>Audit Existing Application</h1>
+	
+	<p>For existing applications:</p>
+
+<ul><li>If new to me: Audit: Map user flows, touchpoints, map screen flows, data models. </li><li>JTBD Survey for existing features</li><li>Look at data (SQL, GA), or get in place ASAP</li></ul>
+</div><div class="article-post">
+	<a name="5cc8e37bb08d9c439e0c3f05"></a>
+	<h6>Contextualize</h6>
+	<h1>Establish Agile Design Workflow</h1>
+	
+	<p>Agile is a conversation.</p>
+
+<p>Be involved in backlog grooming, retrospectives, and other regular Agile activities.</p>
+
+<p>I prefer to do my design work in one week sprints, to keep myself track on constantly producing deliverables.</p>
+
+<p>I recommend managing Design Team work in a separate JIRA project, separate from the Development Team&#39;s sprints, so that: Development can commit to, and completely finish their work for a given sprint; and Design&#39;s workflow can be customized and separate from Development&#39;s.</p>
+
+<p>The workflow can be as simple as:</p>
+
+<ul><li>Backlog</li><li>In Progress</li><li>Review - Present to and discuss with stakeholders.</li><li>Done - Ready for implementation.</li></ul>
+
+<p>[kanban board columns: Backlog, In Progress, Review, Done]</p>
+
+<p>🛠 <strong>Tools</strong>: Trello, JIRA, Spreadsheets</p>
+</div><div class="article-post">
+	<a name="5cc8e3ac7b83908d1f077dcd"></a>
+	<h6>Empathize</h6>
+	<h1>Interview Users</h1>
+	
+	<p>Understand the user’s context, goals and tasks
+...through research</p>
+
+<p>Execute the Research Plan.</p>
+</div><div class="article-post">
+	<a name="5cc8e3ce1058774608ac4476"></a>
+	<h6>Empathize</h6>
+	<h1>Build Personas</h1>
+	
+	<p>🛠<strong>Tools</strong>: Affinity mapping</p>
+</div><div class="article-post">
+	<a name="5cc8e3dfdc9fc93048ed4bf9"></a>
+	<h6>Empathize</h6>
+	<h1>Journey Map</h1>
+	
+	<p>Reference: See attached image. 
+<em>Activities that aren&#39;t captured elsewhere in my process:</em></p>
+
+<ol><li>Touchpoints - Generate a list of touchpoints and channels customers use today.</li><li>Empathy Map - Follows development of Personas. What are they thinking, feeling, seeing, hearing, saying, and doing.</li><li>Ideas to improve each step (diverge: brainstorm and converge: affinity map)</li><li>Draw and share the Journey Map</li></ol>
+</div><div class="article-post">
+	<a name="5cc8e3d407d42676757bf9c2"></a>
+	<h6>Empathize</h6>
+	<h1>Jobs To Be Done</h1>
+	
+	<p>(Ulwick)</p>
+
+<p>→ Survey for existing features
+→ Job Map</p>
+
+<p>(Summarize the Following)</p>
+
+<h2>My JTBD Approach</h2>
+
+<h3>Identify what job the customer is trying to get done.</h3>
+
+<ul><li>Expressed as a Job Story:<ul><li>When…(situation) I want… (motivation) so that… (expected outcome).</li></ul></li><li>We think about the job from the customer’s perspective, not the company’s. </li><li>We think big; to encompass the entire job, not just a piece of it.</li><li>Functional jobs define the tasks people seek to accomplish, personal jobs explain the way people want to feel in a given circumstance, and social jobs clarify how people want to be perceived by others.</li></ul>
+
+<p>🛠 Tooling: I use an empty Trello board. Starting from the left: </p>
+
+<ul><li>&quot;TO FILE&quot; - For all the ideas that arise during this process, without worrying where to put them right away.</li><li>“JTBD&quot; - For the job itself. I also attach a sketch of the flow here.</li><li>Following that, each column represents each process step (“Discovery”, “Sign Up”, etc.). Use the Universal Job Map (below) if needed to determine ideas for each column.</li></ul>
+
+<h3>For each Job...</h3>
+
+<p>a.) Determine stages (process steps) for the job. Can be based on the Universal Job Map (if helpful as a starting point):</p>
+
+<ul><li>Define. Customers determine their goals and plan resources. Simplify planning.</li><li>Locate. Customers gather items and information necessary to do the job.</li><li>Prepare. Setup the environment to do the job. Consider ways to make setup less difficult.</li><li>Confirm. Once preparation is complete, what does the customer need to verify before proceeding with the job to ensure its successful execution?</li><li>Execute. Provide customers with real-time feedback or automatically correct execution problems.</li><li>Monitor. Assess whether the job is being successfully executed. Link monitoring with improved execution.</li><li>Modify. Make alterations to improve execution. Reduce the need to make alterations and the number needed.</li><li>Conclude. Finish the job or prepare to repeat it. Simplify the process of completing the job.</li></ul>
+
+<p>b.) List Desired Outcomes under each (based on assumptions and understanding of domain to start, then fill out with research).</p>
+
+<ul><li>Desired outcomes typically state a direction of improvement (minimize or increase); contain a unit of measure (number, time, frequency, likelihood); and state what outcome is desired.</li><li>In most cases a dozen or so outcomes define success at each step.</li></ul>
+
+<h3>Survey Outcomes</h3>
+
+<p>Survey Outcomes and prioritize based on results. (Which are important? Which are underserved by the market? Which are underperforming?)</p>
+
+<ol><li>Prepare a survey instrument (questionnaire) that states all the job, outcome, and constraint statements that have been captured from customer interviews and from screening and profiling questions. </li><li>Administer the survey to a statistically valid representation of the target population (often between 180 and 600 people). </li><li>Ask the survey participants to rate the importance of all the jobs, outcomes, and constraints using a scale of 1 to 5, where 5 means critically important and 1 means not important at all. </li><li>Ask the survey participants the degree to which they are satisfied with how the solutions they are using today address those jobs, outcomes, and constraints using a scale of 1 to 5, where 5 means totally satisfied and 1 means not satisfied at all. </li><li>Enter the results into the opportunity algorithm to determine which jobs, outcomes, and constraints are underserved and overserved. Algorithm: Importance + max (Importance-Satisfaction,0) = Opportunity</li></ol>
+
+<p>🛠 To facilitate this for in-person interviews, I use the Custom Fields Power Up and add a number field named “Votes” and increment for each time a desired outcome is brought up.</p>
+
+<h3>How Might We?</h3>
+
+<p>Choose areas and start with <em>How Might We</em> questions, to ideate.</p>
+
+<p>🛠 Trello card descriptions; or move to spreadsheet/Sketch to add other dimensions to map out the journey (e.g., emotion, context, etc.).</p>
+
+<p> The resulting structure looks something like this:</p>
+
+<ul><li>JTBD<ul><li>Job Step<ul><li>Desired Outcomes<ul><li>HMW</li></ul></li><li>Other dimensions (e.g., emotion, context, metrics, channels, touchpoints, timeline)</li></ul></li></ul></li></ul>
+
+<h3>References</h3>
+
+<ul><li>Paul’s Notes on What Customers Want</li><li><a href="http://strategyn.com/2013/10/14/tony-ulwick-presents-at-openco/">Tony Ulwick Presents at Openco</a></li><li><a href="https://chrisgurney.ca/images/portfolio-fuzzies/journey-full.pdf">Fuzzies Journey Map</a></li></ul>
+
+<p>Example from <em>What Customers Want</em>:</p>
+
+<blockquote><p>The interviewers focused the discussion on the activities associated with setting up and managing an insured’s account. They asked the agents what they were trying to achieve when obtaining quotes, preparing agreements, obtaining approvals, managing late paying accounts, posting payments, and reinstating policies. To obtain the agents’ desired outcomes, the interviewers instructed them to think through each of these activities during a typical day as they obtained quotes and offerings from different insurance companies. The interviewers asked the agents, “What makes one insurance company’s offering better or worse than another, and why? And what characteristics describe the ideal service offering?” By forcing this type of discussion, the interviewers were able to prompt the agents to reveal their desired outcomes.</p><p>They might say, “I do not like it when I have to spend half a day reinstating a policy that was inadvertently canceled by the insurer because they mailed the bill to the wrong address.” Upon hearing this statement an interviewer might say, “So this situation could be improved if you were able to minimize the time it takes to reinstate a policy that was inadvertently canceled by the insurer.” The agent might say, “Exactly”—in which case, the statement would be accepted as an outcome—or “No, I just wish the insurer would stop inadvertently canceling policies.” In this case, the interviewer would say, “So you want to minimize the likelihood that a policy is inadvertently canceled by the insurer,” and validate that the statement is correct.</p></blockquote>
+</div><div class="article-post">
+	<a name="5cc8e3f324fc3b0c804f67a0"></a>
+	<h6>Empathize</h6>
+	<h1>Design Stories</h1>
+	
+	<h1>FORMAT</h1>
+
+<p>Goal(s)
+Job Stories (which become sub-tasks)
+Out of Scope
+Deliverables
+[Other Design Requirements]</p>
+
+<h1>EXAMPLE 1</h1>
+
+<p><strong>Goal(s)</strong></p>
+
+<p>Continue research into needs for portal and wireframe screens.</p>
+
+<p>Start with use cases for:</p>
+
+<ul><li>Login</li><li>Password Recovery</li><li>Employee Activation Flow</li><li>Customer Add/Edit</li><li>Employee Profile</li><li>Employee Add/Edit</li><li>1-2 others based on scope from PM?</li></ul>
+
+<p><strong>Job Stories</strong></p>
+
+<ol><li>[Employee] When I want to [add a customer / run a report / make an update / etc.], I want to log into the system quickly, so that I can perform the task at hand.</li><li>[Employee] When I can’t remember my password, I want to reset it easily, so I can get back into the system to perform my job.</li><li>[Employee] When I’ve been invited to sign up for an account, I want to be able to provide my information, so that I can start using the system to perform my job (e.g., start supporting customers).</li><li>[Employee] When I want to update [my password / name / etc.], I want to be able to easily update my profile, so that my record is up to date.</li><li>[Support] When I have a new Customer on the phone, I want to add them to the system quickly, so that we can start the provisioning process (i.e., get them energy, or the service) as soon as possible (to recognize revenue).</li><li>[Support] When I want to update an existing Customer’s information (e.g., they moved), I want to update their record easily, so that their information will be up to date (i.e., they’re properly billed / they get future bills in the mail / etc.).</li><li>[Admin] When I have a new Employee who needs access to the system, I want to be able to add them easily, so I can get them using the system right away.</li><li>[Admin] When I want to update an existing Employee’s information (e.g., role), I want to update their record quickly, so I can support them in doing their their job.</li></ol>
+
+<p><strong>Out of Scope</strong></p>
+
+<p>Mobile screen sizes. To be researched.</p>
+
+<p><strong>Deliverables</strong></p>
+
+<p>Wireframes from Sketch, prototyped in InVision.</p>
+
+<p>Tasks and corresponding usability test feedback from at least 5 testers.</p>
+
+<h1>Example 2</h1>
+
+<p><strong>Goal</strong></p>
+
+<p>We’ll need branded emails in order to communicate to customers from the system, including sending bills to customers.</p>
+
+<p><strong>Job Stories</strong></p>
+
+<ol><li>[Customer] When a bill has been created, I want to receive it in my inbox, so that I can review it.</li><li>[Customer] When an account is created for me, I want to receive a welcome email, so that I know that I what future emails to expect.</li><li>[Customer] When I make a purchase (via a CSR), I want to receive an email letting me know what I purchased, so that I can feel confident the changes I wanted will be made, and so that I know its impact on my next bill.</li></ol>
+
+<p><strong>Design Requirements</strong></p>
+
+<p>Emails must be brand-able (via logo and colors only).</p>
+
+<p>Emails must be responsive.</p>
+
+<p><strong>Deliverables</strong></p>
+
+<p>Responsive HTML and images for above emails.</p>
+
+<p>Source delivered to dev to GTBilling repo (if possible).</p>
+
+<p>Images deployed to S3 bucket (for Billing project), if setup in time; otherwise some other public URL for testing.</p>
+</div><div class="article-post">
+	<a name="5cc8e3bf2da9043921c2e0d7"></a>
+	<h6>Create</h6>
+	<h1>Visual Context</h1>
+	
+	<p>Inspiration, Competitive Analysis, and Best Practices</p>
+
+<h2>Competitive Analysis</h2>
+
+<ul><li>with a goal: how do competing products solve specific design problem? e.g., ...</li><li><a href="https://www.toptal.com/designers/ux/product-designer-guide-to-competitive-analysis">Article - Product Designer Guide to Competitive Analysis</a></li><li>what does the market look like? how are they positioned? how can we be different?</li></ul>
+</div><div class="article-post">
+	<a name="5cc8e4bb2c5cc21601ecdd5c"></a>
+	<h6>Create</h6>
+	<h1>Ideate - Diverge and Converge</h1>
+	
+	<ul><li>Crazy 8s</li><li>Affinity Diagramming - &quot;Affinity diagramming helps us shift from casting a wide net in exploring many possibilities, to gaining focus on the right solutions for this audience.&quot;</li></ul>
+</div><div class="article-post">
+	<a name="5cc8e424985c20080e2d977f"></a>
+	<h6>Create</h6>
+	<h1>Draw, Mock, and Prototype</h1>
+	
+	<h2>Draw</h2>
+
+<h2>Rapid Prototype</h2>
+
+<p>🛠 <strong>Tools</strong>: Paper, POP, Sketch (paste sketches into Sketch and setup a prototype), InVision</p>
+
+<h2>Wireframes</h2>
+
+<ul><li>review with experts</li></ul>
+
+<p>🛠 <strong>Tools</strong>: whiteboards, pencil/paper, Balsamiq</p>
+
+<h2>Screen Flows</h2>
+
+<p>🛠 <strong>Tools</strong>: Google Drawings, Sketch</p>
+
+<h2>Mockups</h2>
+
+<p>🛠 <strong>Tools</strong>: Sketch, Design Workflow Documentation (Readme)</p>
+
+<h2>Rich Prototypes</h2>
+
+<ul><li>Only as necessary.</li><li>e.g., Nintendo user test</li></ul>
+
+<p>🛠 <strong>Tools</strong>: Sketch, InVision</p>
+</div><div class="article-post">
+	<a name="5cc8e4b02a561b6f3852b636"></a>
+	<h6>Create</h6>
+	<h1>Interaction Design + Animation</h1>
+	
+	<p>🛠 <strong>Tools</strong>: Principle</p>
+</div><div class="article-post">
+	<a name="5cc8e42c632620281ec853a0"></a>
+	<h6>Create</h6>
+	<h1>Think in Components</h1>
+	
+		<blockquote>Atomic Design to Design Systems</blockquote>
+	
+	<p>&quot;explore different options for UI components needed: I look at what&#39;s out there, try new ideas and experiment to see how they fit with the existing style guide and brand&quot;</p>
+
+<p>Atomic Design - Brad Frost</p>
+
+<p>Design for Accessiblity, Localization</p>
+</div><div class="article-post">
+	<a name="5cc8e3e6138fbd806a2933aa"></a>
+	<h6>Create</h6>
+	<h1>Information Architecture + OOUX</h1>
+	
+	<p>Via Card Sorting - &quot;SMEs are given key concepts on post-its, who then arrange them to represent how they see the struture and relationships&quot; -- example of this?</p>
+
+<p><a href="http://alistapart.com/article/ooux-a-foundation-for-interaction-design">Article - OOUX</a></p>
+</div><div class="article-post">
+	<a name="5cc8e4059fe007286b15fe5a"></a>
+	<h6>Create</h6>
+	<h1>Establish Design Principles</h1>
+	
+	<p>Core design principles that apply to everything:</p>
+
+<ul><li>Simplicity</li><li>Reflect/Reuse Existing Patterns</li><li>Discoverability</li><li>Offer Forgiveness</li><li>Provide Feedback</li></ul>
+
+<p><img alt="Neighbor logo" src="images/design-process/svg/logo-neighbor.svg"/></p>
+
+<p>For example, my designs for <a href="neighbor-brand.html">Neighbor</a>&#39;s UI followed these principles:</p>
+
+<ul><li><em>Findability.</em> Provide answers to customers on the phone, and make updates quickly. Scanability, search.</li><li><em>Performance.</em> Fast.</li><li><em>For humans.</em> Simple language. No manuals. Flexible workflows.</li><li><em>Intentional changes.</em> </li></ul>
+</div><div class="article-post">
+	<a name="5cc8e40a7146991e65b44a0d"></a>
+	<h6>Create</h6>
+	<h1>Establish Voice & Tone</h1>
+	
+	<p>&quot;shape and improve the language of the product for usability and appropriate tone as I go&quot;</p>
+</div><div class="article-post">
+	<a name="5cc8e42d558b2867bd4b72d2"></a>
+	<h6>Create</h6>
+	<h1>Design Workflow Documentation</h1>
+	
+		<blockquote>i.e., The Design README</blockquote>
+	
+	<p><a href="https://medium.com/livefront/documenting-design-workflows-6146495d1b52">Article - Documenting Design Workflows</a></p>
+
+<p><a href="https://github.com/chrisgurney/neighbor_design">Neighbor Readme</a></p>
+</div><div class="article-post">
+	<a name="5cc99efb78446a435ac2398b"></a>
+	<h6>Create</h6>
+	<h1>Non-Functional Requirements</h1>
+	
+	<p>Accessibility</p>
+
+<ul><li>Interpret WCAG, decide on level and implementing approach.</li><li>Audit regularly with tools, test otherwise.</li></ul>
+
+<p>Localization</p>
+
+<ul><li>Review designs with localization stakeholder, it present.</li><li>Ensure elements don’t run into one another.</li><li>Audit regularly with tools, test otherwise.</li></ul>
+</div><div class="article-post">
+	<a name="5cc8e22b008a9266ac3ef117"></a>
+	<h6>Test</h6>
+	<h1>User Test</h1>
+	
+	<ul><li>In person</li><li>Remote</li><li>Task-based testing</li><li>Usability testing</li></ul>
+</div><div class="article-post">
+	<a name="5cc8e23fbcf5713b13fa09cf"></a>
+	<h6>Test</h6>
+	<h1>Measure</h1>
+	
+	<p>Tools used here depend on the maturity of the product or feature.</p>
+
+<ul><li>FullStory</li><li>Google Analytics (conversion funnels at scale)</li><li>application DB → configuration usage</li></ul>
+
+<p>🛠 <strong>Tools</strong>: Google Analytics, FullStory, application database</p>
+
+<p>Tracking Plan</p>
+
+<p>e.g., Fanergy Tracking Plan</p>
+</div><div class="article-post">
+	<a name="5cc8e23d4fc6d03b37241388"></a>
+	<h6>Test</h6>
+	<h1>Regular Design Reviews</h1>
+	
+	
+</div><div class="article-post">
+	<a name="5cc8e2823fe89d4ff101ef57"></a>
+	<h6>Test</h6>
+	<h1>Channel Feedback</h1>
+	
+	<ul><li><p>Issue Tracker: Spreadsheet easier to use than JIRA (and without the overhead), to capture suggestions, bugs (show that stakeholders are being listened to), do triage, and to look for patterns.</p></li><li><p>How to prioritize?</p></li></ul>
+
+<p>🛠 <strong>Tools</strong>: Issue Tracker, MoSCoW</p>
+
+<p>[Issue Tracker example + columns]</p>
+
+<p>Prioritization</p>
+
+<ul><li>tactical (day-to-day)</li><li>story map with PM - across the user journey</li></ul>
+</div><div class="article-post">
+	<a name="5cc8e247a41fdf5d59e1e63f"></a>
+	<h6>Test</h6>
+	<h1>Regular Reporting + Auditing</h1>
+	
+	<p>Analytics (Conversion)
+KPIs / Business Metrics
+Accessiblity
+Performance
+...
+Identify Improvements</p>
+</div><div class="article-post">
+	<a name="5cc8e58148786a064b02978c"></a>
+	<h6>Deliver</h6>
+	<h1>Design Requirements</h1>
+	
+	<ul><li>behavior, data requirements</li></ul>
+</div><div class="article-post">
+	<a name="5cc8e58f4eae30341498718c"></a>
+	<h6>Deliver</h6>
+	<h1>Prepare Assets</h1>
+	
+	<p>🛠 <strong>Tools</strong>: Nucleo, ImageOptim</p>
+</div><div class="article-post">
+	<a name="5cc8e594aae43738f7bb7dee"></a>
+	<h6>Deliver</h6>
+	<h1>Define Style Guide</h1>
+	
+	
+</div><div class="article-post">
+	<a name="5cc8e5c166bbb90e2d9ff973"></a>
+	<h6>Deliver</h6>
+	<h1>Project Documentation</h1>
+	
+	
+</div>
+        </div>
+      </div>
+    </div>
+  </section>  
+
+      <section class="about-component bg-primary">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <h2 class="section-heading text-white">Chris Gurney</h2>
+            <hr class="light my-4">
+            <p class="text-faded mb-4">I'm a Toronto-based product designer and former product manager who has toured the tech industry with a background in computer science, across a broad range of roles.</p>
+            <a class="btn btn-light btn-xl js-scroll-trigger" href="about.html">About Me</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+      <section class="p-0" id="work">
+      <div class="container-fluid p-0">
+        <div class="row no-gutters">
+<!--           <div class="col-md-3 col-sm-6 col-12" style="background-image: url('images/portfolio/thumbnails/1.jpg'); background-size: 100% auto;"> -->
+          <div class="col-lg-4 col-sm-6 col-12" style="background-image: url('images/portfolio/thumbnails/neighbor.jpg'); background-size: 100% auto;">         
+            <a class="portfolio-box" href="neighbor-brand.html">
+              <img class="img-fluid" src="images/portfolio/thumbnails/neighbor.jpg" alt="Neighbor: Consumer-First Billing">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Brand + UX/UI Design
+                  </div>
+                  <div class="project-name">
+                    Designing a brand and UX for a billing platform that was conceived and launched within three months.&nbsp;&rarr;
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>  
+          <div class="col-lg-4 col-sm-6 col-12" style="background-image: url('images/portfolio/thumbnails/1.jpg'); background-size: 100% auto;">         
+            <a class="portfolio-box" href="fuzzies.html">
+              <img class="img-fluid" src="images/portfolio/thumbnails/1.jpg" alt="Fuzzies logo and app screenshot.">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Case Study
+                  </div>
+                  <div class="project-name">
+                    Concept for a gratitude journal&nbsp;app.&nbsp;&rarr;
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6 col-12">
+            <a class="portfolio-box" href="switch-connect.html">
+              <img class="img-fluid" src="images/portfolio/thumbnails/2.jpg" alt="Switch Connect logo and app screenshot.">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Prototype
+                  </div>
+                  <div class="project-name">
+                    Concept for a community for Nintendo Switch&trade; owners. &rarr;
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6 col-12">
+            <a class="portfolio-box" href="layer2.html">
+              <img class="img-fluid" src="images/portfolio/thumbnails/3.jpg" alt="Layer 2 logo and branding screenshot.">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Brand Concept
+                  </div>
+                  <div class="project-name">
+                    Branding concept for an urban outdoor clothing company. &rarr;
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6 col-12">
+            <a class="portfolio-box" href="https://github.com/chrisgurney/profile-collage" target="_blank" rel="noopener">
+              <img class="img-fluid" src="images/portfolio/thumbnails/5.jpg" alt="Screenshot of Profile Collage prototype.">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Prototype
+                  </div>
+                  <div class="project-name">
+                    Employee profile carousel. <i class="fa fa-external-link"></i>
+                  </div>
+                </div>
+              </div>              
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6 col-12">
+            <a class="portfolio-box" href="dailyui.html">
+              <img class="img-fluid" src="images/portfolio/thumbnails/dailyui-001.jpg" alt="Screenshot of Profile Collage prototype.">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Daily UI
+                  </div>
+                  <div class="project-name">
+                    Sign Up form. &rarr;</i>
+                  </div>
+                </div>
+              </div>              
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+      <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <h2 class="section-heading">Get in touch!</h2>
+            <p class="my-4"><a href="mailto:chris@chrisgurney.ca"><span class="underline-anim" style="display: inline-block;">chris@chrisgurney.ca</span></a></p>
+          </div>          
+        </div>
+        <div class="row pt-5">
+          <div class="col d-md-block d-none"></div>
+          <div class="col-md-2 col-4 text-center">
+            <a href="https://www.linkedin.com/in/chrisgurney/" target="_blank" rel="noopener">
+              <span class="underline-anim" style="display: inline-block;">
+                <i class="fa fa-linkedin fa-3x mb-3 sr-contact"></i><br/>LinkedIn
+              </span>
+            </a>
+          </div>
+          <div class="col-md-2 col-4 text-center">
+            <a href="https://dribbble.com/chrisgurney" target="_blank" rel="noopener">
+              <span class="underline-anim" style="display: inline-block;">
+                <i class="fa fa-dribbble fa-3x mb-3 sr-contact"></i><br/>Dribbble
+              </span>
+            </a>
+           </div>          
+          <div class="col-md-2 col-4 text-center">
+            <a href="https://github.com/chrisgurney" target="_blank" rel="noopener">
+              <span class="underline-anim" style="display: inline-block;">
+                <i class="fa fa-github fa-3x mb-3 sr-contact"></i><br/>GitHub
+              </span>
+            </a>
+           </div>
+          <div class="col d-md-block d-none"></div>
+        </div>
+      </div>
+    </section>
+
+</main>
+
+    <div class="container">
+      <div class="footer">
+        <p class="float-left">
+           Credits: Image from Alice Donovan Rouse via Unsplash. &nbsp;
+        </p>
+        <p class="float-lg-right float-left pb-2">
+           <a class="external" style="border-bottom: 1px dotted" href="https://github.com/chrisgurney/chrisgurney.ca" target="_blank" rel="noopener">Coded by me.</a> Adapted from <a class="external" href="https://startbootstrap.com" target="_blank" rel="noopener">Start Bootstrap</a>.
+        </p>
+        <div class="clearfix">
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="vendor/jquery-match-height/jquery.matchHeight-min.js"></script>    
+    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/creative.min.js"></script>
+
+  </body>
+
+</html>

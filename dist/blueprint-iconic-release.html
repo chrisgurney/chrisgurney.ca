@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Chris Gurney - Designer++;</title>
+
+    <!-- startup configuration per https://w3c.github.io/manifest/ -->
+    <link rel="manifest" href="manifest.json" />
+
+    <!-- Browser bar color - Chrome, Firefox OS and Opera + IE + Safari -->
+    <meta name="theme-color" content="#FE9B27">
+    <meta name="msapplication-navbutton-color" content="#FE9B27">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#FE9B27">
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <link rel="apple-touch-icon" href="images/touch/chrisgurney_120.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="images/touch/chrisgurney_152.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="images/touch/chrisgurney_180.png" />
+    <link rel="apple-touch-icon" sizes="167x167" href="images/touch/chrisgurney_167.png" />
+
+    <!-- Metadata -->
+    <link rel="icon" type="image/png" href="favicon.png">
+    <meta name="author" content="Chris Gurney" />    
+    <meta name="description" content="Chris Gurney, product designer based in Toronto, Canada." />
+
+    <meta itemprop="thumbnailUrl" content="https://www.chrisgurney.ca/images/touch/chrisgurney_512.png"/>
+    <link rel="image_src" href="https://www.chrisgurney.ca/images/chrisgurney.jpg" />
+    <meta itemprop="image" content="https://www.chrisgurney.ca/images/chrisgurney.jpg"/>
+
+    <meta property="og:title" content="Chris Gurney" />
+    <meta property="og:description" content="Chris Gurney, product designer based in Toronto, Canada." />
+    <meta property="og:image" content="https://www.chrisgurney.ca/images/share-banner.png" />
+    <meta property="og:url" content="https://www.chrisgurney.ca/" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Chris Gurney" />
+    <meta name="twitter:description" content="Chris Gurney, product designer based in Toronto, Canada." />
+    <meta name="twitter:image" content="https://www.chrisgurney.ca/images/share-banner.png" />
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/creative.min.css" rel="stylesheet">
+
+    <!-- Drift Async Code -->
+    <script>
+    "use strict";
+
+    !function() {
+      var t = window.driftt = window.drift = window.driftt || [];
+      if (!t.init) {
+        if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+        t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+        t.factory = function(e) {
+          return function() {
+            var n = Array.prototype.slice.call(arguments);
+            return n.unshift(e), t.push(n), t;
+          };
+        }, t.methods.forEach(function(e) {
+          t[e] = t.factory(e);
+        }), t.load = function(t) {
+          var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+          o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+          var i = document.getElementsByTagName("script")[0];
+          i.parentNode.insertBefore(o, i);
+        };
+      }
+    }();
+    </script>
+
+    <!-- Google Analytics-->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-137570047-1"></script>
+
+    <!-- Load scripts if not on localhost -->
+    <script>
+        var host = window.location.host;
+        if ((host.indexOf("localhost") == -1) && 
+            (host.indexOf("ngrok.io") == -1)) {
+
+            // FullStory
+            window['_fs_debug'] = false;
+            window['_fs_host'] = 'fullstory.com';
+            window['_fs_org'] = 'BB5X9';
+            window['_fs_namespace'] = 'FS';
+            (function(m,n,e,t,l,o,g,y){
+                if (e in m) {if(m.console && m.console.log) { m.console.log('FullStory namespace conflict. Please set window["_fs_namespace"].');} return;}
+                g=m[e]=function(a,b){g.q?g.q.push([a,b]):g._api(a,b);};g.q=[];
+                o=n.createElement(t);o.async=1;o.src='https://'+_fs_host+'/s/fs.js';
+                y=n.getElementsByTagName(t)[0];y.parentNode.insertBefore(o,y);
+                g.identify=function(i,v){g(l,{uid:i});if(v)g(l,v)};g.setUserVars=function(v){g(l,v)};
+                y="rec";g.shutdown=function(i,v){g(y,!1)};g.restart=function(i,v){g(y,!0)};
+                g.identifyAccount=function(i,v){o='account';v=v||{};v.acctId=i;g(o,v)};
+                g.clearUserCookie=function(){};
+            })(window,document,window['_fs_namespace'],'script','user');
+
+            // Google Analytics
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-137570047-1');
+
+            // Drift
+            drift.SNIPPET_VERSION = '0.3.1';
+            drift.load('nte2xame32yz');
+
+        }
+    </script>
+
+  </head>
+
+  <body id="page-top">
+
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand dark js-scroll-trigger" href="index.html"><img src="images/cg-logo.svg" style="height: 1.8rem" alt="Chris Gurney logo"/></a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarFull" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="container-fluid collapse" id="navbarFull">
+          <div class="menu-full">
+            <ul class="menu-nav">
+              <li>
+                <a class="nav-link js-scroll-trigger" href="/work.html">work</a>
+              </li>
+<!--               <li>
+                <a class="nav-link js-scroll-trigger" href="/process.html">process</a>
+              </li>  -->             
+              <li>
+                <a class="nav-link js-scroll-trigger" href="/about.html">about</a>
+              </li>
+              <li>
+                <a class="nav-link js-scroll-trigger" href="#contact">contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>    
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link underline-anim dark js-scroll-trigger" href="/work.html">work</a>
+            </li>           
+<!--             <li class="nav-item">
+              <a class="nav-link underline-anim dark js-scroll-trigger" href="/process.html">process</a>
+            </li> -->                          
+            <li class="nav-item">
+              <a class="nav-link underline-anim dark js-scroll-trigger" href="/about.html">about</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link underline-anim dark js-scroll-trigger" href="#contact">contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+<header class="article text-center text-white d-flex">
+  <div class="container my-auto sr-card">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">     
+        <h1>An Iconic Release</h1>
+        <p class="mb-5">How we updated the icons for Blueprint Requirements Center 2009</p>
+      </div>
+    </div>
+  </div>      
+</header>
+
+<main role="main">
+
+  <!-- Begin Post -->
+  <section class="pb-5 pt-md-5 pt-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-12 mx-auto"> 
+          <div class="article-post">
+            <blockquote><p>I published this in November 2007 when Blueprint Requirements Center was a Windows desktop application (it has since been updated as a web application). I acted as Project Manager, and worked with an outside design firm.</p></blockquote>
+
+<p class="figure-caption text-center mb-5"><img alt="Blueprint RC2008 screenshot crop." class="col-12 my-3" src="images/portfolio/blueprint-icons-rc2008.jpg"/>
+Some poor-resolution screenshots of Requirements Center 2008, showing just some of the 250 icons and their decorators that we had to conceive and iterate on with our design partner. </p>
+
+<p>Our latest product release was a big one for our company.</p>
+
+<p>While providing an important, fresh set of features, it also visually marked a turning point in the design of our application. Compared to the previous version, the new release had a more modern look-and-feel to it and relied on updated technology, such as a brand new windowing framework.</p>
+
+<p>As a result, it became apparent that we needed somebody to direct the redesign of all of the icons and graphics, as things would have looked very much out of place on top of our shiny new toolbars. That somebody had to identify all 250 icons, work with somebody to refresh what we had, and help to come up with design ideas for the new features we were adding.</p>
+
+<p>As it turned out, that somebody was me.</p>
+
+<h2>Hiring Help</h2>
+
+<p>We decided early on in the process that we wanted to get help from a qualified design team outside of our company to actually implement our graphics.</p>
+
+<p>To this end, our SVP of Research &amp; Development proceeded with a procurement process to look for skilled designers. Our goal was to work with a local firm that had prior experience with application graphics design, with immediate availability, and sufficient resources to get everything done within our time-lines and budget. The trick was to find somebody that fit this profile.</p>
+
+<p>It turns out that there&#39;s a professional body known as the <a href="http://www.rgdontario.com" target="_blank_">Association of Registered Graphic Designers of Ontario</a>. Through their web site, companies can submit RFPs for various design projects, such as ours.</p>
+
+<p>Fortunately, after examining our particular requirements, we were approached by the talented guys at <a href="http://www.swervedesign.com/" target="_blank_">Swerve Design</a>. Swerve&#39;s credentials and portfolio spoke for themselves, making the decision to work with these guys a no-brainer.</p>
+
+<h2>Selecting a Starting Point</h2>
+
+<p>In our first meeting with Swerve, we aimed to establish the scope of the project, ensure that our requirements were well-understood, and requested an estimate. After seeing the numbers they responded with as a result, we decided to proceed.</p>
+
+<p>We followed this up by providing a demonstration of the existing product, which gave the team a point of reference. Then came the all-important question of deciding where to begin our work.</p>
+
+<p>At the time, if you were to take a glance at our existing product, you might have thought that it had, at most, 50 icons. After peeking under the window panes and looking behind the wizards, however, you would have uncovered close to 250 icons and images. And that number, it should be noted, didn&#39;t include the various &quot;states&quot; -- such as &quot;on&quot; and &quot;off&quot; -- that some icons might have had.</p>
+
+<p>Fortunately, there was a logical starting point: In our application we have a tree control -- akin to the Windows Explorer -- that lets you navigate to many portions of the application. This provided a very nice cross-section of the icons and themes we needed, so it made sense to make this the starting point.</p>
+
+<p>From there we broke down the remaining portions of the application by functional area. This allowed graphics to be implemented in batches and presented back to us in context, in the areas of the application where they would all be grouped together, visually.</p>
+
+<p>Organizing by functional area also helped to prioritize our work: If we had run out of time, or had reached our anticipated budget ahead of time, we could have always fallen back on existing graphics in the areas of the application that were used less frequently.</p>
+
+<h2>Tracking Things</h2>
+
+<p>To keep track of the hundreds of elements scattered throughout the application, it quickly became apparent that we needed to establish a formal management process. To handle this, I started to assemble an inventory of all of the icons and graphics in our software.</p>
+
+<p>At first, this appeared to be a daunting, not-so-fun task. There was no practical way of automatically generating such a list from the source code. Early in the process I didn&#39;t have a handle on the new functionality we were introducing, nor had certain functional areas been enabled in the builds that I was provided with. On top of that, where new features were involved, there was no existing point of reference.</p>
+
+<p>Fortunately, as I started to make lists, the project started to feel more structured, and a lot more manageable.</p>
+
+<p>For each graphical &quot;thing&quot; in the product, we tracked a number of different properties in a spreadsheet. Here&#39;s what worked well:</p>
+
+<ul><li><strong>ID.</strong> Using row numbers to refer to individual items doesn&#39;t work, as they could be potentially removed from the spreadsheet, messing up the numbering of subsequent items. A unique number ensured we were always talking about the same things, and became especially helpful when communicating, which was done primarily over the phone.</li><li><strong>Functional Area.</strong> This answered the question &quot;Where in the application does a this thing live?&quot;. Even if the thing was used in more than one place, it was listed out as a separate line item. Not only did this ensure we didn&#39;t miss anything, it also allowed me to do a little bit of sandbagging, when it came to estimating the remaining work.</li><li><strong>Item/Name.</strong> What is this thing called?</li><li><strong>Type.</strong> What kind of thing is it: A toolbar button icon? A graphic? A splash screen? Based on the type, we could make a general statement about what it was. For example, &quot;Wizard Graphics&quot; were all designated as being PNG images, 72 by 64 pixels, with a white background. &quot;Toolbar Icons&quot; were all PNGs, 16 by 16 pixels, transparent background, with two states (enabled and disabled).</li><li><strong>Priority.</strong> How important was it to have this thing created? The majority of graphics were mandatory and would result in a visible hole if they weren&#39;t created. However, there were other, less-used areas in which we could get away with using a placeholder image, or re-use existing graphics without compromising the overall look-and-feel. If we couldn&#39;t complete these areas in time, they would be less noticeable.</li><li><strong>Status.</strong> How far along are we in creating this item? This provided an easy way to keep management updated, and identify where the road blocks were. Here are the various states we used:<ul><li><em>Drafted</em>: We received a mock-up from the design team.</li><li><em>Signed off</em>: We approved a given design (which may have taken several iterations to arrive at).</li><li><em>Delivered</em>: The creative team has provided us with the raw image, ready to be incorporated into the product.</li><li><em>Sent to Development</em>: Submitted to our version-control system, and Development has been notified.</li><li><em>Implemented</em>: It&#39;s made it into the product, by validating it exists within a build.</li></ul></li></ul>
+
+<h2>The Design Process</h2>
+
+<p>The hard part is coming up with the concept for an icon in the first place. In general, here&#39;s the thought process we went through for each graphical element:</p>
+
+<ol><li>Identify an object (noun), on which the user will perform actions (verbs). For example, we have the concept of &quot;models&quot;, &quot;projects&quot;, &quot;simulations&quot;, and &quot;tests&quot;.</li><li>Come up with a graphic that best represents the object. Some of these things may conjure up an image in one&#39;s mind. A &quot;test&quot;, for example, may bring to mind an image of a science lab flask or test tube. A &quot;simulation&quot;, within the context of our application, is like playing a movie about the application you&#39;re prototyping; so in our case, it made sense to use a graphic of a filmstrip.</li><li>On top of those graphics you drop on &quot;decorations&quot; to represent the actions the user can perform on those objects, such as Add (green plus), Delete (red X), or Open (curved arrow).</li></ol>
+
+<p>If we couldn&#39;t conjure up a better design for an existing element, our fall-back plan was to simply redesign the icons we already had. In addition to saving time, this had the benefit of maintaining some level of familiarity for existing users.</p>
+
+<p>Graphics came back from the design team in batches. This was either in a series of screenshots, or in single images that contained a series of icons. Seeing icons individually it&#39;s hard to put them in to context and tell what works, so it helps to see them next to their neighbouring icons, even if it&#39;s only within a mock-up.</p>
+
+<p>The next challenge was to incorporate feedback and iterate on the design, if necessary. Whether you&#39;re designing a full-blown application or a seemingly simple, little icon, everybody has their own opinions. Here&#39;s what I learned:</p>
+
+<ul><li>The fewer cooks stirring the pot, the better. Limit the size of the review team, or shorten the time allotted when dealing with larger groups.</li><li>There are cases where, no matter how hard you try, there&#39;s always somebody who isn&#39;t going to be happy.</li><li>Present new ideas in the context of old ones, to provide a point of reference.</li><li>Deadlocked? Try to come up with multiple options and have people vote on the best one. At least you will have shown that you&#39;ve considered alternatives.</li><li>As I&#39;ve learned with traditional web design, gathering and incorporating feedback can be the most time-consuming aspect of the overall design process. In this sort of project, however, this aspect is magnified due to the sheer number of graphics.</li></ul>
+
+<p>Once reviewed, a change request list was drafted up for each batch, and handed back to the design team.</p>
+
+<p>Once signed off, graphics were handed over to the development team, through a version control system. While I don&#39;t need to remind you how helpful a version control system is, it became especially important here since graphics tended to go through multiple iterations, and provided us with a means at recovering previous work.</p>
+
+<h2>Closing Thoughts</h2>
+
+<p>At first, it may seem daunting to start in on a large redesign project such as this.</p>
+
+<p>So, take my advice: Find a great design team (Thanks Swerve!), maintain a list of everything, focus your feedback cycles, learn from what I&#39;ve noted here... and you&#39;ll be set. In the end, you&#39;ll be rewarded with seeing the finished product on the desktops of your users.</p>
+
+<p>And hey, if nobody likes your icons, there&#39;s always the next release!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>    
+
+      <section class="about-component bg-primary">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <h2 class="section-heading text-white">Chris Gurney</h2>
+            <hr class="light my-4">
+            <p class="text-faded mb-4">I'm a Toronto-based product designer and former product manager who has toured the tech industry with a background in computer science, across a broad range of roles.</p>
+            <a class="btn btn-light btn-xl js-scroll-trigger" href="about.html">About Me</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+      <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <h2 class="section-heading">Get in touch!</h2>
+            <p class="my-4"><a href="mailto:chris@chrisgurney.ca"><span class="underline-anim" style="display: inline-block;">chris@chrisgurney.ca</span></a></p>
+          </div>          
+        </div>
+        <div class="row pt-5">
+          <div class="col d-md-block d-none"></div>
+          <div class="col-md-2 col-4 text-center">
+            <a href="https://www.linkedin.com/in/chrisgurney/" target="_blank" rel="noopener">
+              <span class="underline-anim" style="display: inline-block;">
+                <i class="fa fa-linkedin fa-3x mb-3 sr-contact"></i><br/>LinkedIn
+              </span>
+            </a>
+          </div>
+          <div class="col-md-2 col-4 text-center">
+            <a href="https://dribbble.com/chrisgurney" target="_blank" rel="noopener">
+              <span class="underline-anim" style="display: inline-block;">
+                <i class="fa fa-dribbble fa-3x mb-3 sr-contact"></i><br/>Dribbble
+              </span>
+            </a>
+           </div>          
+          <div class="col-md-2 col-4 text-center">
+            <a href="https://github.com/chrisgurney" target="_blank" rel="noopener">
+              <span class="underline-anim" style="display: inline-block;">
+                <i class="fa fa-github fa-3x mb-3 sr-contact"></i><br/>GitHub
+              </span>
+            </a>
+           </div>
+          <div class="col d-md-block d-none"></div>
+        </div>
+      </div>
+    </section>
+
+</main>
+
+    <div class="container">
+      <div class="footer">
+        <p class="float-left">
+            &nbsp;
+        </p>
+        <p class="float-lg-right float-left pb-2">
+           <a class="external" style="border-bottom: 1px dotted" href="https://github.com/chrisgurney/chrisgurney.ca" target="_blank" rel="noopener">Coded by me.</a> Adapted from <a class="external" href="https://startbootstrap.com" target="_blank" rel="noopener">Start Bootstrap</a>.
+        </p>
+        <div class="clearfix">
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="vendor/jquery-match-height/jquery.matchHeight-min.js"></script>    
+    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/creative.min.js"></script>
+
+  </body>
+
+</html>

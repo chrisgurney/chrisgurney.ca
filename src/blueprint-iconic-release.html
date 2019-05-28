@@ -1,0 +1,43 @@
+@@include('header.html')
+
+@@include('components/nav-main.html', {
+  "theme": "dark",
+  "home-link": "/work.html",
+  "process-link": "/process.html",  
+  "about-link": "/about.html"
+})
+
+<header class="article text-center text-white d-flex">
+  <div class="container my-auto sr-card">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">     
+        <h1>An Iconic Release</h1>
+        <p class="mb-5">How we updated the icons for Blueprint Requirements Center 2009</p>
+      </div>
+    </div>
+  </div>      
+</header>
+
+<main role="main">
+
+  <!-- Begin Post -->
+  <section class="pb-5 pt-md-5 pt-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-12 mx-auto"> 
+          <div class="article-post">
+            @@include(markdown("../md/blueprint-iconic-release.md"))
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>    
+
+  @@include('components/about.html')
+
+  @@include('components/contact.html')
+
+</main>
+
+@@include('footer.html', 
+  {"credit": ""})

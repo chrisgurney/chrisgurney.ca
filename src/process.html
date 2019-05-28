@@ -1,0 +1,97 @@
+@@include('header.html')
+
+@@include('components/nav-main.html', {
+  "theme": "dark",
+  "home-link": "/work.html",
+  "process-link": "#process",  
+  "about-link": "/about.html"
+})
+
+<header id="process" class="article text-center text-white d-flex">
+  <div class="container my-auto sr-card">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">     
+        <h1>My Design Process</h1>
+        <p class="mb-5">From design to done.</p>
+      </div>
+    </div>
+  </div>      
+</header>
+
+<main role="main">
+
+  <!-- Begin Post -->
+  <section class="pb-5 pt-md-5 pt-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-12 mx-auto"> 
+          <div class="article-post">
+            <p>My approach to design is grounded in my roots as a product manager and as a software developer:</p>
+            <blockquote>
+              A design is useful to nobody if you can't get it in your customer's and your user's hands as soon as humanly possible.
+            </blockquote> 
+
+            <h2>My Design Principles</h2>
+
+            <p>The principles I believe in are littered throughout my process:</p>
+            <ul>
+              <li><strong>Test All Assumptions.</strong> I've seen enough projects completely fail, that felt like a complete waste (aside from my learnings, of course), because we didn't use true MVPs, or do the research, to test client assumptions along the way.</li>
+              <li><strong>Always Be Delivering.</strong> Whether these are photos of whiteboard sketches, or mockups. Minimum viable features don't have to be fully fleshed out (whatever that means) user experiences. Getting data and feedback is infinitely more valuable. Testing builds confidence. Visualizing gets everybody on the same page.</li>
+              <li><strong>Always Be Testing.</strong> Build confidence.</li>
+              <li><strong>Sketch Everything.</strong> An eraser is cheaper. Visualize everything. Get everyone to <em>see</em>.</li>
+              <li><strong>Daily Delivery.</strong> Show the process. Get <em>something</em> out there. It will never be "done".</li>
+              <li><strong>Build Empathy Internally.</strong> Bring back research, and let people experience it. Results in much better buy-in and solutioning. Share research and test recordings (with permission) in dedicated chat channel. Let engineers sit in interviews and tests.</li>
+              <li><strong>Involve Everyone.</strong> Everyone is a Designer - It’s not about throwing finished designs over the wall; it’s a conversation. And the more context they have, and empathy, the better.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>    
+
+  <section id="process-cards" class="pb-5 pt-3">
+    <div class="container-fluid" style="background-color: #F2F2F2;">
+      <div class="row mx-auto text-center">
+        <div class="col-12">
+          <div class="article-post">
+            <h1>The Steps</h1>
+          </div>
+        </div>
+      </div>      
+      <div class="row mx-auto text-center pb-5">
+        <div id="process-btns" class="col-12">
+          <!-- TODO: active state for button selected -->          
+          <!-- TODO: generate this from the JSON -->
+          <a class="btn btn-primary btn-xl sr-button mb-lg-0 mb-3 mx-2" data-list="Contextualize" href="#contextualize">Contextualize</a>
+          <a class="btn btn-primary btn-xl sr-button mb-lg-0 mb-3 mx-2" data-list="Empathize" href="#empathize">Empathize</a>
+          <a class="btn btn-primary btn-xl sr-button mb-lg-0 mb-3 mx-2" data-list="Create" href="#create">Create</a>
+          <a class="btn btn-primary btn-xl sr-button mb-lg-0 mb-3 mx-2" data-list="Test" href="#test">Test</a>
+          <a class="btn btn-primary btn-xl sr-button mb-lg-0 mb-3 mx-2" data-list="Deliver" href="#deliver">Deliver</a>
+        </div>
+      </div>      
+      <div class="row">
+        @@loop('components/_process-card.html', '/../dist/process.json')
+      </div>    
+    </div>
+  </section>
+
+  <section class="pb-5 pt-md-5 pt-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-12 mx-auto"> 
+          @@loop('components/_process-item.html', '/../dist/process.json')
+        </div>
+      </div>
+    </div>
+  </section>  
+
+  @@include('components/about.html')
+
+  @@include('components/portfolio.html')
+
+  @@include('components/contact.html')
+
+</main>
+
+@@include('footer.html', 
+  {"credit": "Credits: Image from Alice Donovan Rouse via Unsplash."})

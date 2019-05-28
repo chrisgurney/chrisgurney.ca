@@ -1,0 +1,78 @@
+@@include('header.html')
+
+@@include('components/nav-main.html', {
+  "theme": "light",
+  "home-link": "#work",
+  "process-link": "/process.html",  
+  "about-link": "/about.html"
+})
+
+<header id="work" class="portfolio text-center text-white d-flex" style="background-image: url('images/portfolio/work-header.jpg'); background-size: cover; background-position: center top;" >
+  <div class="container my-auto sr-card">
+    <div class="row">
+      <div class="col-lg-10 mx-auto">     
+        <h1><strong>All My Projects</strong></h1>
+        <div class="pt-2">
+          <a class="btn btn-light btn-xl js-scroll-trigger mb-lg-0 mb-3 mx-2" href="#design">Design &darr;</a>
+          <a class="btn btn-light btn-xl js-scroll-trigger mb-lg-0 mb-3 mx-2" href="#pm">Product Management &darr;</a>
+          <a class="btn btn-light btn-xl js-scroll-trigger mb-lg-0 mb-3 mx-2" href="#writing">Writing &darr;</a>
+        </div>
+      </div>
+    </div>
+  </div>      
+</header>
+
+<main role="main">
+
+  <!-- Begin Post -->
+  <section class="index pb-5 pt-md-5 pt-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10 col-12 mx-auto">
+          <a name="design"></a>
+          <span class="h1-xl text-gradient">Design</span>
+          <div class="article-post">
+            @@include(markdown("../md/work-design.md"))
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>  
+
+  <section class="index pb-5 pt-md-5 pt-3 mt-5" style="background-color: #FAFAFA;">
+    <a name="pm"></a>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10 col-12 mx-auto">       
+          <span class="h1-xl text-gradient">Product Management</span>
+          <div class="article-post">
+            @@include(markdown("../md/work-pm.md"))
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>  
+
+  <section class="index pb-0 pt-md-5 pt-3 mt-5">
+    <a name="writing"></a>    
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10 col-12 mx-auto">          
+          <span class="h1-xl text-gradient">Writing + Performance</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  @@include('components/writing.html', {
+    "style": "background: linear-gradient(0deg, #FFB25A, #FFF);"
+  })
+
+  @@include('components/about.html')
+
+  @@include('components/contact.html')
+
+</main>
+
+@@include('footer.html', 
+  {"credit": "Credits: Image from Alice Donovan Rouse via Unsplash."})

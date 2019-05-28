@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Chris Gurney - Designer++;</title>
+
+    <!-- startup configuration per https://w3c.github.io/manifest/ -->
+    <link rel="manifest" href="manifest.json" />
+
+    <!-- Browser bar color - Chrome, Firefox OS and Opera + IE + Safari -->
+    <meta name="theme-color" content="#FE9B27">
+    <meta name="msapplication-navbutton-color" content="#FE9B27">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#FE9B27">
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <link rel="apple-touch-icon" href="images/touch/chrisgurney_120.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="images/touch/chrisgurney_152.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="images/touch/chrisgurney_180.png" />
+    <link rel="apple-touch-icon" sizes="167x167" href="images/touch/chrisgurney_167.png" />
+
+    <!-- Metadata -->
+    <link rel="icon" type="image/png" href="favicon.png">
+    <meta name="author" content="Chris Gurney" />    
+    <meta name="description" content="Chris Gurney, product designer based in Toronto, Canada." />
+
+    <meta itemprop="thumbnailUrl" content="https://www.chrisgurney.ca/images/touch/chrisgurney_512.png"/>
+    <link rel="image_src" href="https://www.chrisgurney.ca/images/chrisgurney.jpg" />
+    <meta itemprop="image" content="https://www.chrisgurney.ca/images/chrisgurney.jpg"/>
+
+    <meta property="og:title" content="Chris Gurney" />
+    <meta property="og:description" content="Chris Gurney, product designer based in Toronto, Canada." />
+    <meta property="og:image" content="https://www.chrisgurney.ca/images/share-banner.png" />
+    <meta property="og:url" content="https://www.chrisgurney.ca/" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Chris Gurney" />
+    <meta name="twitter:description" content="Chris Gurney, product designer based in Toronto, Canada." />
+    <meta name="twitter:image" content="https://www.chrisgurney.ca/images/share-banner.png" />
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/creative.min.css" rel="stylesheet">
+
+    <!-- Drift Async Code -->
+    <script>
+    "use strict";
+
+    !function() {
+      var t = window.driftt = window.drift = window.driftt || [];
+      if (!t.init) {
+        if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+        t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+        t.factory = function(e) {
+          return function() {
+            var n = Array.prototype.slice.call(arguments);
+            return n.unshift(e), t.push(n), t;
+          };
+        }, t.methods.forEach(function(e) {
+          t[e] = t.factory(e);
+        }), t.load = function(t) {
+          var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+          o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+          var i = document.getElementsByTagName("script")[0];
+          i.parentNode.insertBefore(o, i);
+        };
+      }
+    }();
+    </script>
+
+    <!-- Google Analytics-->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-137570047-1"></script>
+
+    <!-- Load scripts if not on localhost -->
+    <script>
+        var host = window.location.host;
+        if ((host.indexOf("localhost") == -1) && 
+            (host.indexOf("ngrok.io") == -1)) {
+
+            // FullStory
+            window['_fs_debug'] = false;
+            window['_fs_host'] = 'fullstory.com';
+            window['_fs_org'] = 'BB5X9';
+            window['_fs_namespace'] = 'FS';
+            (function(m,n,e,t,l,o,g,y){
+                if (e in m) {if(m.console && m.console.log) { m.console.log('FullStory namespace conflict. Please set window["_fs_namespace"].');} return;}
+                g=m[e]=function(a,b){g.q?g.q.push([a,b]):g._api(a,b);};g.q=[];
+                o=n.createElement(t);o.async=1;o.src='https://'+_fs_host+'/s/fs.js';
+                y=n.getElementsByTagName(t)[0];y.parentNode.insertBefore(o,y);
+                g.identify=function(i,v){g(l,{uid:i});if(v)g(l,v)};g.setUserVars=function(v){g(l,v)};
+                y="rec";g.shutdown=function(i,v){g(y,!1)};g.restart=function(i,v){g(y,!0)};
+                g.identifyAccount=function(i,v){o='account';v=v||{};v.acctId=i;g(o,v)};
+                g.clearUserCookie=function(){};
+            })(window,document,window['_fs_namespace'],'script','user');
+
+            // Google Analytics
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-137570047-1');
+
+            // Drift
+            drift.SNIPPET_VERSION = '0.3.1';
+            drift.load('nte2xame32yz');
+
+        }
+    </script>
+
+  </head>
+
+  <body id="page-top">
+
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand dark js-scroll-trigger" href="index.html"><img src="images/cg-logo.svg" style="height: 1.8rem" alt="Chris Gurney logo"/></a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarFull" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="container-fluid collapse" id="navbarFull">
+          <div class="menu-full">
+            <ul class="menu-nav">
+              <li>
+                <a class="nav-link js-scroll-trigger" href="/work.html">work</a>
+              </li>
+<!--               <li>
+                <a class="nav-link js-scroll-trigger" href="/process.html">process</a>
+              </li>  -->             
+              <li>
+                <a class="nav-link js-scroll-trigger" href="/about.html">about</a>
+              </li>
+              <li>
+                <a class="nav-link js-scroll-trigger" href="#contact">contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>    
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link underline-anim dark js-scroll-trigger" href="/work.html">work</a>
+            </li>           
+<!--             <li class="nav-item">
+              <a class="nav-link underline-anim dark js-scroll-trigger" href="/process.html">process</a>
+            </li> -->                          
+            <li class="nav-item">
+              <a class="nav-link underline-anim dark js-scroll-trigger" href="/about.html">about</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link underline-anim dark js-scroll-trigger" href="#contact">contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+<header class="article text-center text-white d-flex">
+  <div class="container my-auto sr-card">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">     
+        <h1>Xenos Intranet</h1>
+        <p class="mb-5">Building an Intranet from scratch</p>
+      </div>
+    </div>
+  </div>      
+</header>
+
+<main role="main">
+
+  <!-- Begin Post -->
+  <section class="pb-5 pt-md-5 pt-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-12 mx-auto"> 
+          <div class="article-post">
+            <blockquote><ul><li>Published: November 2005</li><li>My Role: Designed and Implemented the entire application.</li><li>Tech Used: PHP, MySQL, Paint Shop Pro, HTML, CSS </li></ul></blockquote>
+
+<p class="popup-gallery thumbs mx-auto"><a href="images/portfolio/xenos-intranet-frontPage.png" title="The Front Page of the Intranet provides a dashboard view of new content, as well as methods to search and browse for additional content. Departments and products can each have their own home page."><img alt="Front page screenshot" src="images/portfolio/xenos-intranet-frontPage-sm.png"/></a>
+<a href="images/portfolio/xenos-intranet-news.png" title="News posts can be viewed individually, organized into one or more categories, and commented upon."><img alt="News post screenshot" src="images/portfolio/xenos-intranet-news-sm.png"/></a>
+<a href="images/portfolio/xenos-intranet-newsList.png" title="News posts can also be viewed in a list format, by date or by category."><img alt="News post list screenshot" src="images/portfolio/xenos-intranet-newsList-sm.png"/></a></p>
+
+<p>After joining Xenos (since acquired by OpenText), I found out that the business&#39; existing Intranet consisted of a handful of static web pages with aging links to outdated and non-existent resources.</p>
+
+<p>In an effort to resolve this, I took it upon myself to build a new Intranet from the ground up, with the goal of creating a tool by which employees could easily share useful information.</p>
+
+<p>Coincidentally, in my spare time I had been developing a web content management system called &quot;g2&quot;, to power a community weblog used by friends. I quickly realized that g2 could be applied as an Intranet, as well. After performing some research and soliciting the needs of my users — my co-workers — I started to adapt the code base to fulfill the function of an Intranet.</p>
+
+<p>Following the release of a limited beta version in early 2005, I created a formal focus group consisting of stakeholders from several departments. Requirements gathered from that group were considered and folded into g2.</p>
+
+<p>At the end of 2005, the company&#39;s new Intranet was finally launched, was well-received, and continued to be used after my departure.</p>
+
+<p class="popup-gallery thumbs mx-auto"><a href="images/portfolio/xenos-intranet-article.png" title="Articles can contain standard formatting such as headers, and bulleted lists."><img alt="Articles screenshot showing title, description, and content." src="images/portfolio/xenos-intranet-article-sm.png"/></a>
+<a href="images/portfolio/xenos-intranet-articleForm.png" title="The form provided for creating or editing Articles includes formatting toolbars and a means of categorizing the Article."><img alt="Article form" src="images/portfolio/xenos-intranet-articleForm-sm.png"/></a>
+<a href="images/portfolio/xenos-intranet-category.png" title="Content can be navigated by drilling down through categories. This view shows the different types of items that are available in the current category."><img alt="Category tree list" src="images/portfolio/xenos-intranet-category-sm.png"/></a></p>
+
+<h2>Features</h2>
+
+<p>Highlights of the Intranet include: </p>
+
+<ul><li>News posts, for daily announcements.</li><li>Articles, for lengthy how-to documents.</li><li>Links, for providing references to internal and external resources.</li><li>Discussion forums, where new, unread posts are highlighted.</li><li>Photo gallery, for sharing pictures of employees and corporate events.</li><li>Categorization, including support for placing items in multiple categories.</li><li>Full-text search over all content.</li><li>Navigation of items by category and by date.</li><li>Local and LDAP user authentication, including support for Microsoft Active Directory.</li><li>Search-able user directory, displaying local users and Microsoft Active Directory users.</li><li>User profile pages that display a given user&#39;s contact information and content posted.</li></ul>
+
+<p class="popup-gallery thumbs mx-auto"><a href="images/portfolio/xenos-intranet-discussionList.png" title="Discussions are divided into Topics, which are further divided into threads. Note how new Discussion items since the last login are flagged."><img alt="Discussions screenshot" src="images/portfolio/xenos-intranet-discussionList-sm.png"/></a>
+<a href="images/portfolio/xenos-intranet-photos.png" title="A photo album can be created simply by dropping images into a directory."><img alt="Photo album screenshot" src="images/portfolio/xenos-intranet-photos-sm.png"/></a>
+<a href="images/portfolio/xenos-intranet-search.png" title="Searching queries relevant fields across all types of items on the Intranet."><img alt="Search results" src="images/portfolio/xenos-intranet-search-sm.png"/></a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>    
+
+      <section class="about-component bg-primary">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <h2 class="section-heading text-white">Chris Gurney</h2>
+            <hr class="light my-4">
+            <p class="text-faded mb-4">I'm a Toronto-based product designer and former product manager who has toured the tech industry with a background in computer science, across a broad range of roles.</p>
+            <a class="btn btn-light btn-xl js-scroll-trigger" href="about.html">About Me</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+      <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <h2 class="section-heading">Get in touch!</h2>
+            <p class="my-4"><a href="mailto:chris@chrisgurney.ca"><span class="underline-anim" style="display: inline-block;">chris@chrisgurney.ca</span></a></p>
+          </div>          
+        </div>
+        <div class="row pt-5">
+          <div class="col d-md-block d-none"></div>
+          <div class="col-md-2 col-4 text-center">
+            <a href="https://www.linkedin.com/in/chrisgurney/" target="_blank" rel="noopener">
+              <span class="underline-anim" style="display: inline-block;">
+                <i class="fa fa-linkedin fa-3x mb-3 sr-contact"></i><br/>LinkedIn
+              </span>
+            </a>
+          </div>
+          <div class="col-md-2 col-4 text-center">
+            <a href="https://dribbble.com/chrisgurney" target="_blank" rel="noopener">
+              <span class="underline-anim" style="display: inline-block;">
+                <i class="fa fa-dribbble fa-3x mb-3 sr-contact"></i><br/>Dribbble
+              </span>
+            </a>
+           </div>          
+          <div class="col-md-2 col-4 text-center">
+            <a href="https://github.com/chrisgurney" target="_blank" rel="noopener">
+              <span class="underline-anim" style="display: inline-block;">
+                <i class="fa fa-github fa-3x mb-3 sr-contact"></i><br/>GitHub
+              </span>
+            </a>
+           </div>
+          <div class="col d-md-block d-none"></div>
+        </div>
+      </div>
+    </section>
+
+</main>
+
+    <div class="container">
+      <div class="footer">
+        <p class="float-left">
+            &nbsp;
+        </p>
+        <p class="float-lg-right float-left pb-2">
+           <a class="external" style="border-bottom: 1px dotted" href="https://github.com/chrisgurney/chrisgurney.ca" target="_blank" rel="noopener">Coded by me.</a> Adapted from <a class="external" href="https://startbootstrap.com" target="_blank" rel="noopener">Start Bootstrap</a>.
+        </p>
+        <div class="clearfix">
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="vendor/jquery-match-height/jquery.matchHeight-min.js"></script>    
+    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/creative.min.js"></script>
+
+  </body>
+
+</html>

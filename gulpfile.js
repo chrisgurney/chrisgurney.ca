@@ -2,13 +2,16 @@ var Changed = require('gulp-changed');
 var CleanCss = require('gulp-clean-css');
 var Connect = require('gulp-connect');
 var Del = require('del');
+var FS = require('fs');
 var Gulp = require('gulp');
 var Include = require('gulp-file-include');
-var Markdown = require('markdown');
+var Markdown = require('./lib/vendor/markdown');
 var Uglify = require('gulp-uglify');
 var Rename = require('gulp-rename');
 var Rsync = require('gulp-rsync');
 var WebP = require('gulp-webp');
+
+var Trello = require('./lib/trello.js');
 
 /* ************* */
 /* Configuration */
@@ -47,24 +50,6 @@ Gulp.task('build:html', function(done) {
 
 });
 
-// Gulp.task('build:html:md', function() {
-
-//   return Gulp.src(paths.src.test)
-// 	  .pipe(Include({
-// 		  prefix: '@@',
-// 		  basepath: paths.src.includes,
-// 		  context: {
-// 		  	mdfile: '\'../md/test.md\'',
-// 		  	title: 'This is my title'
-// 		  },
-// 		  filters: {
-//         markdown: Markdown.parse
-//       }
-// 		}))
-// 		.pipe(Gulp.dest(paths.output.test));
-		    
-// });
-
 Gulp.task('build:images', function(done) {
 
 	return Gulp.src(paths.src.images)
@@ -74,14 +59,25 @@ Gulp.task('build:images', function(done) {
 
 });
 
-Gulp.task('build:images:webp', function(done) {
-	
-	// FIXME: Understand why this doesn't cause all jpegs to be converted:
-	//   .pipe(Changed(paths.output.images))
-	return Gulp.src(paths.src.jpgs)
-		.pipe(WebP())
-		.pipe(Gulp.dest(paths.output.images))
-		.pipe(Connect.reload());		
+Gulp.task('build:includeJson', function(done) {
+
+	try {
+		// check for the dist folder (throws exception if it does not exist)
+		FS.accessSync(paths.output.base);
+	}
+	// if the folder does not exist...
+	catch (err) {
+		FS.mkdirSync(paths.output.base);
+	}
+
+	var trello_json = FS.readFileSync(paths.src.includeJson, "utf8");
+
+	FS.writeFileSync(paths.output.includeJson, 
+		JSON.stringify(Trello.convertBoard(trello_json, 'object'), null, 2));
+
+	// console.log("Created: " + paths.output.includeJson);
+
+	done();
 
 });
 
@@ -112,6 +108,16 @@ Gulp.task('build:vendor', function(done) {
 		.pipe(Changed(paths.output.vendor))
 		.pipe(Gulp.dest(paths.output.vendor))
 		.pipe(Connect.reload());
+
+});
+
+Gulp.task('build:webp', function(done) {
+	
+	return Gulp.src(paths.src.jpgs)
+		.pipe(Changed(paths.output.images, {extension: '.webp'}))
+		.pipe(WebP())
+		.pipe(Gulp.dest(paths.output.images))
+		.pipe(Connect.reload());		
 
 });
 
@@ -158,33 +164,28 @@ Gulp.task('watch:css', function(done) {
 
 });
 
-Gulp.task('watch:html', function(done) {
+Gulp.task('watch:includeJson', function(done) {
 
-	return Gulp.watch([
-			paths.src.html,
-			paths.src.includes + '/**/*.html',			
-			paths.src.markdown
-		], 
-		Gulp.series('build:html'));
+	return Gulp.watch(paths.src.includeJson,
+		Gulp.series(
+			'build:includeJson',
+			'build:html'));
 
 });
 
-// Gulp.task('watch:html:md', function(done) {
+Gulp.task('watch:html', function(done) {
 
-// 	return Gulp.watch([
-// 			paths.src.testmd,
-// 			paths.src.test
-// 		], 
-// 		Gulp.series('build:html:md'));
+	return Gulp.watch(paths.src.htmlWatchFiles, 
+		Gulp.series('build:html'));
 
-// });
+});
 
 Gulp.task('watch:images', function(done) {
 
 	return Gulp.watch(paths.src.images, 
 		Gulp.parallel(
 			'build:images',
-			'build:images:webp'
+			'build:webp'
 		));
 
 });
@@ -247,10 +248,12 @@ Gulp.task('deploy', function(done) {
 Gulp.task('build',
 	Gulp.parallel(
 		'build:css',
-		'build:html',
+		Gulp.series(
+			'build:includeJson',			
+			'build:html'),
 		'build:meta',
 		'build:images',
-		'build:images:webp',		
+		'build:webp',
 		'build:js',
 		'build:vendor'			
 	),
@@ -271,6 +274,7 @@ Gulp.task('server', function() {
 Gulp.task('watch', 
 	Gulp.parallel(
 		'watch:css',
+		'watch:includeJson',
 		'watch:html',	
 		'watch:images',
 		'watch:js',

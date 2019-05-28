@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Chris Gurney - Designer++;</title>
+
+    <!-- startup configuration per https://w3c.github.io/manifest/ -->
+    <link rel="manifest" href="manifest.json" />
+
+    <!-- Browser bar color - Chrome, Firefox OS and Opera + IE + Safari -->
+    <meta name="theme-color" content="#FE9B27">
+    <meta name="msapplication-navbutton-color" content="#FE9B27">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#FE9B27">
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <link rel="apple-touch-icon" href="images/touch/chrisgurney_120.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="images/touch/chrisgurney_152.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="images/touch/chrisgurney_180.png" />
+    <link rel="apple-touch-icon" sizes="167x167" href="images/touch/chrisgurney_167.png" />
+
+    <!-- Metadata -->
+    <link rel="icon" type="image/png" href="favicon.png">
+    <meta name="author" content="Chris Gurney" />    
+    <meta name="description" content="Chris Gurney, product designer based in Toronto, Canada." />
+
+    <meta itemprop="thumbnailUrl" content="https://www.chrisgurney.ca/images/touch/chrisgurney_512.png"/>
+    <link rel="image_src" href="https://www.chrisgurney.ca/images/chrisgurney.jpg" />
+    <meta itemprop="image" content="https://www.chrisgurney.ca/images/chrisgurney.jpg"/>
+
+    <meta property="og:title" content="Chris Gurney" />
+    <meta property="og:description" content="Chris Gurney, product designer based in Toronto, Canada." />
+    <meta property="og:image" content="https://www.chrisgurney.ca/images/share-banner.png" />
+    <meta property="og:url" content="https://www.chrisgurney.ca/" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Chris Gurney" />
+    <meta name="twitter:description" content="Chris Gurney, product designer based in Toronto, Canada." />
+    <meta name="twitter:image" content="https://www.chrisgurney.ca/images/share-banner.png" />
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/creative.min.css" rel="stylesheet">
+
+    <!-- Drift Async Code -->
+    <script>
+    "use strict";
+
+    !function() {
+      var t = window.driftt = window.drift = window.driftt || [];
+      if (!t.init) {
+        if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+        t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+        t.factory = function(e) {
+          return function() {
+            var n = Array.prototype.slice.call(arguments);
+            return n.unshift(e), t.push(n), t;
+          };
+        }, t.methods.forEach(function(e) {
+          t[e] = t.factory(e);
+        }), t.load = function(t) {
+          var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+          o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+          var i = document.getElementsByTagName("script")[0];
+          i.parentNode.insertBefore(o, i);
+        };
+      }
+    }();
+    </script>
+
+    <!-- Google Analytics-->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-137570047-1"></script>
+
+    <!-- Load scripts if not on localhost -->
+    <script>
+        var host = window.location.host;
+        if ((host.indexOf("localhost") == -1) && 
+            (host.indexOf("ngrok.io") == -1)) {
+
+            // FullStory
+            window['_fs_debug'] = false;
+            window['_fs_host'] = 'fullstory.com';
+            window['_fs_org'] = 'BB5X9';
+            window['_fs_namespace'] = 'FS';
+            (function(m,n,e,t,l,o,g,y){
+                if (e in m) {if(m.console && m.console.log) { m.console.log('FullStory namespace conflict. Please set window["_fs_namespace"].');} return;}
+                g=m[e]=function(a,b){g.q?g.q.push([a,b]):g._api(a,b);};g.q=[];
+                o=n.createElement(t);o.async=1;o.src='https://'+_fs_host+'/s/fs.js';
+                y=n.getElementsByTagName(t)[0];y.parentNode.insertBefore(o,y);
+                g.identify=function(i,v){g(l,{uid:i});if(v)g(l,v)};g.setUserVars=function(v){g(l,v)};
+                y="rec";g.shutdown=function(i,v){g(y,!1)};g.restart=function(i,v){g(y,!0)};
+                g.identifyAccount=function(i,v){o='account';v=v||{};v.acctId=i;g(o,v)};
+                g.clearUserCookie=function(){};
+            })(window,document,window['_fs_namespace'],'script','user');
+
+            // Google Analytics
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-137570047-1');
+
+            // Drift
+            drift.SNIPPET_VERSION = '0.3.1';
+            drift.load('nte2xame32yz');
+
+        }
+    </script>
+
+  </head>
+
+  <body id="page-top">
+
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand light js-scroll-trigger" href="index.html"><img src="images/cg-logo.svg" style="height: 1.8rem" alt="Chris Gurney logo"/></a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarFull" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="container-fluid collapse" id="navbarFull">
+          <div class="menu-full">
+            <ul class="menu-nav">
+              <li>
+                <a class="nav-link js-scroll-trigger" href="#work">work</a>
+              </li>
+<!--               <li>
+                <a class="nav-link js-scroll-trigger" href="/process.html">process</a>
+              </li>  -->             
+              <li>
+                <a class="nav-link js-scroll-trigger" href="/about.html">about</a>
+              </li>
+              <li>
+                <a class="nav-link js-scroll-trigger" href="#contact">contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>    
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link underline-anim light js-scroll-trigger" href="#work">work</a>
+            </li>           
+<!--             <li class="nav-item">
+              <a class="nav-link underline-anim light js-scroll-trigger" href="/process.html">process</a>
+            </li> -->                          
+            <li class="nav-item">
+              <a class="nav-link underline-anim light js-scroll-trigger" href="/about.html">about</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link underline-anim light js-scroll-trigger" href="#contact">contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+<header id="work" class="portfolio text-center text-white d-flex" style="background-image: url('images/portfolio/work-header.jpg'); background-size: cover; background-position: center top;" >
+  <div class="container my-auto sr-card">
+    <div class="row">
+      <div class="col-lg-10 mx-auto">     
+        <h1><strong>All My Projects</strong></h1>
+        <div class="pt-2">
+          <a class="btn btn-light btn-xl js-scroll-trigger mb-lg-0 mb-3 mx-2" href="#design">Design &darr;</a>
+          <a class="btn btn-light btn-xl js-scroll-trigger mb-lg-0 mb-3 mx-2" href="#pm">Product Management &darr;</a>
+          <a class="btn btn-light btn-xl js-scroll-trigger mb-lg-0 mb-3 mx-2" href="#writing">Writing &darr;</a>
+        </div>
+      </div>
+    </div>
+  </div>      
+</header>
+
+<main role="main">
+
+  <!-- Begin Post -->
+  <section class="index pb-5 pt-md-5 pt-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10 col-12 mx-auto">
+          <a name="design"></a>
+          <span class="h1-xl text-gradient">Design</span>
+          <div class="article-post">
+            <h1 class="pt-0">Guesty</h1>
+
+<p><img alt="Guesty screenshot showing guest list" src="images/portfolio-guesty/guesty-brand.jpg"/></p>
+
+<ul class="tags"><li>UX/UI</li><li>B2C</li><li>Mobile</li><li>Exercise</li><li>2019</li></ul>
+
+<blockquote><ul><li>My Role: Designer. Did all the things.</li></ul></blockquote>
+
+<p>I was given a design challenge to double the usage of an existing guestbook mobile app, to be used at small events such as baby showers.</p>
+
+<p>I mapped the journey of existing users and decided to explore an opportunity in which an event volunteer could own the signing. I then designed a brand and UI, centered around taking a recorded message or photo of guests.</p>
+
+<p class="popup-gallery thumbs"><a href="images/portfolio-guesty/guesty-guest-list.jpg" title="The Guesty guest list"><img alt="Guest list screenshot" src="images/portfolio-guesty/guesty-guest-list.jpg"/></a>
+<a href="images/portfolio-guesty/guesty-message-details-share.jpg" title="Message details that are added after the guest video or photo is taken, and ability to share the app with other guests or volunteers."><img alt="Message details and sharing screenshot" src="images/portfolio-guesty/guesty-message-details-share.jpg"/></a>
+<a href="images/portfolio-guesty/guesty-flow.jpg" title="Flow between each of the screens."><img alt="Guesty screen flow" src="images/portfolio-guesty/guesty-flow.jpg"/></a></p>
+
+<h1>Neighbor UX/UI</h1>
+
+<p><img alt="Neighbor screenshot" src="images/portfolio-neighbor/neighbor-desk-portfolio.jpg"/></p>
+
+<ul class="tags"><li>UX/UI</li><li>B2B</li><li>2019</li></ul>
+
+<blockquote><ul><li>Employer: Neighbor Billing</li><li>My Role: Designer. Did all the things.</li></ul></blockquote>
+
+<p>Neighbor is a consumer billing platform that our team at Globalive Technology launched in three months, from concept to production. As head of design, I was responsible for the UX and UI for the entire platform, which included:</p>
+
+<ul><li>Web Interface - Designed and guiding development of the Neighbor Hub (CSR portal) UX/UI.</li><li>Bill Design - Goals included incorporating multiple types of services, making them easy to understand and brandable, while minimizing calls to support.</li><li>Email Templates - Designed and implemented transactional emails.</li></ul>
+
+<p class="popup-gallery thumbs"><a href="images/portfolio-neighbor/neighbor-hub-navigation.jpg" title="Neighbor Hub for CSRs"><img alt="Neighbor Hub UI" src="images/portfolio-neighbor/neighbor-hub-navigation.jpg"/></a>
+<a href="images/portfolio-neighbor/neighbor-bills.jpg" title="Mockups of printed bills for Neighbor"><img alt="Mockups of printed bills for Neighbor" src="images/portfolio-neighbor/neighbor-bills.jpg"/></a>
+<a href="images/portfolio-neighbor/neighbor-email.jpg" title="Responsive transactional emails I implemented with focus on simplicity for first release"><img alt="Neighbor email screenshot on mobile phone" src="images/portfolio-neighbor/neighbor-email.jpg"/></a></p>
+
+<h1>Neighbor Brand</h1>
+
+<p><img alt="Neighbor screenshot and tag-line: Consumer-First Billing" src="images/portfolio-neighbor/neighbor-brand.jpg"/></p>
+
+<ul class="tags"><li>Branding</li><li>Web Site</li><li>Sales Deck</li><li>2019</li></ul>
+
+<blockquote><ul><li>Employer: Neighbor Billing</li><li>My Role: Designer. Did all the things.</li></ul></blockquote>
+
+<p>Once the first release of our Neighbor Billing platform had shipped, we then re-launched our website to sell what we had built, and to attract employees to the company. </p>
+
+<p>In so doing, I identified the need to refresh the brand, but gave ourselves a short timeframe to develop our new look.</p>
+
+<p><a href="neighbor-brand.html" class="btn btn-primary btn-xl text-light">Read More →</a></p>
+
+<p class="popup-gallery thumbs"><a href="images/portfolio-neighbor/neighbor-logo-portfolio.jpg" title="Neighbor logo after the re-brand. See the full case study for more details."><img alt="Neighbor logo" src="images/portfolio-neighbor/neighbor-logo-portfolio.jpg"/></a>
+<a href="images/portfolio-neighbor/neighbor-sales-deck.jpg" title="Sales deck I implemented based on interviewing stakeholders."><img alt="Neighbor sales deck" src="images/portfolio-neighbor/neighbor-sales-deck.jpg"/></a>
+<a href="images/portfolio-neighbor/goneighbor-front-portfolio.jpg" title="The goneighbor.co responsive marketing site I designed and implemented."><img alt="Neighbor web page" src="images/portfolio-neighbor/goneighbor-front-portfolio.jpg"/></a></p>
+
+<h1>Fuzzies Gratitude Journal Concept</h1>
+
+<p><img alt="Fuzzies logo and app screenshot." src="images/portfolio-fuzzies/fuzzies-portfolio.jpg"/></p>
+
+<ul class="tags"><li>UX/UI</li><li>B2C</li><li>Prototype</li><li>Mobile</li><li>Exercise</li><li>2018</li></ul>
+
+<blockquote><ul><li>My Role: Designer. Did all the things.</li></ul></blockquote>
+
+<p>The practice of gratitude journaling has been shown to have many positive benefits. It&#39;s as easy as writing down the things you are grateful for on a daily basis.</p>
+
+<p>I wanted to design a system that encourages people to get into the habit of gratitude journaling, and to share their gratitudes with others, using the technology they have at hand.</p>
+
+<p><a href="fuzzies.html" class="btn btn-primary btn-xl text-light">Read More →</a></p>
+
+<p class="popup-gallery thumbs"><a href="images/portfolio-fuzzies/fuzzies-icon-variations.jpg" title="Variations of the Fuzzies icon, before selecting a final."><img alt="Variations of the Fuzzies icon, before selecting a final." src="images/portfolio-fuzzies/fuzzies-icon-variations.jpg"/></a>
+<a href="images/portfolio-fuzzies/fuzzies-feed-evolution.jpg" title="Evolution of the Fuzzies feed from wireframe to final."><img alt="Evolution of the Fuzzies feed from wireframe to final." src="images/portfolio-fuzzies/fuzzies-feed-evolution.jpg"/></a>
+<a href="images/portfolio-fuzzies/fuzzies-screens-portfolio.jpg" title="From left to right - Splash, news, and variable reward."><img alt="Three screens from Fuzzies." src="images/portfolio-fuzzies/fuzzies-screens-portfolio-sm.jpg"/></a></p>
+
+<h1>Achievers API Prototypes</h1>
+
+<p><img alt="Achievers Product Labs page" src="images/portfolio/achievers-product-labs-brand.jpg"/></p>
+
+<ul class="tags"><li>Prototype</li><li>B2B</li><li>Coding</li><li>2015</li></ul>
+
+<blockquote><ul><li>Employer: Achievers</li><li>My Role: Designer and Developer. Did all the things.</li><li>PHP, jQuery, Chrome extensions, Confluence &amp; JIRA APIs, Outlook VBA</li></ul></blockquote>
+
+<p>As Product Manager for the Achievers API, I built prototypes to demonstrate present and future use cases using the API and our data. This helped our non-technical stakeholders visualize the potential value we could provide, and enabled new use cases for our Sales team.</p>
+
+<p>Prototypes included:</p>
+
+<ul><li>Experiments on TVs, bringing recognition and personalities into our physical spaces.</li><li>Chrome Extension as a vehicle for change: Ability to recognize the author of a Confluence page, or JIRA ticket; overriding product styles.</li><li>Outlook macro and Sharepoint widget: Recognition in the flow of work.</li></ul>
+
+<p class="popup-gallery thumbs"><a href="images/portfolio/achievers-product-labs.jpg" title="Internal web page used to share the prototypes available."><img alt="Achievers Product Labs page showing collection of prototypes" src="images/portfolio/achievers-product-labs-sm.jpg"/></a>
+<a href="images/portfolio/achievers-api-profile-collage.jpg" title="Portfolio collage prototype implemented in jQuery, using employee data from the Achievers system."><img alt="Achievers Profile Collage prototype" src="images/portfolio/achievers-api-profile-collage.jpg"/></a>
+<a href="images/portfolio/achievers-api-reco-screen.jpg" title="Recognition screen prototype implemented in jQuery, using recognition data from the Achievers system."><img alt="Achievers Recognition Screen prototype" src="images/portfolio/achievers-api-reco-screen.jpg"/></a></p>
+
+<h1>Resinate Cannabis Brand</h1>
+
+<p><img alt="Mockup of Resinate product bottle." src="images/portfolio-resinate/resinate-brand.jpg"/></p>
+
+<ul class="tags"><li>Branding</li><li>Coding</li><li>Sales Deck</li><li>2018</li></ul>
+
+<blockquote><ul><li>Client: Resinate</li><li>My Role: Designer. Did all the things.</li></ul></blockquote>
+
+<p>I worked with the founder of a cannabis grower to design a brand for his company. The goal was to take his name &quot;Resinate&quot; and create a trustworthy brand.</p>
+
+<p>As part of this project I developed the logo, patterns, colors, and examples of its application to an investor pitch deck and to product packaging.</p>
+
+<p><a href="resinate.html" class="btn btn-primary btn-xl text-light">Read More →</a></p>
+
+<p class="popup-gallery thumbs"><a href="images/portfolio-resinate/resinate-deck-portfolio.jpg" title="Branded pitch deck."><img alt="Resinate Pitch Deck" src="images/portfolio-resinate/resinate-deck-portfolio.jpg"/></a>
+<a href="images/portfolio-resinate/resinate-packaging-portfolio.jpg" title="Concept packaging."><img alt="Resinate packaging" src="images/portfolio-resinate/resinate-packaging-portfolio.jpg"/></a></p>
+
+<h1>Blueprint Product Launch Marketing</h1>
+
+<p><img alt="Blueprint Requirements Center 2009 Web Site" src="images/portfolio/blueprint-logo.jpg"/></p>
+
+<ul class="tags"><li>Marketing</li><li>B2B</li><li>Coding</li><li>Web Site</li><li>2008</li></ul>
+
+<blockquote><ul><li>Employer: Blueprint</li><li>My Role: Designer and Developer. Did all the things.</li></ul></blockquote>
+
+<p>For the release of Blueprint Requirements Center 2009, we needed a refreshed web presence to really show  it off.</p>
+
+<p>I designed and implemented a new site and other marketing pieces that accompanied it, including a teaser and email campaign.</p>
+
+<p class="popup-gallery thumbs"><a href="images/portfolio/blueprint-rc2009-1.png" title="Blueprint RC2009 Website"><img alt="Blueprint RC2009 website screenshot." src="images/portfolio/blueprint-rc2009-1-sm.jpg"/></a>
+<a href="images/portfolio/blueprint-rc2009-2.png" title="Blueprint RC2009 Website"><img alt="Blueprint RC2009 website screenshot." src="images/portfolio/blueprint-rc2009-2-sm.jpg"/></a>
+<a href="images/portfolio/blueprint-rc2009-3.png" title="Blueprint RC2009 Website"><img alt="Blueprint RC2009 website screenshot." src="images/portfolio/blueprint-rc2009-3-sm.jpg"/></a></p>
+
+<h1>Xenos Intranet</h1>
+
+<p><img alt="Xenos Intranet screenshot." src="images/portfolio/xenos-intranet.png"/></p>
+
+<ul class="tags"><li>UI/UX</li><li>Coding</li><li>Web</li><li>2005</li></ul>
+
+<blockquote><ul><li>Employer: Xenos</li><li>My Role: Designer and Developer. Did all the things.</li></ul></blockquote>
+
+<p>After joining a company, I found out that the business&#39; existing Intranet consisted of a handful of static web pages with aging links to outdated and non-existent resources.</p>
+
+<p>In an effort to resolve this, I took it upon myself to build a new Intranet from the ground up, with the goal of creating a tool by which employees could easily share useful information.</p>
+
+<p><a href="xenos-intranet.html" class="btn btn-primary btn-xl text-light">Read More →</a></p>
+
+<h1>Other Case Studies</h1>
+
+<ul class="tags"><li>UI</li><li>2018</li></ul>
+
+<p>Other notable design exercises:</p>
+
+<p>🎨 <strong>Daily UI</strong>: A 100 day project to improve my design skills.</p>
+
+<p>🕹 <strong>Nintendo Switch Connect</strong>: A conceptual social app for fans of the Nintendo Switch™.</p>
+
+<p>👕 <strong>Layer2</strong>: Brand style guide for an urban outdoor wear company.</p>
+
+<p><a href="dailyui.html" class="btn btn-primary btn-xl mb-2 text-light">Daily UI →</a>  <a href="switch-connect.html" class="btn btn-primary btn-xl mb-2 text-light">Switch Connect →</a>  <a href="layer2.html" class="btn btn-primary btn-xl mb-2 text-light">Layer2 →</a></p>
+
+<p class="popup-gallery thumbs"><a href="images/portfolio/dailyui-001.jpg" title="Daily UI #001: A Sign Up Form"><img alt="A sign up form for a mobile app." src="images/portfolio/dailyui-001.jpg"/></a>
+<a href="images/portfolio/switch-connect.jpg" title="Nintendo Switch Connect: A conceptual social app for fans of the Nintendo Switch™."><img alt="News Feed for a social app concept for fans of the Nintendo Switch." src="images/portfolio/switch-connect.jpg"/></a>
+<a href="images/portfolio/layer2.jpg" title="Layer2: Brand style guide for an urban outdoor wear company."><img alt="Layer2 Style Guide pieces including: logo, type, and iconography." src="images/portfolio/layer2.jpg"/></a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>  
+
+  <section class="index pb-5 pt-md-5 pt-3 mt-5" style="background-color: #FAFAFA;">
+    <a name="pm"></a>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10 col-12 mx-auto">       
+          <span class="h1-xl text-gradient">Product Management</span>
+          <div class="article-post">
+            <h1 class="pt-0">Concussion Recovery App</h1>
+
+<p><img alt="CCMI logo" src="images/about/pm-ccmi.jpg"/></p>
+
+<ul class="tags"><li>PM</li><li>B2C</li><li>Modernization</li><li>Mobile</li><li>Web</li><li>2016</li></ul>
+
+<blockquote><ul><li>Client: Complete Concussion Management</li><li>Employer: DevBBQ</li><li>My Role: Product Manager</li></ul></blockquote>
+
+<p>Product Manager for the modernization of a mobile app (React Native) that coaches and athletes can use to track recovery from concussions; clinicans can use a responsive web dashboard to perform baseline testing, and provide a recovery plan.</p>
+
+<p><a href="#details-ccmi" data-toggle="collapse">Details...</a></p>
+
+<ul id="details-ccmi" class="collapse"><li>Managed requirements and bi-weekly delivery.</li><li>Localization: Facilitated language export/import for client translation.</li><li>Test Scenarios: Developed and executed test plan (no QA resource).</li><li>Email design + development.</li><li>Involved client representative in scrums.</li><li><a href="https://completeconcussions.com/" target="_blank_">Visit Complete Concussion Management →</a></li></ul>
+
+<h1>Sports Fundraising &amp; CMS Platform</h1>
+
+<p><img alt="Boon-Town logo" src="images/about/pm-boontown.jpg"/></p>
+
+<ul class="tags"><li>PM</li><li>B2C</li><li>Web</li><li>2016</li></ul>
+
+<blockquote><ul><li>Client: Boon-Town</li><li>Employer: DevBBQ</li><li>My Role: Product Manager</li></ul></blockquote>
+
+<p>Boon-Town partners with athletes and teams to raise funds and awareness for important causes.</p>
+
+<p>The platform was used successfully for a campaign to raise funds for cancer research at Sunnybrook Hospital, with the support of Doug Gilmour, in honour of the late Gord Downie of The Tragically Hip.</p>
+
+<p><a href="#details-boon" data-toggle="collapse">Details...</a></p>
+
+<ul id="details-boon" class="collapse"><li>Managed requirements and continuous client delivery, from <em>concept to launch</em>.</li><li>This project had challenges: Limited designer hours available; the scope evolved expanded to effectively build a CMS; and the branding and design completely changed mid-project.</li><li><a href="https://boon-town.com" target="_blank_">Visit Boon-Town →</a></li></ul>
+
+<h1>At-Home Physiotherapy App</h1>
+
+<p><img alt="Therapia logo" src="images/about/pm-therapia.jpg"/></p>
+
+<ul class="tags"><li>PM</li><li>B2C</li><li>Web</li><li>2016</li></ul>
+
+<blockquote><ul><li>Client: Therapia</li><li>Employer: DevBBQ</li><li>My Role: Product Manager</li></ul></blockquote>
+
+<p>Therapia provides patients with physiotherapy home visits. The app connects patients with local home care physiotherapists throughout the GTA and beyond.</p>
+
+<p><a href="#details-therapia" data-toggle="collapse">Details...</a></p>
+
+<ul id="details-therapia" class="collapse"><li>Managed requirements and continuous client delivery, from <em>concept to launch</em>.</li><li>Responsive web app.</li><li><a href="https://therapia.com" target="_blank_">Visit Therapia →</a></li></ul>
+
+<h1>Recruitment Platform MVP</h1>
+
+<p><img alt="wayHire logo" src="images/about/pm-wayhire.jpg"/></p>
+
+<ul class="tags"><li>PM</li><li>B2C</li><li>MVP</li><li>Web</li><li>2017</li></ul>
+
+<blockquote><ul><li>Client: wayHire</li><li>Employer: DevBBQ</li><li>My Role: Product Manager</li></ul></blockquote>
+
+<p>WayHire provides select, passive candidates with discreet, career development opportunities with desirable employers. An applicant tracking system for recruiters.</p>
+
+<p>Our client was ultimately acquired.</p>
+
+<p><a href="#details-wayhire" data-toggle="collapse">Details...</a></p>
+
+<ul id="details-wayhire" class="collapse"><li>Developed as a true MVP, over multiple engagements, around our client&#39;s specific process. </li><li>Managed requirements and continuous client delivery, from <em>concept to launch</em>.</li><li>Conducted discovery and managed roadmap.</li></ul>
+
+<h1>Paymi</h1>
+
+<p><img alt="Paymi logo" src="images/about/pm-paymi.jpg"/></p>
+
+<ul class="tags"><li>PM</li><li>B2C</li><li>Mobile</li><li>Web</li><li>2015</li></ul>
+
+<blockquote><ul><li>Employer: DevBBQ</li><li>My Role: Product Manager</li></ul></blockquote>
+
+<p>Paymi is a consumer loyalty app that allows consumers to automatically earn cash when they shop with their existing credit or debit cards.</p>
+
+<p><a href="#details-paymi" data-toggle="collapse">Details...</a></p>
+
+<ul id="details-paymi" class="collapse"><li>Responsible for managing requirements and continuous delivery.</li><li><a href="https://www.paymi.com/" target="_blank_">Visit Paymi →</a></li></ul>
+
+<h1>Other DevBBQ Client Projects</h1>
+
+<ul class="tags"><li>PM</li><li>B2C</li><li>Web</li><li>Mobile</li><li>Discovery</li></ul>
+
+<blockquote><ul><li>My Role: Product Manager</li></ul></blockquote>
+
+<h2>Sphere</h2>
+
+<p>Facilitated discovery sessions for a life coaching platform.</p>
+
+<h2>Condo Pre-Build Reservation System</h2>
+
+<p>Managed requirements and continuous delivery of this responsive web app (Ruby).</p>
+
+<h2>Fanergy</h2>
+
+<p>Managed development of a prototype for a sports fan engagement app (Swift, iOS).</p>
+
+<h2>Waypoint Golf</h2>
+
+<p>Facilitated discovery sessions for a golf tournament booking platform.</p>
+
+<h1>Achievers Accessibility</h1>
+
+<p><img alt="Achievers logo" src="images/about/pm-achievers.jpg"/></p>
+
+<ul class="tags"><li>PM</li><li>Accessibility</li><li>Web</li><li>2015</li></ul>
+
+<blockquote><ul><li>Employer: Achievers</li><li>My Role: Product Manager. Requirements analysis and user testing.</li></ul></blockquote>
+
+<p>Lead implementation of accessibility in our web platform, and raised awareness internally. This included:</p>
+
+<ul><li>Interpreting WCAG levels, as it pertained to Achievers.</li><li>Acquiring JAWS, and using tools where available for initial testing (WAVE, aChecker, Google).</li><li>Finding an advocate in development who was interested in being the expert.</li><li>Taking this developer to watch a user test further built empathy; they later did a <a href="https://www.youtube.com/watch?v=xSkS9uI7Wqw" target="_blank_">tech talk</a> on the subject.</li></ul>
+
+<h1>Achievers Product Management Initiatives</h1>
+
+<p><img alt="Achievers logo" src="images/about/pm-achievers.jpg"/></p>
+
+<ul class="tags"><li>PM</li><li>B2B</li><li>UX</li><li>2012-2015</li></ul>
+
+<blockquote><ul><li>Employer: Achievers</li><li>My Role: Product Manager</li></ul></blockquote>
+
+<p>In addition to the API, I led improvement initiatives on a number of features on the Achievers employee recognition and rewards platform.</p>
+
+<h2>Login Flow Improvements</h2>
+
+<ul><li>Problem: Interviewing the customer support team revealed login challenges our members commonly had; password recovery was top reason members called in. </li><li>Worked with Security team to ensure newer restrictions (partly due to ISO compliance) were taken into account: preventing brute-force attempts; modernizing CAPTCHA (making it accessible); increasing security questions; not letting the user know whether their email was on file or not... all in the context of a white-labelled platform.</li><li>Solutions included: Clearer UI for login, and separation with SSO; password strength indicators and social proof (e.g., &quot;Your password is weaker than 40% of users&quot;); email improvements to try to avoid password emails from going to spam folders.</li></ul>
+
+<h2>Transactional Email Improvements</h2>
+
+<p>PM for improving the design of all our transactional emails.</p>
+
+<ul><li>Inventoried all emails, their triggers, and CTAs.</li><li>Created a journey map + performed a JTBD analysis for each email.</li><li>Researched and scoped requirements for CASL compliance.</li><li>Result included improving copy, CTAs, and implementing email subscription interface.</li></ul>
+
+<h2>Checkout Flow</h2>
+
+<ul><li>Improvements to the rewards catalogue checkout flow started as collection of &quot;priorities&quot; identified by our suppport team: Differences between physical (i.e., shipped) vs virtual (i.e., gift codes); notifications on order updates. I challenged their assumptions.</li><li>Looked at data which revealed that users bookmarked the order status page, and didn&#39;t have a clear way back to that page otherwise.</li><li>Mocked up changes to the checkout flow and tested it on new employees.</li></ul>
+
+<h2>Administration System Improvements</h2>
+
+<ul><li>Observed the support team using our internal administration system, to see what common workflows looked like.</li><li>Solutions included creating shortcuts to our ticket tracking system, to speed up access and to populate key screens, shortening time on calls.</li></ul>
+
+<h2>Other PM Work</h2>
+
+<p>Other initiatives included:</p>
+
+<ul><li>Holiday Emails - Our annually scheduled emails across all approved programs that encouraged redemptions.</li><li>HRIS Integration Improvements - Executed requirements from our Professional Services team to improve the efficiency, integrity, and functionality behind data imports from HR systems.</li></ul>
+
+<h1>Achievers Program Launches</h1>
+
+<ul class="tags"><li>Professional Services</li><li>B2B</li><li>Stakeholder Management</li></ul>
+
+<blockquote><ul><li>My Role: Program Launch Manager</li></ul></blockquote>
+
+<p>Led the design and implementation of 30+ customized employee recognition programs, with annual contract values ranging from $120K to $3.5M.</p>
+
+<p>Notable clients included <em>Google</em>, <em>Levi’s</em>, and <em>Cineplex</em>.</p>
+
+<p>Worked with HR directors and senior stakeholders to determine requirements for recognition programs, including: program brand, design elements (in conjunction with graphic designer), components, budgets, and communication plan.</p>
+
+<h1>Blueprint Icon Redesign Project</h1>
+
+<p><img alt="Blueprint RC2008 screenshot crop." src="images/portfolio/blueprint-icons-rc2008.jpg"/></p>
+
+<ul class="tags"><li>PM</li><li>B2B</li><li>Modernization</li><li>Windows</li><li>2008</li></ul>
+
+<blockquote><ul><li>Employer: Blueprint</li><li>My Role: Project Manager.</li></ul></blockquote>
+
+<p>Our latest product release was a big one for our company.</p>
+
+<p>While providing an important, fresh set of features, it also visually marked a turning point in the design of our application. Compared to the previous version, the new release had a more modern look-and-feel to it and relied on updated technology, such as a brand new windowing framework.</p>
+
+<p>As a result, it became apparent that we needed somebody to direct the redesign of all of the icons and graphics, as things would have looked very much out of place on top of our shiny new toolbars. That somebody had to identify all 250 icons, work with somebody to refresh what we had, and help to come up with design ideas for the new features we were adding.</p>
+
+<p>As it turned out, that somebody was me.</p>
+
+<p><a href="blueprint-iconic-release.html" class="btn btn-primary btn-xl text-light">Read More →</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>  
+
+  <section class="index pb-0 pt-md-5 pt-3 mt-5">
+    <a name="writing"></a>    
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10 col-12 mx-auto">          
+          <span class="h1-xl text-gradient">Writing + Performance</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+      <section class="about-box p-0" id="about" style="background: linear-gradient(0deg, #FFB25A, #FFF);">
+      <div class="container-fluid">
+
+        <!-- Writing Start -->
+        <div class="row pt-5">
+          <div class="col-lg-3 col-sm-6 col-12 mb-5">
+            <div class="card h-100">
+              <a href="https://www.batimes.com/articles/the-big-freakin-requirements-document-must-die.-here-s-why.html" target="_blank" rel="noopener">
+                <img class="card-img-top" src="images/about/media-batimes.jpg" alt="Photo of a crocodile's eye, because Godzilla wasn't royalty-free."/>
+              </a>                          
+              <div class="card-body with-bottom-image">
+                <p class="card-text">
+                  <small class="text-muted text-uppercase">
+                    Article
+                  </small>
+                </p>                
+                <h3 class="card-title">The Big Freakin' Requirements Document Must Die. Here's Why.</h3>
+                <p class="card-text">
+                  Article I authored for Blueprint, achieving over 47K+ views on BA Times &amp; republished elsewhere.
+                </p>
+              </div>
+              <div class="card-footer">
+                <a class="underline-anim" href="https://www.batimes.com/articles/the-big-freakin-requirements-document-must-die.-here-s-why.html" target="_blank" rel="noopener">Read on BA Times <i class="fa fa-external-link"></i></a>
+              </div>              
+            </div>             
+          </div>  
+          <div class="col-lg-3 col-sm-6 col-12 mb-5">
+            <div class="card h-100">
+              <a href="https://www.youtube.com/watch?v=6k5Sk86J_Eg&list=PL_7LDWLXJY87Rv0JX14ACo7luMWFWyO1K" target="_blank" rel="noopener">
+                <img class="card-img-top" src="images/about/media-achievers.jpg" alt="Screencap of commercial I performed in."/>
+              </a>
+              <div class="card-body">
+                <p class="card-text">
+                  <small class="text-muted text-uppercase">
+                    Commercial
+                  </small>
+                </p>                
+                <h3 class="card-title">Achievers Six Solutions</h3>
+                <p class="card-text">                  
+                  Actor in a series of promos filmed (pre-beard) for Achievers' employee recognition solution.
+                </p>
+              </div>
+              <div class="card-footer">                
+                <a class="underline-anim" href="https://www.youtube.com/watch?v=6k5Sk86J_Eg&list=PL_7LDWLXJY87Rv0JX14ACo7luMWFWyO1K" target="_blank" rel="noopener">Watch on YouTube <i class="fa fa-external-link"></i></a>
+              </div>              
+            </div>             
+          </div>               
+          <div class="col-lg-3 col-sm-6 col-12 mb-5">
+            <div class="card h-100">
+              <a href="images/portfolio/opentext-wp-best-practices-in-ecm-migration.pdf" target="_blank" rel="noopener">
+                <img class="card-img-top" src="images/about/media-ecm.jpg" alt="Cover of ECM whitepaper I authored for OpenText."/>  
+              </a>            
+              <div class="card-body">                
+                <p class="card-text">
+                  <small class="text-muted text-uppercase">
+                    Whitepaper
+                  </small>
+                </p>      
+                <h3 class="card-title">Best Practices in ECM Migration</h3>
+                <p class="card-text">
+                  Whitepaper I wrote for Xenos (acquired by OpenText) to provide lead gen for their electronic content management migration services.
+                </p>               
+              </div>
+              <div class="card-footer">
+                <a class="underline-anim" href="images/portfolio/opentext-wp-best-practices-in-ecm-migration.pdf" target="_blank" rel="noopener">Read (PDF) &rarr;</i></a>                 
+              </div>              
+            </div>             
+          </div>                        
+          <div class="col-lg-3 col-sm-6 col-12 mb-5">
+            <div class="card h-100">
+              <a href="https://www.blogto.com/tech/2008/10/wordcamp_toronto_redux/" target="_blank" rel="noopener">
+                <img class="card-img-top" src="images/about/media-blogto.jpg" alt="Photo of crowd at WordCamp Toronto 2008."/>     
+              </a>         
+              <div class="card-body with-bottom-image">
+                <p class="card-text">
+                  <small class="text-muted text-uppercase">
+                    Article
+                  </small>
+                </p>                
+                <h3 class="card-title">WordCamp Toronto Redux</h3>
+                <p class="card-text">
+                  Wrote a couple articles for blogTO including this recap of that year's WordCamp conference.
+                </p>
+              </div>
+              <div class="card-footer">
+                <a class="underline-anim" href="https://www.blogto.com/tech/2008/10/wordcamp_toronto_redux/" target="_blank" rel="noopener">Read on blogTO <i class="fa fa-external-link"></i></a>                
+              </div>              
+            </div>             
+          </div>                   
+        </div>
+        <!-- Writing End -->
+
+      </div>
+    </section>
+
+      <section class="about-component bg-primary">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <h2 class="section-heading text-white">Chris Gurney</h2>
+            <hr class="light my-4">
+            <p class="text-faded mb-4">I'm a Toronto-based product designer and former product manager who has toured the tech industry with a background in computer science, across a broad range of roles.</p>
+            <a class="btn btn-light btn-xl js-scroll-trigger" href="about.html">About Me</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+      <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <h2 class="section-heading">Get in touch!</h2>
+            <p class="my-4"><a href="mailto:chris@chrisgurney.ca"><span class="underline-anim" style="display: inline-block;">chris@chrisgurney.ca</span></a></p>
+          </div>          
+        </div>
+        <div class="row pt-5">
+          <div class="col d-md-block d-none"></div>
+          <div class="col-md-2 col-4 text-center">
+            <a href="https://www.linkedin.com/in/chrisgurney/" target="_blank" rel="noopener">
+              <span class="underline-anim" style="display: inline-block;">
+                <i class="fa fa-linkedin fa-3x mb-3 sr-contact"></i><br/>LinkedIn
+              </span>
+            </a>
+          </div>
+          <div class="col-md-2 col-4 text-center">
+            <a href="https://dribbble.com/chrisgurney" target="_blank" rel="noopener">
+              <span class="underline-anim" style="display: inline-block;">
+                <i class="fa fa-dribbble fa-3x mb-3 sr-contact"></i><br/>Dribbble
+              </span>
+            </a>
+           </div>          
+          <div class="col-md-2 col-4 text-center">
+            <a href="https://github.com/chrisgurney" target="_blank" rel="noopener">
+              <span class="underline-anim" style="display: inline-block;">
+                <i class="fa fa-github fa-3x mb-3 sr-contact"></i><br/>GitHub
+              </span>
+            </a>
+           </div>
+          <div class="col d-md-block d-none"></div>
+        </div>
+      </div>
+    </section>
+
+</main>
+
+    <div class="container">
+      <div class="footer">
+        <p class="float-left">
+           Credits: Image from Alice Donovan Rouse via Unsplash. &nbsp;
+        </p>
+        <p class="float-lg-right float-left pb-2">
+           <a class="external" style="border-bottom: 1px dotted" href="https://github.com/chrisgurney/chrisgurney.ca" target="_blank" rel="noopener">Coded by me.</a> Adapted from <a class="external" href="https://startbootstrap.com" target="_blank" rel="noopener">Start Bootstrap</a>.
+        </p>
+        <div class="clearfix">
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="vendor/jquery-match-height/jquery.matchHeight-min.js"></script>    
+    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/creative.min.js"></script>
+
+  </body>
+
+</html>

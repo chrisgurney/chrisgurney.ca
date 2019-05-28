@@ -1,0 +1,206 @@
+[
+  {
+    "id": "5cc8e37795aa8b6d9828076d",
+    "list": "Contextualize",
+    "name": "Interview Stakeholders",
+    "desc": "<p>Stakeholder Interviews</p>\n\n<p><a href=\"https://uxdesign.cc/ux-process-starts-at-stakeholder-interviews-not-user-interviews-4b464368d7d3\">Article - UX Process Starts at Stakeholder Interviews</a></p>\n\n<ul><li>What is the requested feature / product / enhancement?</li><li>What is the expected timeline in stakeholders’ minds? Are they aligned?</li><li>Who are the intended users for the feature/product?</li><li>What are the constraints/worries that exist regarding this effort?</li></ul>\n\n<p>Questions:</p>\n\n<ul><li>Who’s involved?</li><li>Who needs to stay updated and how?<ul><li>Who do I need to bring into design reviews and other activities?</li></ul></li><li>RACI: Responsible, Accountable, Consulted, Informed</li></ul>\n\n<p>Issue Tracker</p>\n\n<p>Spreadsheet easier to use than JIRA (and without the overhead), to capture suggestions, bugs (show that stakeholders are being listened to), do triage, and to look for patterns.</p>\n\n<p>🛠 <strong>Tools</strong>: Stakeholder Interviews, RACI, Issue Tracker, MoSCoW</p>\n\n<p>[Issue Tracker example + columns]</p>",
+    "summary": "Who am I ultimately responsible to for this project?",
+    "image": "11021452_10101159139982207_7051886507557561386_o.jpg"
+  },
+  {
+    "id": "5cc8e370080d8d0fcd81004a",
+    "list": "Contextualize",
+    "name": "Understand Assumptions",
+    "desc": "<p>I think this one needs to stand on its own.</p>\n\n<p>What is the business based on? So you can test for them. \nSeen business ideas fail because they aren’t tested.\nDetermine a <em>true</em> MVP.</p>\n\n<p>Become aware of our own assumptions and biases before interviewing.</p>\n\n<p>🛠 <strong>Tools</strong>: TODO</p>",
+    "summary": ""
+  },
+  {
+    "id": "5cc8e399ceaf08272aae59aa",
+    "list": "Contextualize",
+    "name": "Develop Research Plan",
+    "desc": "<ul><li>hypothesis questions to ask</li><li>qualitative</li><li>quantitative - is there existing data to look at?</li></ul>\n\n<p>Through User Research / Ethnographic Research - interviews, observation</p>\n\n<p>e.g., Neighbor plan?</p>",
+    "summary": ""
+  },
+  {
+    "id": "5cc9a731c96f9839b95f7bed",
+    "list": "Contextualize",
+    "name": "Audit Existing Application",
+    "desc": "<p>For existing applications:</p>\n\n<ul><li>If new to me: Audit: Map user flows, touchpoints, map screen flows, data models. </li><li>JTBD Survey for existing features</li><li>Look at data (SQL, GA), or get in place ASAP</li></ul>",
+    "summary": ""
+  },
+  {
+    "id": "5cc8e37bb08d9c439e0c3f05",
+    "list": "Contextualize",
+    "name": "Establish Agile Design Workflow",
+    "desc": "<p>Agile is a conversation.</p>\n\n<p>Be involved in backlog grooming, retrospectives, and other regular Agile activities.</p>\n\n<p>I prefer to do my design work in one week sprints, to keep myself track on constantly producing deliverables.</p>\n\n<p>I recommend managing Design Team work in a separate JIRA project, separate from the Development Team&#39;s sprints, so that: Development can commit to, and completely finish their work for a given sprint; and Design&#39;s workflow can be customized and separate from Development&#39;s.</p>\n\n<p>The workflow can be as simple as:</p>\n\n<ul><li>Backlog</li><li>In Progress</li><li>Review - Present to and discuss with stakeholders.</li><li>Done - Ready for implementation.</li></ul>\n\n<p>[kanban board columns: Backlog, In Progress, Review, Done]</p>\n\n<p>🛠 <strong>Tools</strong>: Trello, JIRA, Spreadsheets</p>",
+    "summary": ""
+  },
+  {
+    "id": "5cc8e3ac7b83908d1f077dcd",
+    "list": "Empathize",
+    "name": "Interview Users",
+    "desc": "<p>Understand the user’s context, goals and tasks\n...through research</p>\n\n<p>Execute the Research Plan.</p>",
+    "summary": ""
+  },
+  {
+    "id": "5cc8e3ce1058774608ac4476",
+    "list": "Empathize",
+    "name": "Build Personas",
+    "desc": "<p>🛠<strong>Tools</strong>: Affinity mapping</p>",
+    "summary": ""
+  },
+  {
+    "id": "5cc8e3dfdc9fc93048ed4bf9",
+    "list": "Empathize",
+    "name": "Journey Map",
+    "desc": "<p>Reference: See attached image. \n<em>Activities that aren&#39;t captured elsewhere in my process:</em></p>\n\n<ol><li>Touchpoints - Generate a list of touchpoints and channels customers use today.</li><li>Empathy Map - Follows development of Personas. What are they thinking, feeling, seeing, hearing, saying, and doing.</li><li>Ideas to improve each step (diverge: brainstorm and converge: affinity map)</li><li>Draw and share the Journey Map</li></ol>",
+    "summary": ""
+  },
+  {
+    "id": "5cc8e3d407d42676757bf9c2",
+    "list": "Empathize",
+    "name": "Jobs To Be Done",
+    "desc": "<p>(Ulwick)</p>\n\n<p>→ Survey for existing features\n→ Job Map</p>\n\n<p>(Summarize the Following)</p>\n\n<h2>My JTBD Approach</h2>\n\n<h3>Identify what job the customer is trying to get done.</h3>\n\n<ul><li>Expressed as a Job Story:<ul><li>When…(situation) I want… (motivation) so that… (expected outcome).</li></ul></li><li>We think about the job from the customer’s perspective, not the company’s. </li><li>We think big; to encompass the entire job, not just a piece of it.</li><li>Functional jobs define the tasks people seek to accomplish, personal jobs explain the way people want to feel in a given circumstance, and social jobs clarify how people want to be perceived by others.</li></ul>\n\n<p>🛠 Tooling: I use an empty Trello board. Starting from the left: </p>\n\n<ul><li>&quot;TO FILE&quot; - For all the ideas that arise during this process, without worrying where to put them right away.</li><li>“JTBD&quot; - For the job itself. I also attach a sketch of the flow here.</li><li>Following that, each column represents each process step (“Discovery”, “Sign Up”, etc.). Use the Universal Job Map (below) if needed to determine ideas for each column.</li></ul>\n\n<h3>For each Job...</h3>\n\n<p>a.) Determine stages (process steps) for the job. Can be based on the Universal Job Map (if helpful as a starting point):</p>\n\n<ul><li>Define. Customers determine their goals and plan resources. Simplify planning.</li><li>Locate. Customers gather items and information necessary to do the job.</li><li>Prepare. Setup the environment to do the job. Consider ways to make setup less difficult.</li><li>Confirm. Once preparation is complete, what does the customer need to verify before proceeding with the job to ensure its successful execution?</li><li>Execute. Provide customers with real-time feedback or automatically correct execution problems.</li><li>Monitor. Assess whether the job is being successfully executed. Link monitoring with improved execution.</li><li>Modify. Make alterations to improve execution. Reduce the need to make alterations and the number needed.</li><li>Conclude. Finish the job or prepare to repeat it. Simplify the process of completing the job.</li></ul>\n\n<p>b.) List Desired Outcomes under each (based on assumptions and understanding of domain to start, then fill out with research).</p>\n\n<ul><li>Desired outcomes typically state a direction of improvement (minimize or increase); contain a unit of measure (number, time, frequency, likelihood); and state what outcome is desired.</li><li>In most cases a dozen or so outcomes define success at each step.</li></ul>\n\n<h3>Survey Outcomes</h3>\n\n<p>Survey Outcomes and prioritize based on results. (Which are important? Which are underserved by the market? Which are underperforming?)</p>\n\n<ol><li>Prepare a survey instrument (questionnaire) that states all the job, outcome, and constraint statements that have been captured from customer interviews and from screening and profiling questions. </li><li>Administer the survey to a statistically valid representation of the target population (often between 180 and 600 people). </li><li>Ask the survey participants to rate the importance of all the jobs, outcomes, and constraints using a scale of 1 to 5, where 5 means critically important and 1 means not important at all. </li><li>Ask the survey participants the degree to which they are satisfied with how the solutions they are using today address those jobs, outcomes, and constraints using a scale of 1 to 5, where 5 means totally satisfied and 1 means not satisfied at all. </li><li>Enter the results into the opportunity algorithm to determine which jobs, outcomes, and constraints are underserved and overserved. Algorithm: Importance + max (Importance-Satisfaction,0) = Opportunity</li></ol>\n\n<p>🛠 To facilitate this for in-person interviews, I use the Custom Fields Power Up and add a number field named “Votes” and increment for each time a desired outcome is brought up.</p>\n\n<h3>How Might We?</h3>\n\n<p>Choose areas and start with <em>How Might We</em> questions, to ideate.</p>\n\n<p>🛠 Trello card descriptions; or move to spreadsheet/Sketch to add other dimensions to map out the journey (e.g., emotion, context, etc.).</p>\n\n<p> The resulting structure looks something like this:</p>\n\n<ul><li>JTBD<ul><li>Job Step<ul><li>Desired Outcomes<ul><li>HMW</li></ul></li><li>Other dimensions (e.g., emotion, context, metrics, channels, touchpoints, timeline)</li></ul></li></ul></li></ul>\n\n<h3>References</h3>\n\n<ul><li>Paul’s Notes on What Customers Want</li><li><a href=\"http://strategyn.com/2013/10/14/tony-ulwick-presents-at-openco/\">Tony Ulwick Presents at Openco</a></li><li><a href=\"https://chrisgurney.ca/images/portfolio-fuzzies/journey-full.pdf\">Fuzzies Journey Map</a></li></ul>\n\n<p>Example from <em>What Customers Want</em>:</p>\n\n<blockquote><p>The interviewers focused the discussion on the activities associated with setting up and managing an insured’s account. They asked the agents what they were trying to achieve when obtaining quotes, preparing agreements, obtaining approvals, managing late paying accounts, posting payments, and reinstating policies. To obtain the agents’ desired outcomes, the interviewers instructed them to think through each of these activities during a typical day as they obtained quotes and offerings from different insurance companies. The interviewers asked the agents, “What makes one insurance company’s offering better or worse than another, and why? And what characteristics describe the ideal service offering?” By forcing this type of discussion, the interviewers were able to prompt the agents to reveal their desired outcomes.</p><p>They might say, “I do not like it when I have to spend half a day reinstating a policy that was inadvertently canceled by the insurer because they mailed the bill to the wrong address.” Upon hearing this statement an interviewer might say, “So this situation could be improved if you were able to minimize the time it takes to reinstate a policy that was inadvertently canceled by the insurer.” The agent might say, “Exactly”—in which case, the statement would be accepted as an outcome—or “No, I just wish the insurer would stop inadvertently canceling policies.” In this case, the interviewer would say, “So you want to minimize the likelihood that a policy is inadvertently canceled by the insurer,” and validate that the statement is correct.</p></blockquote>",
+    "summary": ""
+  },
+  {
+    "id": "5cc8e3f324fc3b0c804f67a0",
+    "list": "Empathize",
+    "name": "Design Stories",
+    "desc": "<h1>FORMAT</h1>\n\n<p>Goal(s)\nJob Stories (which become sub-tasks)\nOut of Scope\nDeliverables\n[Other Design Requirements]</p>\n\n<h1>EXAMPLE 1</h1>\n\n<p><strong>Goal(s)</strong></p>\n\n<p>Continue research into needs for portal and wireframe screens.</p>\n\n<p>Start with use cases for:</p>\n\n<ul><li>Login</li><li>Password Recovery</li><li>Employee Activation Flow</li><li>Customer Add/Edit</li><li>Employee Profile</li><li>Employee Add/Edit</li><li>1-2 others based on scope from PM?</li></ul>\n\n<p><strong>Job Stories</strong></p>\n\n<ol><li>[Employee] When I want to [add a customer / run a report / make an update / etc.], I want to log into the system quickly, so that I can perform the task at hand.</li><li>[Employee] When I can’t remember my password, I want to reset it easily, so I can get back into the system to perform my job.</li><li>[Employee] When I’ve been invited to sign up for an account, I want to be able to provide my information, so that I can start using the system to perform my job (e.g., start supporting customers).</li><li>[Employee] When I want to update [my password / name / etc.], I want to be able to easily update my profile, so that my record is up to date.</li><li>[Support] When I have a new Customer on the phone, I want to add them to the system quickly, so that we can start the provisioning process (i.e., get them energy, or the service) as soon as possible (to recognize revenue).</li><li>[Support] When I want to update an existing Customer’s information (e.g., they moved), I want to update their record easily, so that their information will be up to date (i.e., they’re properly billed / they get future bills in the mail / etc.).</li><li>[Admin] When I have a new Employee who needs access to the system, I want to be able to add them easily, so I can get them using the system right away.</li><li>[Admin] When I want to update an existing Employee’s information (e.g., role), I want to update their record quickly, so I can support them in doing their their job.</li></ol>\n\n<p><strong>Out of Scope</strong></p>\n\n<p>Mobile screen sizes. To be researched.</p>\n\n<p><strong>Deliverables</strong></p>\n\n<p>Wireframes from Sketch, prototyped in InVision.</p>\n\n<p>Tasks and corresponding usability test feedback from at least 5 testers.</p>\n\n<h1>Example 2</h1>\n\n<p><strong>Goal</strong></p>\n\n<p>We’ll need branded emails in order to communicate to customers from the system, including sending bills to customers.</p>\n\n<p><strong>Job Stories</strong></p>\n\n<ol><li>[Customer] When a bill has been created, I want to receive it in my inbox, so that I can review it.</li><li>[Customer] When an account is created for me, I want to receive a welcome email, so that I know that I what future emails to expect.</li><li>[Customer] When I make a purchase (via a CSR), I want to receive an email letting me know what I purchased, so that I can feel confident the changes I wanted will be made, and so that I know its impact on my next bill.</li></ol>\n\n<p><strong>Design Requirements</strong></p>\n\n<p>Emails must be brand-able (via logo and colors only).</p>\n\n<p>Emails must be responsive.</p>\n\n<p><strong>Deliverables</strong></p>\n\n<p>Responsive HTML and images for above emails.</p>\n\n<p>Source delivered to dev to GTBilling repo (if possible).</p>\n\n<p>Images deployed to S3 bucket (for Billing project), if setup in time; otherwise some other public URL for testing.</p>",
+    "summary": ""
+  },
+  {
+    "id": "5cc8e3bf2da9043921c2e0d7",
+    "list": "Create",
+    "name": "Visual Context",
+    "desc": "<p>Inspiration, Competitive Analysis, and Best Practices</p>\n\n<h2>Competitive Analysis</h2>\n\n<ul><li>with a goal: how do competing products solve specific design problem? e.g., ...</li><li><a href=\"https://www.toptal.com/designers/ux/product-designer-guide-to-competitive-analysis\">Article - Product Designer Guide to Competitive Analysis</a></li><li>what does the market look like? how are they positioned? how can we be different?</li></ul>",
+    "summary": ""
+  },
+  {
+    "id": "5cc8e4bb2c5cc21601ecdd5c",
+    "list": "Create",
+    "name": "Ideate - Diverge and Converge",
+    "desc": "<ul><li>Crazy 8s</li><li>Affinity Diagramming - &quot;Affinity diagramming helps us shift from casting a wide net in exploring many possibilities, to gaining focus on the right solutions for this audience.&quot;</li></ul>",
+    "summary": ""
+  },
+  {
+    "id": "5cc8e424985c20080e2d977f",
+    "list": "Create",
+    "name": "Draw, Mock, and Prototype",
+    "desc": "<h2>Draw</h2>\n\n<h2>Rapid Prototype</h2>\n\n<p>🛠 <strong>Tools</strong>: Paper, POP, Sketch (paste sketches into Sketch and setup a prototype), InVision</p>\n\n<h2>Wireframes</h2>\n\n<ul><li>review with experts</li></ul>\n\n<p>🛠 <strong>Tools</strong>: whiteboards, pencil/paper, Balsamiq</p>\n\n<h2>Screen Flows</h2>\n\n<p>🛠 <strong>Tools</strong>: Google Drawings, Sketch</p>\n\n<h2>Mockups</h2>\n\n<p>🛠 <strong>Tools</strong>: Sketch, Design Workflow Documentation (Readme)</p>\n\n<h2>Rich Prototypes</h2>\n\n<ul><li>Only as necessary.</li><li>e.g., Nintendo user test</li></ul>\n\n<p>🛠 <strong>Tools</strong>: Sketch, InVision</p>",
+    "summary": ""
+  },
+  {
+    "id": "5cc8e4b02a561b6f3852b636",
+    "list": "Create",
+    "name": "Interaction Design + Animation",
+    "desc": "<p>🛠 <strong>Tools</strong>: Principle</p>",
+    "summary": ""
+  },
+  {
+    "id": "5cc8e42c632620281ec853a0",
+    "list": "Create",
+    "name": "Think in Components",
+    "desc": "<p>&quot;explore different options for UI components needed: I look at what&#39;s out there, try new ideas and experiment to see how they fit with the existing style guide and brand&quot;</p>\n\n<p>Atomic Design - Brad Frost</p>\n\n<p>Design for Accessiblity, Localization</p>",
+    "summary": "Atomic Design to Design Systems"
+  },
+  {
+    "id": "5cc8e3e6138fbd806a2933aa",
+    "list": "Create",
+    "name": "Information Architecture + OOUX",
+    "desc": "<p>Via Card Sorting - &quot;SMEs are given key concepts on post-its, who then arrange them to represent how they see the struture and relationships&quot; -- example of this?</p>\n\n<p><a href=\"http://alistapart.com/article/ooux-a-foundation-for-interaction-design\">Article - OOUX</a></p>",
+    "summary": ""
+  },
+  {
+    "id": "5cc8e4059fe007286b15fe5a",
+    "list": "Create",
+    "name": "Establish Design Principles",
+    "desc": "<p>Core design principles that apply to everything:</p>\n\n<ul><li>Simplicity</li><li>Reflect/Reuse Existing Patterns</li><li>Discoverability</li><li>Offer Forgiveness</li><li>Provide Feedback</li></ul>\n\n<p><img alt=\"Neighbor logo\" src=\"images/design-process/svg/logo-neighbor.svg\"/></p>\n\n<p>For example, my designs for <a href=\"neighbor-brand.html\">Neighbor</a>&#39;s UI followed these principles:</p>\n\n<ul><li><em>Findability.</em> Provide answers to customers on the phone, and make updates quickly. Scanability, search.</li><li><em>Performance.</em> Fast.</li><li><em>For humans.</em> Simple language. No manuals. Flexible workflows.</li><li><em>Intentional changes.</em> </li></ul>",
+    "summary": ""
+  },
+  {
+    "id": "5cc8e40a7146991e65b44a0d",
+    "list": "Create",
+    "name": "Establish Voice & Tone",
+    "desc": "<p>&quot;shape and improve the language of the product for usability and appropriate tone as I go&quot;</p>",
+    "summary": ""
+  },
+  {
+    "id": "5cc8e42d558b2867bd4b72d2",
+    "list": "Create",
+    "name": "Design Workflow Documentation",
+    "desc": "<p><a href=\"https://medium.com/livefront/documenting-design-workflows-6146495d1b52\">Article - Documenting Design Workflows</a></p>\n\n<p><a href=\"https://github.com/chrisgurney/neighbor_design\">Neighbor Readme</a></p>",
+    "summary": "i.e., The Design README"
+  },
+  {
+    "id": "5cc99efb78446a435ac2398b",
+    "list": "Create",
+    "name": "Non-Functional Requirements",
+    "desc": "<p>Accessibility</p>\n\n<ul><li>Interpret WCAG, decide on level and implementing approach.</li><li>Audit regularly with tools, test otherwise.</li></ul>\n\n<p>Localization</p>\n\n<ul><li>Review designs with localization stakeholder, it present.</li><li>Ensure elements don’t run into one another.</li><li>Audit regularly with tools, test otherwise.</li></ul>",
+    "summary": ""
+  },
+  {
+    "id": "5cc8e22b008a9266ac3ef117",
+    "list": "Test",
+    "name": "User Test",
+    "desc": "<ul><li>In person</li><li>Remote</li><li>Task-based testing</li><li>Usability testing</li></ul>",
+    "summary": ""
+  },
+  {
+    "id": "5cc8e23fbcf5713b13fa09cf",
+    "list": "Test",
+    "name": "Measure",
+    "desc": "<p>Tools used here depend on the maturity of the product or feature.</p>\n\n<ul><li>FullStory</li><li>Google Analytics (conversion funnels at scale)</li><li>application DB → configuration usage</li></ul>\n\n<p>🛠 <strong>Tools</strong>: Google Analytics, FullStory, application database</p>\n\n<p>Tracking Plan</p>\n\n<p>e.g., Fanergy Tracking Plan</p>",
+    "summary": ""
+  },
+  {
+    "id": "5cc8e23d4fc6d03b37241388",
+    "list": "Test",
+    "name": "Regular Design Reviews",
+    "desc": "",
+    "summary": ""
+  },
+  {
+    "id": "5cc8e2823fe89d4ff101ef57",
+    "list": "Test",
+    "name": "Channel Feedback",
+    "desc": "<ul><li><p>Issue Tracker: Spreadsheet easier to use than JIRA (and without the overhead), to capture suggestions, bugs (show that stakeholders are being listened to), do triage, and to look for patterns.</p></li><li><p>How to prioritize?</p></li></ul>\n\n<p>🛠 <strong>Tools</strong>: Issue Tracker, MoSCoW</p>\n\n<p>[Issue Tracker example + columns]</p>\n\n<p>Prioritization</p>\n\n<ul><li>tactical (day-to-day)</li><li>story map with PM - across the user journey</li></ul>",
+    "summary": ""
+  },
+  {
+    "id": "5cc8e247a41fdf5d59e1e63f",
+    "list": "Test",
+    "name": "Regular Reporting + Auditing",
+    "desc": "<p>Analytics (Conversion)\nKPIs / Business Metrics\nAccessiblity\nPerformance\n...\nIdentify Improvements</p>",
+    "summary": ""
+  },
+  {
+    "id": "5cc8e58148786a064b02978c",
+    "list": "Deliver",
+    "name": "Design Requirements",
+    "desc": "<ul><li>behavior, data requirements</li></ul>",
+    "summary": ""
+  },
+  {
+    "id": "5cc8e58f4eae30341498718c",
+    "list": "Deliver",
+    "name": "Prepare Assets",
+    "desc": "<p>🛠 <strong>Tools</strong>: Nucleo, ImageOptim</p>",
+    "summary": ""
+  },
+  {
+    "id": "5cc8e594aae43738f7bb7dee",
+    "list": "Deliver",
+    "name": "Define Style Guide",
+    "desc": "",
+    "summary": ""
+  },
+  {
+    "id": "5cc8e5c166bbb90e2d9ff973",
+    "list": "Deliver",
+    "name": "Project Documentation",
+    "desc": "",
+    "summary": ""
+  }
+]

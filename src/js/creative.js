@@ -93,19 +93,22 @@
   }, 300);
 
   // Magnific popup calls
-  $('.popup-gallery').magnificPopup({
-    delegate: 'a',
-    type: 'image',
-    tLoading: 'Loading image #%curr%...',
-    mainClass: 'mfp-img-mobile',
-    gallery: {
-      enabled: true,
-      navigateByImgClick: true,
-      preload: [0, 1]
-    },
-    image: {
-      tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
-    }
+  $('.popup-gallery').each(function() {
+    $(this).magnificPopup({
+      delegate: 'a',
+      type: 'image',
+      tLoading: 'Loading image #%curr%...',
+      mainClass: 'mfp-img-mobile',
+      gallery: {
+        enabled: true,
+        navigateByImgClick: true,
+        preload: [0, 1]
+      },
+      image: {
+        tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+        titleSrc: 'title' 
+      }
+    });
   });
 
   $('.popup-youtube').magnificPopup({
@@ -116,6 +119,14 @@
     preloader: false,
 
     fixedContentPos: false
+  });
+
+  // process.html - Toggle showing process step cards
+  $("#process-btns .btn").on("click", function() {
+    var btn_list = $(this).data("list");
+    $("#process-cards .process-card").filter(function() {
+      $(this).toggle($(this).data("list").indexOf(btn_list) > -1)
+    });
   });
 
   //var is_safari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
