@@ -1,7 +1,7 @@
 # Guesty
 {: .pt-0}
 
-![Guesty screenshot showing guest list](images/portfolio-guesty/guesty-brand.jpg)
+![Guesty brand with gradient patterned background.](images/portfolio-guesty/guesty-brand.jpg)
 
 - UX/UI
 - B2C
@@ -16,9 +16,9 @@ I was given a design challenge to double the usage of an existing guestbook mobi
 
 I mapped the journey of existing users and decided to explore an opportunity in which an event volunteer could own the signing. I then designed a brand and UI, centered around taking a recorded message or photo of guests.
 
-[![Guest list screenshot](images/portfolio-guesty/guesty-guest-list.jpg)](images/portfolio-guesty/guesty-guest-list.jpg){: title='The Guesty guest list'}
+[![Guest list screenshot](images/portfolio-guesty/guesty-guest-list.jpg)](images/portfolio-guesty/guesty-guest-list.jpg){: title='The Guesty guest list, showing all invitees to the party, with ability to filter on those who have signed.'}
 [![Message details and sharing screenshot](images/portfolio-guesty/guesty-message-details-share.jpg)](images/portfolio-guesty/guesty-message-details-share.jpg){: title='Message details that are added after the guest video or photo is taken, and ability to share the app with other guests or volunteers.'}
-[![Guesty screen flow](images/portfolio-guesty/guesty-flow.jpg)](images/portfolio-guesty/guesty-flow.jpg){: title='Flow between each of the screens.'}
+[![Guesty screen flow](images/portfolio-guesty/guesty-flow.jpg)](images/portfolio-guesty/guesty-flow.jpg){: title='Flow between each of the screens, showing the Vounteer user experience.'}
 {: .popup-gallery .thumbs}
 
 
@@ -48,7 +48,7 @@ Neighbor is a consumer billing platform that our team at Globalive Technology la
 
 # Neighbor Brand
 
-![Neighbor screenshot and tag-line: Consumer-First Billing](images/portfolio-neighbor/neighbor-brand.jpg)
+![Neighbor Billing logo and brand colors as stripes.](images/portfolio-neighbor/neighbor-brand.jpg)
 
 - Branding
 - Web Site
