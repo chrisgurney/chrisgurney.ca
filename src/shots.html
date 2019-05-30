@@ -1,0 +1,37 @@
+@@include('header.html')
+
+@@include('components/nav-main.html', {
+  "theme": "dark",
+  "home-link": "/work.html",
+  "process-link": "/process.html",  
+  "about-link": "/about.html"
+})
+
+<header id="process" class="article text-center text-white d-flex">
+  <div class="container my-auto sr-card">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">     
+        <h1 class="h1-xl">All the Shots</h1>
+      </div>
+    </div>
+  </div>      
+</header>
+
+<main role="main">
+
+  <section class="pb-3 pt-md-5 pt-3" style="background-color: rgba(237,99,0,.9)">
+    <div class="container-fluid">
+      <div class="row">
+        @@loop('components/_shot.html', '/includes/json/shots.json')
+      </div>
+    </div>
+  </section>
+
+  @@include('components/about.html')
+
+  @@include('components/contact.html')
+
+</main>
+
+@@include('footer.html', 
+  {"credit": "Credits: Image from Alice Donovan Rouse via Unsplash."})

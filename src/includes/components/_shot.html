@@ -1,0 +1,21 @@
+<div class="col-lg-4 col-sm-6 col-12 mb-5">
+  <div class="card h-100">
+    <img class="card-img-top" src="images/shots/@@image" title="@@title"/>
+    @@if(context.title) {
+      <div class="card-body">
+        <small class="text-muted text-uppercase">
+          @@category
+        </small>
+        <h3 class="card-title pt-2">@@title</h3>
+        <p class="card-text">
+          @@description
+        </p>
+      </div>
+      @@if(context.url) {
+        <div class="card-footer mb-2">                
+          <a class="underline-anim" href="@@url">Read More &rarr;</a>
+        </div>
+      }
+    }
+  </div>
+</div>

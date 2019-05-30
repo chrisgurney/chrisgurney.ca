@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Chris Gurney - Designer++;</title>
+
+    <!-- startup configuration per https://w3c.github.io/manifest/ -->
+    <link rel="manifest" href="manifest.json" />
+
+    <!-- Browser bar color - Chrome, Firefox OS and Opera + IE + Safari -->
+    <meta name="theme-color" content="#FE9B27">
+    <meta name="msapplication-navbutton-color" content="#FE9B27">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#FE9B27">
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <link rel="apple-touch-icon" href="images/touch/chrisgurney_120.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="images/touch/chrisgurney_152.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="images/touch/chrisgurney_180.png" />
+    <link rel="apple-touch-icon" sizes="167x167" href="images/touch/chrisgurney_167.png" />
+
+    <!-- Metadata -->
+    <link rel="icon" type="image/png" href="favicon.png">
+    <meta name="author" content="Chris Gurney" />    
+    <meta name="description" content="Chris Gurney, product designer based in Toronto, Canada." />
+
+    <meta itemprop="thumbnailUrl" content="https://www.chrisgurney.ca/images/touch/chrisgurney_512.png"/>
+    <link rel="image_src" href="https://www.chrisgurney.ca/images/chrisgurney.jpg" />
+    <meta itemprop="image" content="https://www.chrisgurney.ca/images/chrisgurney.jpg"/>
+
+    <meta property="og:title" content="Chris Gurney" />
+    <meta property="og:description" content="Chris Gurney, product designer based in Toronto, Canada." />
+    <meta property="og:image" content="https://www.chrisgurney.ca/images/share-banner.png" />
+    <meta property="og:url" content="https://www.chrisgurney.ca/" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Chris Gurney" />
+    <meta name="twitter:description" content="Chris Gurney, product designer based in Toronto, Canada." />
+    <meta name="twitter:image" content="https://www.chrisgurney.ca/images/share-banner.png" />
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/creative.min.css" rel="stylesheet">
+
+    <!-- Drift Async Code -->
+    <script>
+    "use strict";
+
+    !function() {
+      var t = window.driftt = window.drift = window.driftt || [];
+      if (!t.init) {
+        if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+        t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+        t.factory = function(e) {
+          return function() {
+            var n = Array.prototype.slice.call(arguments);
+            return n.unshift(e), t.push(n), t;
+          };
+        }, t.methods.forEach(function(e) {
+          t[e] = t.factory(e);
+        }), t.load = function(t) {
+          var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+          o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+          var i = document.getElementsByTagName("script")[0];
+          i.parentNode.insertBefore(o, i);
+        };
+      }
+    }();
+    </script>
+
+    <!-- Google Analytics-->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-137570047-1"></script>
+
+    <!-- Load scripts if not on localhost -->
+    <script>
+        var host = window.location.host;
+        if ((host.indexOf("localhost") == -1) && 
+            (host.indexOf("ngrok.io") == -1)) {
+
+            // FullStory
+            window['_fs_debug'] = false;
+            window['_fs_host'] = 'fullstory.com';
+            window['_fs_org'] = 'BB5X9';
+            window['_fs_namespace'] = 'FS';
+            (function(m,n,e,t,l,o,g,y){
+                if (e in m) {if(m.console && m.console.log) { m.console.log('FullStory namespace conflict. Please set window["_fs_namespace"].');} return;}
+                g=m[e]=function(a,b){g.q?g.q.push([a,b]):g._api(a,b);};g.q=[];
+                o=n.createElement(t);o.async=1;o.src='https://'+_fs_host+'/s/fs.js';
+                y=n.getElementsByTagName(t)[0];y.parentNode.insertBefore(o,y);
+                g.identify=function(i,v){g(l,{uid:i});if(v)g(l,v)};g.setUserVars=function(v){g(l,v)};
+                y="rec";g.shutdown=function(i,v){g(y,!1)};g.restart=function(i,v){g(y,!0)};
+                g.identifyAccount=function(i,v){o='account';v=v||{};v.acctId=i;g(o,v)};
+                g.clearUserCookie=function(){};
+            })(window,document,window['_fs_namespace'],'script','user');
+
+            // Google Analytics
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-137570047-1');
+
+            // Drift
+            drift.SNIPPET_VERSION = '0.3.1';
+            drift.load('nte2xame32yz');
+
+        }
+    </script>
+
+  </head>
+
+  <body id="page-top">
+
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand dark js-scroll-trigger" href="index.html"><img src="images/cg-logo.svg" style="height: 1.8rem" alt="Chris Gurney logo"/></a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarFull" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="container-fluid collapse" id="navbarFull">
+          <div class="menu-full">
+            <ul class="menu-nav">
+              <li>
+                <a class="nav-link js-scroll-trigger" href="/work.html">work</a>
+              </li>
+<!--               <li>
+                <a class="nav-link js-scroll-trigger" href="/process.html">process</a>
+              </li>  -->             
+              <li>
+                <a class="nav-link js-scroll-trigger" href="/about.html">about</a>
+              </li>
+              <li>
+                <a class="nav-link js-scroll-trigger" href="#contact">contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>    
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link underline-anim dark js-scroll-trigger" href="/work.html">work</a>
+            </li>           
+<!--             <li class="nav-item">
+              <a class="nav-link underline-anim dark js-scroll-trigger" href="/process.html">process</a>
+            </li> -->                          
+            <li class="nav-item">
+              <a class="nav-link underline-anim dark js-scroll-trigger" href="/about.html">about</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link underline-anim dark js-scroll-trigger" href="#contact">contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+<header id="process" class="article text-center text-white d-flex">
+  <div class="container my-auto sr-card">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">     
+        <h1 class="h1-xl">All the Shots</h1>
+      </div>
+    </div>
+  </div>      
+</header>
+
+<main role="main">
+
+  <section class="pb-3 pt-md-5 pt-3" style="background-color: rgba(237,99,0,.9)">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-4 col-sm-6 col-12 mb-5">
+  <div class="card h-100">
+    <img class="card-img-top" src="images/shots/fuzzies-screens.jpg" title="Gratitude Journal App Concept"/>
+    
+      <div class="card-body">
+        <small class="text-muted text-uppercase">
+          Case Study
+        </small>
+        <h3 class="card-title pt-2">Gratitude Journal App Concept</h3>
+        <p class="card-text">
+          <strong>Fuzzies: A Gratitude Journal Concept</strong>
+        </p>
+      </div>
+      
+        <div class="card-footer mb-2">                
+          <a class="underline-anim" href="fuzzies.html">Read More &rarr;</a>
+        </div>
+      
+    
+  </div>
+</div><div class="col-lg-4 col-sm-6 col-12 mb-5">
+  <div class="card h-100">
+    <img class="card-img-top" src="images/shots/fuzzies-feed-evolution.jpg" title="Gratitude Journal Activity Feed Evolution"/>
+    
+      <div class="card-body">
+        <small class="text-muted text-uppercase">
+          Case Study
+        </small>
+        <h3 class="card-title pt-2">Gratitude Journal Activity Feed Evolution</h3>
+        <p class="card-text">
+          <strong>Fuzzies: A Gratitude Journal Concept</strong><p>Evolution of the main feed, from wireframe to final.</p>
+        </p>
+      </div>
+      
+        <div class="card-footer mb-2">                
+          <a class="underline-anim" href="fuzzies.html">Read More &rarr;</a>
+        </div>
+      
+    
+  </div>
+</div><div class="col-lg-4 col-sm-6 col-12 mb-5">
+  <div class="card h-100">
+    <img class="card-img-top" src="images/shots/fuzzies-icon-variations.jpg" title="Gratitude Journal App Icon Variations"/>
+    
+      <div class="card-body">
+        <small class="text-muted text-uppercase">
+          Case Study
+        </small>
+        <h3 class="card-title pt-2">Gratitude Journal App Icon Variations</h3>
+        <p class="card-text">
+          <strong>Fuzzies: A Gratitude Journal Concept</strong><p>Variations of the app icon for Fuzzies, as well as the final design.</p>
+        </p>
+      </div>
+      
+        <div class="card-footer mb-2">                
+          <a class="underline-anim" href="fuzzies.html">Read More &rarr;</a>
+        </div>
+      
+    
+  </div>
+</div><div class="col-lg-4 col-sm-6 col-12 mb-5">
+  <div class="card h-100">
+    <img class="card-img-top" src="images/shots/guesty-brand.jpg" title="Guest Book App Branding"/>
+    
+      <div class="card-body">
+        <small class="text-muted text-uppercase">
+          Case Study
+        </small>
+        <h3 class="card-title pt-2">Guest Book App Branding</h3>
+        <p class="card-text">
+          <p>Brand for a guest book app.</p>
+        </p>
+      </div>
+      
+    
+  </div>
+</div><div class="col-lg-4 col-sm-6 col-12 mb-5">
+  <div class="card h-100">
+    <img class="card-img-top" src="images/shots/guesty-flow.jpg" title="Guest Book App Screen Flow"/>
+    
+      <div class="card-body">
+        <small class="text-muted text-uppercase">
+          Case Study
+        </small>
+        <h3 class="card-title pt-2">Guest Book App Screen Flow</h3>
+        <p class="card-text">
+          <p>Flow between each of the screens, showing the Vounteer user experience.</p>
+        </p>
+      </div>
+      
+    
+  </div>
+</div><div class="col-lg-4 col-sm-6 col-12 mb-5">
+  <div class="card h-100">
+    <img class="card-img-top" src="images/shots/guesty-guest-list.jpg" title="Guest Book App Guest List Screen"/>
+    
+      <div class="card-body">
+        <small class="text-muted text-uppercase">
+          Case Study
+        </small>
+        <h3 class="card-title pt-2">Guest Book App Guest List Screen</h3>
+        <p class="card-text">
+          <p>The Guesty guest list, showing all invitees to the party, with ability to filter on those who have signed.</p>
+        </p>
+      </div>
+      
+    
+  </div>
+</div><div class="col-lg-4 col-sm-6 col-12 mb-5">
+  <div class="card h-100">
+    <img class="card-img-top" src="images/shots/guesty-message-details-share.jpg" title="Guest Book App Message Details and Share Screens"/>
+    
+      <div class="card-body">
+        <small class="text-muted text-uppercase">
+          Case Study
+        </small>
+        <h3 class="card-title pt-2">Guest Book App Message Details and Share Screens</h3>
+        <p class="card-text">
+          <p>Message details that are added after the guest video or photo is taken, and ability to share the app with other guests or volunteers.</p>
+        </p>
+      </div>
+      
+    
+  </div>
+</div><div class="col-lg-4 col-sm-6 col-12 mb-5">
+  <div class="card h-100">
+    <img class="card-img-top" src="images/shots/neighbor-brand.jpg" title="Neighbor Billing Brand"/>
+    
+      <div class="card-body">
+        <small class="text-muted text-uppercase">
+          Brand
+        </small>
+        <h3 class="card-title pt-2">Neighbor Billing Brand</h3>
+        <p class="card-text">
+          <p>Brand refresh I did for Neighbor Billing.</p>
+        </p>
+      </div>
+      
+        <div class="card-footer mb-2">                
+          <a class="underline-anim" href="neighbor-brand.html">Read More &rarr;</a>
+        </div>
+      
+    
+  </div>
+</div><div class="col-lg-4 col-sm-6 col-12 mb-5">
+  <div class="card h-100">
+    <img class="card-img-top" src="images/shots/neighbor-logo-portfolio.jpg" title="Neighbor Billing Brand"/>
+    
+      <div class="card-body">
+        <small class="text-muted text-uppercase">
+          Brand
+        </small>
+        <h3 class="card-title pt-2">Neighbor Billing Brand</h3>
+        <p class="card-text">
+          <p>Brand refresh I did for Neighbor Billing.</p>
+        </p>
+      </div>
+      
+        <div class="card-footer mb-2">                
+          <a class="underline-anim" href="neighbor-brand.html">Read More &rarr;</a>
+        </div>
+      
+    
+  </div>
+</div><div class="col-lg-4 col-sm-6 col-12 mb-5">
+  <div class="card h-100">
+    <img class="card-img-top" src="images/shots/neighbor-desk-portfolio.jpg" title="Services Billing Administration Web Interface"/>
+    
+      <div class="card-body">
+        <small class="text-muted text-uppercase">
+          UX/UI
+        </small>
+        <h3 class="card-title pt-2">Services Billing Administration Web Interface</h3>
+        <p class="card-text">
+          <p>Web interface for managing service billing, to be used by customer service team members at telecom and utility companies.</p>
+        </p>
+      </div>
+      
+    
+  </div>
+</div><div class="col-lg-4 col-sm-6 col-12 mb-5">
+  <div class="card h-100">
+    <img class="card-img-top" src="images/shots/neighbor-hub-navigation.jpg" title="Services Billing Administration Web Interface"/>
+    
+      <div class="card-body">
+        <small class="text-muted text-uppercase">
+          UX/UI
+        </small>
+        <h3 class="card-title pt-2">Services Billing Administration Web Interface</h3>
+        <p class="card-text">
+          <p>Web interface for managing service billing, to be used by customer service team members at telecom and utility companies.</p>
+        </p>
+      </div>
+      
+    
+  </div>
+</div><div class="col-lg-4 col-sm-6 col-12 mb-5">
+  <div class="card h-100">
+    <img class="card-img-top" src="images/shots/neighbor-bills.jpg" title="Printed Bills"/>
+    
+      <div class="card-body">
+        <small class="text-muted text-uppercase">
+          UX/UI
+        </small>
+        <h3 class="card-title pt-2">Printed Bills</h3>
+        <p class="card-text">
+          <p>Mockups of printed services/utility bills generated by Neighbor Billing, which evolved with user testing, and as the finals were implemented (in HTML/Handlebars, then converted to PDF on-the-fly).</p>
+        </p>
+      </div>
+      
+    
+  </div>
+</div><div class="col-lg-4 col-sm-6 col-12 mb-5">
+  <div class="card h-100">
+    <img class="card-img-top" src="images/shots/neighbor-email.jpg" title="Responsive Transactional Email"/>
+    
+      <div class="card-body">
+        <small class="text-muted text-uppercase">
+          UX/UI
+        </small>
+        <h3 class="card-title pt-2">Responsive Transactional Email</h3>
+        <p class="card-text">
+          <p>Neighbor Billing's responsive transactional emails I implemented, with a focus on simplicity for the first release.</p>
+        </p>
+      </div>
+      
+    
+  </div>
+</div><div class="col-lg-4 col-sm-6 col-12 mb-5">
+  <div class="card h-100">
+    <img class="card-img-top" src="images/shots/neighbor-sales-deck.jpg" title="Sales Deck"/>
+    
+      <div class="card-body">
+        <small class="text-muted text-uppercase">
+          Brand
+        </small>
+        <h3 class="card-title pt-2">Sales Deck</h3>
+        <p class="card-text">
+          <p>Neighbor Billing's sales deck I implemented, based on interviewing stakeholders.</p>
+        </p>
+      </div>
+      
+        <div class="card-footer mb-2">                
+          <a class="underline-anim" href="neighbor-brand.html">Read More &rarr;</a>
+        </div>
+      
+    
+  </div>
+</div><div class="col-lg-4 col-sm-6 col-12 mb-5">
+  <div class="card h-100">
+    <img class="card-img-top" src="images/shots/neighbor-website.jpg" title="Responsive Web Site"/>
+    
+      <div class="card-body">
+        <small class="text-muted text-uppercase">
+          Brand
+        </small>
+        <h3 class="card-title pt-2">Responsive Web Site</h3>
+        <p class="card-text">
+          <p>The responsive marketing site I designed and implemented for Neighbor Billing.</p>
+        </p>
+      </div>
+      
+        <div class="card-footer mb-2">                
+          <a class="underline-anim" href="neighbor-brand.html">Read More &rarr;</a>
+        </div>
+      
+    
+  </div>
+</div><div class="col-lg-4 col-sm-6 col-12 mb-5">
+  <div class="card h-100">
+    <img class="card-img-top" src="images/shots/neighbor-website-careers.jpg" title="Responsive Careers Page"/>
+    
+      <div class="card-body">
+        <small class="text-muted text-uppercase">
+          Brand
+        </small>
+        <h3 class="card-title pt-2">Responsive Careers Page</h3>
+        <p class="card-text">
+          <p>The responsive careers page I designed and implemented for Neighbor Billing.</p>
+        </p>
+      </div>
+      
+        <div class="card-footer mb-2">                
+          <a class="underline-anim" href="neighbor-brand.html">Read More &rarr;</a>
+        </div>
+      
+    
+  </div>
+</div><div class="col-lg-4 col-sm-6 col-12 mb-5">
+  <div class="card h-100">
+    <img class="card-img-top" src="images/shots/resinate-brand.jpg" title="Resinate Cannabis Brand"/>
+    
+      <div class="card-body">
+        <small class="text-muted text-uppercase">
+          Brand
+        </small>
+        <h3 class="card-title pt-2">Resinate Cannabis Brand</h3>
+        <p class="card-text">
+          <p>Brand I created for Resinate, a line of cannabis products.</p>
+        </p>
+      </div>
+      
+        <div class="card-footer mb-2">                
+          <a class="underline-anim" href="resinate.html">Read More &rarr;</a>
+        </div>
+      
+    
+  </div>
+</div><div class="col-lg-4 col-sm-6 col-12 mb-5">
+  <div class="card h-100">
+    <img class="card-img-top" src="images/shots/resinate-deck-portfolio.jpg" title="Investor Pitch Deck"/>
+    
+      <div class="card-body">
+        <small class="text-muted text-uppercase">
+          Brand
+        </small>
+        <h3 class="card-title pt-2">Investor Pitch Deck</h3>
+        <p class="card-text">
+          <p>Branded investor pitch deck for Resinate Cannabis.</p>
+        </p>
+      </div>
+      
+        <div class="card-footer mb-2">                
+          <a class="underline-anim" href="resinate.html">Read More &rarr;</a>
+        </div>
+      
+    
+  </div>
+</div><div class="col-lg-4 col-sm-6 col-12 mb-5">
+  <div class="card h-100">
+    <img class="card-img-top" src="images/shots/resinate-packaging.jpg" title="Packaging Concept"/>
+    
+      <div class="card-body">
+        <small class="text-muted text-uppercase">
+          Brand
+        </small>
+        <h3 class="card-title pt-2">Packaging Concept</h3>
+        <p class="card-text">
+          <p>Product packaging concept for Resinate Cannabis.</p>
+        </p>
+      </div>
+      
+        <div class="card-footer mb-2">                
+          <a class="underline-anim" href="resinate.html">Read More &rarr;</a>
+        </div>
+      
+    
+  </div>
+</div><div class="col-lg-4 col-sm-6 col-12 mb-5">
+  <div class="card h-100">
+    <img class="card-img-top" src="images/shots/dailyui-001.jpg" title="Sign Up Form"/>
+    
+      <div class="card-body">
+        <small class="text-muted text-uppercase">
+          Exercise
+        </small>
+        <h3 class="card-title pt-2">Sign Up Form</h3>
+        <p class="card-text">
+          <p>This shot would be the first screen for creating a new account. I personally like how AirBnB separates their signup flow into multiple steps, similar to how TypeForm collects information. Part of Daily UI: A 100 day project to improve my design skills.</p>
+        </p>
+      </div>
+      
+        <div class="card-footer mb-2">                
+          <a class="underline-anim" href="dailyui.html">Read More &rarr;</a>
+        </div>
+      
+    
+  </div>
+</div><div class="col-lg-4 col-sm-6 col-12 mb-5">
+  <div class="card h-100">
+    <img class="card-img-top" src="images/shots/layer2.jpg" title="Brand and Style Guide"/>
+    
+      <div class="card-body">
+        <small class="text-muted text-uppercase">
+          Exercise
+        </small>
+        <h3 class="card-title pt-2">Brand and Style Guide</h3>
+        <p class="card-text">
+          <p>Layer2: Brand and style guide for a fictional urban outdoor wear company.</p>
+        </p>
+      </div>
+      
+        <div class="card-footer mb-2">                
+          <a class="underline-anim" href="layer2.html">Read More &rarr;</a>
+        </div>
+      
+    
+  </div>
+</div><div class="col-lg-4 col-sm-6 col-12 mb-5">
+  <div class="card h-100">
+    <img class="card-img-top" src="images/shots/switch-connect.jpg" title="Social App Newsfeed and Settings"/>
+    
+      <div class="card-body">
+        <small class="text-muted text-uppercase">
+          Exercise
+        </small>
+        <h3 class="card-title pt-2">Social App Newsfeed and Settings</h3>
+        <p class="card-text">
+          <p>Nintendo Switch Connect: A conceptual social app for fans of the Nintendo Switch™.</p><p><em>Credits: All Nintendo images and characters copyright Nintendo.</em></p>
+        </p>
+      </div>
+      
+        <div class="card-footer mb-2">                
+          <a class="underline-anim" href="switch-connect.html">Read More &rarr;</a>
+        </div>
+      
+    
+  </div>
+</div>
+      </div>
+    </div>
+  </section>
+
+      <section class="about-component bg-primary">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <h2 class="section-heading text-white">Chris Gurney</h2>
+            <hr class="light my-4">
+            <p class="text-faded mb-4">I'm a Toronto-based product designer and former product manager who has toured the tech industry with a background in computer science, across a broad range of roles.</p>
+            <a class="btn btn-light btn-xl js-scroll-trigger" href="about.html">About Me</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+      <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <h2 class="section-heading">Get in touch!</h2>
+            <p class="my-4"><a href="mailto:chris@chrisgurney.ca"><span class="underline-anim" style="display: inline-block;">chris@chrisgurney.ca</span></a></p>
+          </div>          
+        </div>
+        <div class="row pt-5">
+          <div class="col d-md-block d-none"></div>
+          <div class="col-md-2 col-4 text-center">
+            <a href="https://www.linkedin.com/in/chrisgurney/" target="_blank" rel="noopener">
+              <span class="underline-anim" style="display: inline-block;">
+                <i class="fa fa-linkedin fa-3x mb-3 sr-contact"></i><br/>LinkedIn
+              </span>
+            </a>
+          </div>
+          <div class="col-md-2 col-4 text-center">
+            <a href="https://dribbble.com/chrisgurney" target="_blank" rel="noopener">
+              <span class="underline-anim" style="display: inline-block;">
+                <i class="fa fa-dribbble fa-3x mb-3 sr-contact"></i><br/>Dribbble
+              </span>
+            </a>
+           </div>          
+          <div class="col-md-2 col-4 text-center">
+            <a href="https://github.com/chrisgurney" target="_blank" rel="noopener">
+              <span class="underline-anim" style="display: inline-block;">
+                <i class="fa fa-github fa-3x mb-3 sr-contact"></i><br/>GitHub
+              </span>
+            </a>
+           </div>
+          <div class="col d-md-block d-none"></div>
+        </div>
+      </div>
+    </section>
+
+</main>
+
+    <div class="container">
+      <div class="footer">
+        <p class="float-left">
+           Credits: Image from Alice Donovan Rouse via Unsplash. &nbsp;
+        </p>
+        <p class="float-lg-right float-left pb-2">
+           <a class="external" style="border-bottom: 1px dotted" href="https://github.com/chrisgurney/chrisgurney.ca" target="_blank" rel="noopener">Coded by me.</a> Adapted from <a class="external" href="https://startbootstrap.com" target="_blank" rel="noopener">Start Bootstrap</a>.
+        </p>
+        <div class="clearfix">
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="vendor/jquery-match-height/jquery.matchHeight-min.js"></script>    
+    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/creative.min.js"></script>
+
+  </body>
+
+</html>
