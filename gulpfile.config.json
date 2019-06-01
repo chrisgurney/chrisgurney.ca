@@ -19,6 +19,7 @@
       "src/favicon.png",
       "src/manifest.json",
       "src/pinterest-7fcd1.html",
+      "src/robots.txt",
       "src/sw.js"
     ],
  		"vendor": "src/vendor/**/*"
