@@ -22,11 +22,18 @@
 <main role="main">
 
   <!-- Begin Post -->
-  <section class="pb-5 pt-md-5 pt-3">
-    <div class="container">
+  <section class="pb-5 pt-0">
+    <div class="container-fluid py-5 px-5" style="background-color: #EEE">
       <div class="row">
-        <div class="col-lg-8 col-12 mx-auto"> 
-          <div class="article-post">
+        <div class="col-lg-8 col-12 mx-auto">
+          <input class="form-control" id="faq-search" type="text" placeholder="Search..."> 
+        </div>
+      </div>
+    </div>
+    <div class="container">      
+      <div class="row">
+        <div class="col-lg-8 col-12 mx-auto">
+          <div id="faq-answers" class="article-post">
             @@include(markdown("../md/faq.md"))
           </div>
         </div>

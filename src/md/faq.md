@@ -442,23 +442,28 @@ General
 
 - Are there any red flags in my experience, as it relates to this role?
 - What are the next steps?
+- Who would I be working with in the company? What do they do?
+- What’s the makeup of the team I’d be on, as far as experience and roles go?
 
 Product
 
 - What's the business model?
 - What's the short/long-term viability of the company?
-- How would you characterize the maturity of the existing design process?
-
-HR
-
-- What are the company's values?
-- Compensation?
+- How do designers fit into the workflow here?
 
 Design
 
+- What specific skills (if any) are you looking for to round out the team?
+- What sort of design processes do you have in place, how do you evaluate whether design is successful or not?
+- How would you characterize the maturity of the existing design process?
+- How do you do user research?
+
+HR
+
+- What are the company's values? What does this company value the most?
+- Compensation?
 
 Engineering
 
 - What's the tech stack? Front-end frameworks?
 - How would you characterize the maturity of the existing design process?
-

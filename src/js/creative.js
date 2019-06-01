@@ -129,6 +129,25 @@
     });
   });
 
+  // faq.html - Page filter search bar thing
+  $("#faq-search").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $("#faq-answers > *").filter(function() {
+      if ($(this).is('h6')) {
+        return;
+      }
+      var matched = $(this).text().toLowerCase().indexOf(value) > -1;
+      $(this).toggle(matched);
+    });
+    // ensure neighboring elements are visible, for context
+    // TODO: these don't seem to work as I'm expecting
+    $("#faq-answers p:visible").prevUntil('h1').addBack().toggle(true);    
+    $("#faq-answers ul:visible").prevUntil('h1').addBack().toggle(true);    
+    $("#faq-answers ol:visible").prevUntil('h1').addBack().toggle(true);
+    $("#faq-answers h2:visible").nextUntil('h1,h6,hr').toggle(true);    
+    $("#faq-answers h1:visible").nextUntil('h1,h6,hr').toggle(true);
+  });
+
   //var is_safari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
 
   $('.video').parent().click(function () {
