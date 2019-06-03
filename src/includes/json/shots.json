@@ -56,13 +56,6 @@
 		"url": "neighbor-brand.html"
 	},
 	{
-		"image": "neighbor-logo-portfolio.jpg",
-		"title": "Neighbor Billing Brand",
-		"description": "<p>Brand refresh I did for Neighbor Billing.</p>",
-		"category": "Brand",
-		"url": "neighbor-brand.html"
-	},	
-	{
 		"image": "neighbor-desk-portfolio.jpg",
 		"title": "Services Billing Administration Web Interface",
 		"description": "<p>Web interface for managing service billing, to be used by customer service team members at telecom and utility companies.</p>",
